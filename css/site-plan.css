@@ -34,7 +34,7 @@
                         --secondary-color)
                 }
                     header > h1{
-                        color: 
+                        color: var(--primary-color)
                     }
                     p{
                         font-family: var(--paragraph-font);
