@@ -24,7 +24,7 @@
                 font-family: var(
                     --heading-font);
                     color: var(
-                    --accent2-color)
+                    --accent1-color)
                 }
                 header{
                     padding: 1em;
@@ -48,7 +48,7 @@
                         text-align: center
                     }
                     .colors th{
-                        background-color: var(--primary-color)
+                        background-color: var(--accent2-color)
                     }
                     .colors td{
                         width: 25%;
@@ -80,7 +80,7 @@
                         min-width: 70px
                     }
                     nav a:link, nav a:visited{
-                        color: var(--secondary-color) }
+                        color: var(--accent2-color) }
                         nav a:hover{
                             color: var(--primary-color);
                             background-color: var(--accent1-color)
