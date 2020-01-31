@@ -33,8 +33,23 @@ footer {
 
 nav{
     background-color: green;
-    color: antiquewhite;
     line-height: 3em;
     text-align: center;
     font-size: 1.2em
 }
+
+nav > ul{
+    list-style-type: none;
+    display: flex
+}
+nav a{
+    padding:1em;
+    min-width: 70px
+}
+nav a:link, nav a:visited{
+    color: antiquewhite
+}
+    nav a:hover{
+        color: antiquewhite;
+        background-color: brown
+    }
