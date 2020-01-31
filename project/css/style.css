@@ -17,7 +17,7 @@ h2, h3 {
 
 header,
 footer {
-    background-color:plum;
+    background-color: lightsteelblue;
     color: brown;
     padding: 10px;
     font-family: var(--heading-font);
