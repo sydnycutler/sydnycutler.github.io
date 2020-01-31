@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<title>Sydny's Page</title>
+<script>
+/* Defining Table
+ * Input: A person's best friend
+ * Processing: Create a message for that person and their best friend
+ * Output: The sentiment
+ */
+function greetUser() {
+    // This line prompts the user to type in their friend's name.
+    let name = prompt("Enter best friend's name");
+
+    // Create a personalized message for the user.
+    let greeting = "" + name + ", will be in your life forever!";
+
+    // The next line causes the computer to display
+    // a greeting to the user in a popup window.
+    alert(greeting);
+}
+</script>
+</head>
+
+<body>                                      
+    <button type="button" onclick="greetUser()">Welcome</button>
+</body>
+</html>
+
+
+<!DOCTYPE HTML>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<title>Applied Scripture</title>
+<script>
+/* Defining Table
+ * Input: A person's name
+ * Processing: Create a verse of scripture for that person
+ * Output: The scripture
+ */
+function applyScripture() {
+    // Get the user's name from the text field that has the id
+    // of "nameInputBox" and store it in a variable named name.
+    let name = document.getElementById('nameInputBox').value;
+
+    // Use string concatenation to create a verse
+    // of scripture personalized for the user.
+    let scripture = "And inasmuch as, " + name + ", shalt keep my commandments," +
+        " thou shalt be made a ruler and" +
+        " a teacher over thy brethren.";
+
+    // Display the scripture in the div that has the id "outputDiv".
+    document.getElementById('outputDiv').innerHTML = scripture;
+}
+</script>
+</head>
+<body>                             
+Please enter your name: <input type="text" id="nameInputBox">    
+<button type="button" onclick="applyScripture()">Verse</button>
+<div id="outputDiv"></div>
+</body>       
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Document</title>
+    <script>
+    </script>
+</head>
+<body>
+    <input type="text" id="nameInputBox">    
+    <button type="button" onclick="funcName()"></button>
+    <div id="outputDiv"></div>
+</body>
+</html>

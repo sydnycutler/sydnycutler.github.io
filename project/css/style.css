@@ -1,0 +1,15 @@
+body {
+    background-color: antiquewhite;
+    font-size: 14px;
+}
+
+header,
+footer {
+    background-color:teal;
+    color: pink;
+    padding: 12px;
+}
+
+header h1 {
+    font-size: 3.5rem;
+}
