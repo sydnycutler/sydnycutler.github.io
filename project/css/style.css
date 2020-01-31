@@ -30,3 +30,10 @@ header h1 {
 footer {
     font-size: 1rem;
 }
+
+nav{
+    background-color: green;
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em
+}
