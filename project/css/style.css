@@ -34,6 +34,15 @@ header {
     text-align: center;
 }
 
+.header img {
+    float: left;
+    background: #555;
+}
+
+.header h1 {
+    position: relative;
+}
+
 nav{
     background-color: rgb(#42BD78);
     line-height: 2rem;
