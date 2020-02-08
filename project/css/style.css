@@ -20,14 +20,18 @@ header,
 footer {
     background-color: lightsteelblue;
     color: rgb(#9D5624);
-    font-size: 12px;
+    font-size: 24px;
     padding: 16px;
     font-family: var(--heading-font);
     box-shadow: 0 0 30px #43271C;
 }
 
-header h1 {
+h1 {
     font-size: 3rem;
+}
+
+header {
+    text-align: center;
 }
 
 nav{
