@@ -23,6 +23,7 @@ footer {
     font-size: 12px;
     padding: 16px;
     font-family: var(--heading-font);
+    box-shadow: 0 0 30px #43271C;
 }
 
 header h1 {
