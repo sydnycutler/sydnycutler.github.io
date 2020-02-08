@@ -6,36 +6,34 @@
 
 body {
     background-color: antiquewhite;
-    font-size: 30px;
+    font-size: 16px;
     font-family: var(--paragraph-font);
+    padding: 16px;
 }
 
 h2, h3 {
-    color: green;
+    color: rgb(#42BD78);
     font-style: oblique;
 }
 
 header,
 footer {
     background-color: lightsteelblue;
-    color: brown;
-    padding: 10px;
+    color: rgb(#9D5624);
+    font-size: 12px;
+    padding: 16px;
     font-family: var(--heading-font);
 }
 
 header h1 {
-    font-size: 4rem;
-}
-
-footer {
-    font-size: 1rem;
+    font-size: 3rem;
 }
 
 nav{
-    background-color: green;
-    line-height: 3em;
+    background-color: rgb(#42BD78);
+    line-height: 2rem;
     text-align: center;
-    font-size: 1.2em
+    font-size: 1rem;
 }
 
 nav > ul{
@@ -43,7 +41,7 @@ nav > ul{
     display: flex
 }
 nav a{
-    padding:1em;
+    padding:1rem;
     min-width: 70px
 }
 nav a:link, nav a:visited{
@@ -51,5 +49,5 @@ nav a:link, nav a:visited{
 }
     nav a:hover{
         color: antiquewhite;
-        background-color: brown
+        background-color: rgb(#9D5624)
     }
