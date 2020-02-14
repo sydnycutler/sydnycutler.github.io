@@ -3,34 +3,32 @@
 <head>
 <meta charset="utf-8">
 <title>Assignment 1</title>
-</head>
-
-<body>
-<h2>Foot wear you should wear for today:</h2><br>
-<p>Hot, rain, snow, or other?</p>
-<input type="text" id="weather" value="Temperature...">
-
-<button onclick="myFunction()">Foot Wear</button>
-
-<p id="output"></p>
 
 <script language="javascript" type="text/javascript">
-function myFunction() {
-    var footwear;
-    var weather = new Footwear().getWeather();
-  if (weather = hot) {
-    footwear = "Wear sandals today!";
-  } else if (weather = rain) {
-    footwear = "Wear galoshes today!";
-  } else if (weather = snow) {
-    footwear = "Wear boots today!";
+function footwear() {
+    var weather = document.getElementById("weather").value;
+  if (weather == hot) {
+    message = "Wear sandals today!";
+  } else if (weather == rain) {
+    message = "Wear galoshes today!";
+  } else if (weather == snow) {
+    message = "Wear boots today!";
   } else {
-      footwear = "Wear tennis shoes today!";
+      footwear == "Wear tennis shoes today!";
   }
-  document.getElementById("output").innerHTML = footwear;
+  document.getElementById("shoes").innerHTML = message;
 }
-
 </script>
+</head>
+<body>
+<h2>Foot wear you should wear for today:</h2><br>
+<p>What type of weather are you having? Hot, rain, snow, or other?</p>
+<input type="text" id="weather">
+
+<button onclick="footwear()">Foot Wear</button>
+<div id="shoes"></div>
+<p id="output"></p>
+
 </body>
 </html>
 
@@ -40,33 +38,56 @@ function myFunction() {
 <head>
 <meta charset="utf-8">
 <title>Assignment 2</title>
-</head>
-
-<body>
-<h2>Test Your Math Skills!</h2>
-
-<input type="text" id="numberOne" value="">
-<input type="text" id="operator" value="+">
-<input type="text" id="numberTwo" value="">
-<p>=</p>
-<input type="text" id="results" value="">
-
-<button onclick="mathSkills()">Check</button>
 
 <script language="javascript" type="text/javascript">
 function mathSkills() {
-    let numberOne = parseInt (document.getElementById("numberBox).value);
-    let numberTwo = parseInt (document.getElementById("otherNumberBox).value);
-    let results = numberOne + numberTwo;
-    if (operator = -) {
-        let results = numberOne - numberTwo
-    } else if (operator = *) {
-            let results = numberOne * numberTwo
-        } else if (operator = /) {
-                let results = numberOne / numberTwo
+    let numberOne = parseFloat(document.getElementById("number1").value);
+    let operator = document.getElementById("operator").value;
+    let numberTwo = parseInt(document.getElementById("numberTwo).value);
+    let results = parseFloat(document.getElementById("results").value);
+    if (operator == "+") {
+        if (results == numberOne + numberTwo) {
+          message = "You did it!";
+        }
+        else {
+          message = "Almost, try again."
+        }}
+    if (operator == "-") {
+        if (results == numberOne - numberTwo) {
+          message = "You did it!";
+        }
+        else {
+          message = "Almost, try again."
+        }}
+    } else if (operator == "*") {
+            if (results == numberOne * numberTwo) {
+              message = "You did it!"
             }
-            document.getElementById("output").innerHTML = operator;
-}
+            else {
+              message = "Almost, try again."
+            }}
+        } else if (operator = /) {
+                if (results == numberOne / numberTwo) {
+                  message = "You did it!"
+                }
+                else {
+                  message = "Almost, try again."
+                }}
 
+            document.getElementById("mathSkillsResults").innerHTML = message;
+}
+</script>
+</head>
+<body>
+<h2>Test Your Math Skills!</h2>
+
+<input type="text" id="numberOne">
+<input type="text" id="operator" value="+">
+<input type="text" id="numberTwo">
+<p>=</p>
+<input type="text" id="results">
+
+<button onclick="mathSkills()">Check</button>
+<div id="mathSkillsResults"></div>
 </body>
 </html>
