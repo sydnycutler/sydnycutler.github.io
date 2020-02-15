@@ -79,6 +79,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
+    position: absolute;
   }
   .red3 {
     width: 100%;
@@ -111,6 +112,7 @@ body {
     display: grid;
     grid-template-rows: 1 1;
     justify-items: center;
+    position: absolute;
   }
   .red4 {
     width: 200px;
@@ -141,6 +143,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
+    position: absolute;
   }
   .red5 {
     width: 100%;
@@ -168,6 +171,7 @@ body {
 
   .content6 {
     display: grid;
+    position: absolute;
   }
   .red6 {
     width: 400px;
