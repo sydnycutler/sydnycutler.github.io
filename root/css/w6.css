@@ -79,6 +79,7 @@ body {
   .content3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    position: relative;
   }
   .red3 {
     width: 100%;
@@ -109,6 +110,7 @@ body {
   .content4 {
     display: grid;
     grid-template-rows: 1 1;
+    position: relative;
   }
   .red4 {
     width: 200px;
@@ -142,6 +144,7 @@ body {
   .content5 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    position: relative;
   }
   .red5 {
     width: 100%;
