@@ -46,30 +46,39 @@ body {
     width: 100px;
     height: 100px;
     background-color: red;
-    bottom: 50px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
   }
   .green2 {
     width: 100px;
     height: 100px;
     background-color: green;
-    bottom: 100px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
   }
   .gold2 {
     width: 100px;
     height: 100px;
     background-color: gold;
-    bottom: 150px;
+    position: absolute;
+    top: 150px;
+    left: 150px;
   }
   .blue2 {
     width: 100px;
     height: 100px;
     background-color: blue;
-    bottom: 200px;
+    position: absolute;
+    top: 200px;
+    left: 200px;
   }
 
   .content3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
   }
   .red3 {
     width: 100%;
@@ -142,10 +151,11 @@ body {
   .green5 {
     float: left;
     width: 200px;
-    width: 200px;
+    height: 200px;
     background-color: green;
   }
   .gold5 {
+    width: 100%;
     background-color: gold;
   }
   .blue5 {
