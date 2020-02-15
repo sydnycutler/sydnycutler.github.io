@@ -41,7 +41,6 @@ body {
 
   .content2 {
     position: relative;
-    display: none;
   }
   .red2 {
     width: 100px;
@@ -71,29 +70,32 @@ body {
   .content3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-items: center;
   }
   .red3 {
     width: 100%;
     height: 100px;
     background-color: red;
     grid-column: 1/3;
+    justify-items: center;
   }
   .green3 {
     width: 200px;
     height: 100px;
     background-color: green;
+    justify-items: left;
   }
   .gold3 {
     width: 200px;
     height: 100px;
     background-color: gold;
+    justify-items: right;
   }
   .blue3 {
     width: 100%;
     height: 100px;
     background-color: blue;
     grid-column: 1/3;
+    justify-items: center;
   }
 
   .content4 {
@@ -105,21 +107,25 @@ body {
     width: 200px;
     height: 300px;
     background-color: red;
+    justify-items: left;
   }
   .green4 {
     width: 200px;
     height: 100px;
     background-color: green;
+    justify-items: right;
   }
   .gold4 {
     width: 200px;
     height: 100px;
     background-color: gold;
+    justify-items: right;
   }
   .blue4 {
     width: 200px;
     height: 100px;
     background-color: blue;
+    justify-items: right;
   }
 
   .content5 {
