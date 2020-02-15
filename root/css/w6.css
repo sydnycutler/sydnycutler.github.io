@@ -75,11 +75,10 @@ body {
     left: 200px;
   }
 
+
   .content3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-    position: absolute;
   }
   .red3 {
     width: 100%;
@@ -111,8 +110,6 @@ body {
   .content4 {
     display: grid;
     grid-template-rows: 1 1;
-    justify-items: center;
-    position: absolute;
   }
   .red4 {
     width: 200px;
@@ -147,14 +144,14 @@ body {
   }
   .red5 {
     width: 100%;
-    height: 100px;
+    height: 50px;
     background-color: red;
-    grid-column: 1/3;
+    grid-column: 1/4;
   }
   .green5 {
     float: left;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     background-color: green;
   }
   .gold5 {
@@ -163,33 +160,42 @@ body {
   }
   .blue5 {
     width: 100%;
-    height: 100px;
+    height: 50px;
     background-color: blue;
-    grid-column: 1/3;
-    grid-gap: 50px;
+    grid-column: 1/4;
   }
 
   .content6 {
     display: grid;
-    position: absolute;
+    position: relative;
   }
   .red6 {
     width: 400px;
     height: 200px;
     background-color: red;
-  }
-  .green6 {
-    width: 200px;
-    height: 200px;
-    background-color: green;
-  }
-  .gold6 {
-    width: 200px;
-    height: 400px;
-    background-color: gold;
+    position: absolute;
   }
   .blue6 {
     width: 400px;
     height: 400px;
     background-color: blue;
+    position: absolute;
+    top: 100px;
+    left: 100px;
   }
+  .green6 {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    position: absolute;
+    top: 400px;
+  }
+  .gold6 {
+    width: 200px;
+    height: 400px;
+    background-color: gold;
+    position: absolute;
+    top: 200px;
+    left: 400px;
+  }
+  
