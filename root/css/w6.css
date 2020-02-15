@@ -87,18 +87,21 @@ body {
     background-color: red;
     grid-column: 1/3;
     position: absolute;
+    top: 400px;
   }
   .green3 {
     width: 200px;
     height: 100px;
     background-color: green;
     position: absolute;
+    top: 500px;
   }
   .gold3 {
     width: 200px;
     height: 100px;
     background-color: gold;
     position: absolute;
+    top: 500px;
     left: 600px;
   }
   .blue3 {
@@ -107,6 +110,7 @@ body {
     background-color: blue;
     grid-column: 1/3;
     position: absolute;
+    top: 600px;
   }
 
   .content4 {
@@ -119,12 +123,14 @@ body {
     height: 300px;
     background-color: red;
     position: absolute;
+    top: 800px;
   }
   .green4 {
     width: 200px;
     height: 100px;
     background-color: green;
     position: absolute;
+    top: 800px;
     left: 200px;
   }
   .gold4 {
@@ -132,7 +138,7 @@ body {
     height: 100px;
     background-color: gold;
     position: absolute;
-    top: 100px;
+    top: 900px;
     left: 200px;
   }
   .blue4 {
@@ -140,7 +146,7 @@ body {
     height: 100px;
     background-color: blue;
     position: absolute;
-    top: 200px;
+    top: 1000px;
     left:200px;
   }
 
@@ -155,6 +161,7 @@ body {
     background-color: red;
     grid-column: 1/3;
     position: absolute;
+    top: 1200px;
   }
   .green5 {
     float: left;
@@ -166,6 +173,7 @@ body {
     width: 100%;
     background-color: gold;
     position: absolute;
+    top: 1250px;
   }
   .blue5 {
     width: 100%;
@@ -173,6 +181,7 @@ body {
     background-color: blue;
     grid-column: 1/3;
     position: absolute;
+    top: auto;
   }
 
   .content6 {
@@ -184,15 +193,14 @@ body {
     height: 200px;
     background-color: red;
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 1500px;
   }
   .blue6 {
     width: 400px;
     height: 400px;
     background-color: blue;
     position: absolute;
-    top: 100px;
+    top: 1600px;
     left: 100px;
   }
   .green6 {
@@ -200,14 +208,14 @@ body {
     height: 200px;
     background-color: green;
     position: absolute;
-    top: 400px;
+    top: 2000px;
   }
   .gold6 {
     width: 200px;
     height: 400px;
     background-color: gold;
     position: absolute;
-    top: 200px;
+    top: 2200px;
     left: 400px;
   }
   
