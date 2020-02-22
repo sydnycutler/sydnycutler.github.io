@@ -37,25 +37,25 @@ body {
     grid-row: 2;
 }
 
-.home-headline-1 h2 {
+.home-headline-1 {
     position: relative;
     grid-column: 1;
     grid-row: 1;
 }
 
-.home-paragraph-1 p {
+.home-paragraph-1 {
     position: relative;
     grid-column: 1;
     grid-row: 2;
 }
 
-.home-headline-2 h2 {
+.home-headline-2 {
     position: relative;
     grid-column: 3;
     grid-row: 4;
 }
 
-.home-paragraph-2 p {
+.home-paragraph-2 {
     position: relative;
     grid-column: 3;
     grid-row: 5;
