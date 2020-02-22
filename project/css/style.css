@@ -20,14 +20,14 @@ body {
     grid-column: 1/4; 
     grid-row: 1/2;
     position: relative;
-    right: auto;
+  justify-items: right;
 }
 
 .home-left-img img {
     grid-column: 1/1;
     grid-row: 1/5;
     position: relative;
-    left: auto;
+   justify-items: left;
 }
 
 h2, h3 {
