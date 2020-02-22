@@ -27,7 +27,7 @@ body {
 .home-right-img img {
     width: 400px;
     position: relative;
-    grid-column: 4/6; 
+    grid-column: 5/7; 
     grid-row: 1;
 }
 
@@ -35,7 +35,7 @@ body {
     width: 400px;
     position: relative;
     grid-column: 2/4;
-    grid-row: 5;
+    grid-row: 4;
 }
 
 .home-headline-1 h2{
@@ -54,20 +54,20 @@ body {
 .home-headline-2 h2{
     position: relative;
     grid-column: 5/7;
-    grid-row: 5;
+    grid-row: 4;
     align-items: center;
 }
 
 .home-paragraph-2 p{
     position: relative;
     grid-column: 5/7;
-    grid-row: 6/7;
+    grid-row: 5/6;
 }
 
 .home-paragraph-3 h2{
     position: relative;
-    grid-column-start: 1;
-    grid-column-end: 6;
+   grid-column: 1/7;
+   grid-row: 7;
     align-content: center;
 }
 
