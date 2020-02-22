@@ -45,7 +45,7 @@ body {
 
 .home-paragraph-1 {
     position: relative;
-    grid-column: 1;
+    grid-column: 3;
     grid-row: 2;
 }
 
@@ -57,7 +57,7 @@ body {
 
 .home-paragraph-2 {
     position: relative;
-    grid-column: 3;
+    grid-column: 1;
     grid-row: 5;
 }
 
