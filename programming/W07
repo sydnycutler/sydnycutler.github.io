@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<title>Assignment 1</title>
+
+<script language="javascript" type="text/javascript">
+function discount() {
+var dayOfWeek = new Date().getDay();
+var regularPrice = parseInt(document.getElementById("regularBox).value);
+
+if (dayOfWeek == 2 && dayOfWeek == 3 && regularPrice >= 50) {
+total = regularPrice - (regularPrice*.1) + (regularPrice*.06)
+}
+
+else {
+    total = regularPrice + (regularPrice*.06)
+}
+
+document.getElementById('outputDiv').innerHTML = total;
+
+  <input type="text" id="regularBox" size="3"><br>  
+<button type="button" onclick="discount()">Today's Discount</button>  
+<div id="outputDiv"></div>  
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<title>Assignment 2</title>
+<script language="javascript" type="text/javascript">
+function schedule() {
+let now = new Date();
+let month = now.getMonth();
+let dayOfMonth = now.getDate();
+let dayOfWeek = now.getDay();
+
+if((dayOfWeek == 0 || dayOfWeek == 6) || ((month == 0 && dayOfMonth == 1) || (month == 6 && dayOfMonth == 4) || (month == 11 && dayOfMonth == 25))){
+message = "Sleep In";
+}
+else
+{
+message = "Get Up!";
+}
+document.getElementById('output').innerHTML = message;
+}
+</script>
+</head>
+<body onload='schedule()'>
+
+<div id='output'></div>
+
+</body>
+</html>

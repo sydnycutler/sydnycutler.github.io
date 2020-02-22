@@ -11,6 +11,21 @@ body {
     padding: 16px;
 }
 
+.banner-box img {
+    width:100%;
+    height: auto;
+}
+
+.home-right-img img {
+    grid-column: 1/4; 
+    grid-row: 1/2;
+}
+
+.home-left-img img {
+    grid-column: 1/1;
+    grid-row: 1/5;
+}
+
 h2, h3 {
     color: rgb(#42BD78);
     font-style: oblique;

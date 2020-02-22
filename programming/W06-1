@@ -47,31 +47,31 @@ function mathSkills() {
     let results = parseFloat(document.getElementById("results").value);
     if (operator == "+") {
         if (results == numberOne + numberTwo) {
-          message = "You did it!";
+          message = "Correct! Try Again!";
         }
         else {
-          message = "Almost, try again."
+          message = "Inncorrect! Try Again!"
         }}
     if (operator == "-") {
         if (results == numberOne - numberTwo) {
-          message = "You did it!";
+          message = "Correct! Try Again!";
         }
         else {
-          message = "Almost, try again."
+          message = "Inncorrect! Try Again!"
         }}
     } else if (operator == "*") {
             if (results == numberOne * numberTwo) {
-              message = "You did it!"
+              message = "Correct! Try Again!"
             }
             else {
-              message = "Almost, try again."
+              message = "Inncorrect! Try Again!"
             }}
         } else if (operator = /) {
                 if (results == numberOne / numberTwo) {
-                  message = "You did it!"
+                  message = "Correct! Try Again!"
                 }
                 else {
-                  message = "Almost, try again."
+                  message = "Inncorrect! Try Again!"
                 }}
 
             document.getElementById("mathSkillsResults").innerHTML = message;
