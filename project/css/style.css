@@ -54,7 +54,7 @@ body {
 }
 
 .home-right-img {
-    width: 100%;
+    width: 600px;
     grid-column: 2; 
     grid-row: 1/2;
 }
@@ -70,7 +70,7 @@ body {
 }
 
 .home-left-img {
-    width: 100%;
+    width: 600px;
     grid-column: 1;
     grid-row: 3/4;
 }
