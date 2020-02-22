@@ -18,9 +18,16 @@ body {
     grid-gap: 20px;
 }
 
+.banner-box {
+    padding-bottom: 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 .banner-box img {
     width:100%;
-    height: auto;
+    grid-column: 1/-1;
+    grid-row: 1;
 }
 
 .cta {
@@ -30,6 +37,8 @@ body {
     font-family: var(--paragraph-font);
     border-radius: 2em;
     font-size: 1em;
+    grid-column: 1;
+    grid-row: 1;
 }
 
 .cta button {
