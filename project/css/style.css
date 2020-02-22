@@ -39,25 +39,25 @@ body {
 
 .home-headline-1 {
     position: relative;
-    grid-column: 1/3;
+    grid-column: 2;
     grid-row: 1;
 }
 
 .home-paragraph-1 {
     position: relative;
-    grid-column: 1/3;
+    grid-column: 2;
     grid-row: 2;
 }
 
 .home-headline-2 {
     position: relative;
-    grid-column: 3/6;
+    grid-column: 4;
     grid-row: 4;
 }
 
 .home-paragraph-2 {
     position: relative;
-    grid-column: 3/5;
+    grid-column: 4;
     grid-row: 5;
 }
 
