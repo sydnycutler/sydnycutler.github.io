@@ -17,17 +17,17 @@ body {
 }
 
 .home-right-img img {
+    width: 400px;
+    position: relative;
     grid-column: 1/4; 
     grid-row: 1/2;
-    position: relative;
-  justify-items: right;
 }
 
 .home-left-img img {
+    width: 400px;
+    position: relative;
     grid-column: 1/1;
     grid-row: 1/5;
-    position: relative;
-   justify-items: left;
 }
 
 h2, h3 {
