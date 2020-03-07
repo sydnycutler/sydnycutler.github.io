@@ -146,3 +146,11 @@ nav a:link, nav a:visited{
           display: block;
         }
       }
+
+      .topic {
+          margin: 5px 0px 5px 0px;
+      }
+
+      .text h1 {
+          text-align: left;
+      }
