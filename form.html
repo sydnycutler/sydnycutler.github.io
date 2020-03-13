@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Fun</title>
+    <meta name="description" content="Basic elements of a form.">
+    <link href="/project/css/form.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+      <h1>Form Fun</h1>
+  </header>
+  <main>
+      <div id="feedback"></div>
+      <form action="thanks.html" method="POST"></form>
+      <label for="firstName">Please enter your first name: </label>
+      <input type="text" id="firstName" name="firstName" required size="40" placeholder="Enter Your First Name"/>
+      <label for="email">Please enter your email address: </label>
+      <input type="email" id="email" name="email" required/>
+    <label for="zipCode">Please enter your zip code: </label>
+    <input type="text" id="zipCode" name="zipCode" value="84102"/>
+<label for="state">Please select your State: </label>  
+    <select name="state" id="state">
+        <option value="" disabled selected>Choose from this list</option>
+        <option value="ak">Alaska</option>
+        <option value="ca">California</option>
+        <option value="nv">Nevada</option>
+        <option value="id">Idaho</option>
+        <option value="ut">Utah</option>
+    </select>
+    <label for="commemts">Any Comments?</label>
+    <textarea name="comments" id="comments"></textarea>
+    <button type="submit">Register for the class</button>
+  </main>
+  <footer>
+      <p>2020 | WDD 130 | Form Fun | Sydny Cutler | Brigham Young University - Idaho</p>
+  </footer>
+  <script>
+  </script> 
+</body>
+</html>
