@@ -57,3 +57,20 @@ nav a:hover {
     background-color: var(--accent2-color);
     color: whitesmoke;
 }
+
+.action {
+    grid-column: 1;
+    grid-row: 1;
+    margin: 1em 3em;
+    padding: 1em;
+    text-align: center;
+    font-family: var(--heading-font);
+}
+
+.action button {
+    line-height: 2em;
+    width: 10em;
+    background-color: var(--accent2-color);
+    font-size: 1.2em;
+    font-family: var(--paragraph-font);
+}
