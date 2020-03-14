@@ -10,7 +10,8 @@ font-family: "Montserrat", "Lato", sans-serif;
 }
 
 .banner-box {
-    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-content: center;
     font-family: var(--heading-font);
@@ -24,7 +25,7 @@ font-family: "Montserrat", "Lato", sans-serif;
     grid-row: 1;
 }
 
-.banner-box logo img {
+.action img {
     align-items: center;
     justify-content: center;
     width: 100px;
