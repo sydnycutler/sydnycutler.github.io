@@ -16,6 +16,9 @@ font-family: "Montserrat", "Lato", sans-serif;
     font-family: var(--heading-font);
     color: var(--accent2-color);
     text-transform: uppercase;
+}
+
+.banner-box img {
     width: 100%;
     grid-column: 1/-1;
     grid-row: 1;
