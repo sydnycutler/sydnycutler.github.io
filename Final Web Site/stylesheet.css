@@ -24,7 +24,7 @@ font-family: "Montserrat", "Lato", sans-serif;
     grid-row: 1;
 }
 
-.logo {
+.banner-box logo img {
     align-items: center;
     justify-content: center;
     width: 100px;
