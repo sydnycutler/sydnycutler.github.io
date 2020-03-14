@@ -22,7 +22,6 @@ font-family: "Montserrat", "Lato", sans-serif;
     width: 100%;
     grid-column: 1/-1;
     grid-row: 1;
-    height: 200px;
 }
 
 .logo {
