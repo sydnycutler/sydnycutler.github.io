@@ -11,17 +11,14 @@ font-family: "Montserrat", "Lato", sans-serif;
 
 .banner-box {
     margin-left: 20px;
-    display: flex;
     align-items: center;
     justify-content: center;
     font-family: var(--heading-font);
-    font-style: oblique;
-    color: whitesmoke;
+    color: var(--accent2-color);
+    text-transform: uppercase;
 }
 
 .banner img {
-    grid-column: 1/-1;
-    grid-row: 1;
     width: 100%;
 }
 
@@ -32,7 +29,7 @@ font-family: "Montserrat", "Lato", sans-serif;
 }
 
 nav {
-    background-color: var(--primary-color);
+    background-color: var(--accent1-color);
     text-align: center;
     box-shadow: 0 2px 15px gray;
     font-family: var(--heading-font);
