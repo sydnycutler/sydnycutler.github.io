@@ -17,12 +17,19 @@ font-family: "Montserrat", "Lato", sans-serif;
     color: var(--accent2-color);
     text-transform: uppercase;
     width: 100%;
+    grid-column: 1/-1;
+    grid-row: 1;
+    height: 200px;
 }
 
 .logo {
     align-items: center;
     justify-content: center;
     width: 50px;
+    background-color: var(--accent2-color);
+    border-radius: 15px 15px 15px 15px;
+    padding: 0.5em;
+    border: 1px solid var(--accent2-color);
 }
 
 button {
