@@ -16,9 +16,6 @@ font-family: "Montserrat", "Lato", sans-serif;
     font-family: var(--heading-font);
     color: var(--accent2-color);
     text-transform: uppercase;
-}
-
-.banner img {
     width: 100%;
 }
 
@@ -26,6 +23,16 @@ font-family: "Montserrat", "Lato", sans-serif;
     align-items: center;
     justify-content: center;
     width: 50px;
+}
+
+button {
+    width: 10em;
+    background-color: var(--primary-color);
+    line-height: 2em;
+    font-family: var(--paragraph-font);
+    border-radius: 2em;
+    font-size: 1em;
+    align-items: center;
 }
 
 nav {
