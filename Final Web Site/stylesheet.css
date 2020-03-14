@@ -27,7 +27,8 @@ font-family: "Montserrat", "Lato", sans-serif;
 .logo {
     align-items: center;
     justify-content: center;
-    width: 50px;
+    width: 100px;
+    height: 100px;
     background-color: var(--accent2-color);
     border-radius: 15px 15px 15px 15px;
     padding: 0.5em;
