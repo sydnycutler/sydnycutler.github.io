@@ -10,8 +10,6 @@ font-family: "Montserrat", "Lato", sans-serif;
 }
 
 .banner-box {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-content: center;
     font-family: var(--heading-font);
@@ -81,7 +79,6 @@ nav a:hover {
 
 .full img{
    width: 100%;
-
    border: 1px solid var(--accent2-color);
 }
 
