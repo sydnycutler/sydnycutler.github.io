@@ -14,7 +14,7 @@ font-family: "Montserrat", "Lato", sans-serif;
     justify-content: center;
     font-family: var(--heading-font);
     color: var(--accent2-color);
-    position: absolute;
+    position: relative;
     transform: translate(-50%, -50%);
     text-transform: uppercase;
 }
