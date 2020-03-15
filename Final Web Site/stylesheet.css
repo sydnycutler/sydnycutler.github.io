@@ -15,7 +15,6 @@ font-family: "Montserrat", "Lato", sans-serif;
     font-family: var(--heading-font);
     color: var(--accent2-color);
     position: relative;
-    transform: translate(-50%, -50%);
     text-transform: uppercase;
 }
 
@@ -26,8 +25,7 @@ font-family: "Montserrat", "Lato", sans-serif;
     border-radius: 20px 20px 20px 20px;
     padding: 0.5em;
     border: 1px solid var(--accent2-color);
-    position: absolute;
-    transform: translate(-50%, -50%);
+    position: relative;
 }
 
 .banner-box button {
