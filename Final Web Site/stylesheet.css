@@ -15,8 +15,6 @@ font-family: "Montserrat", "Lato", sans-serif;
     font-family: var(--heading-font);
     color: var(--accent2-color);
     position: absolute;
-    top: 50%;
-    left: 50%;
     transform: translate(-50%, -50%);
     text-transform: uppercase;
 }
@@ -29,8 +27,6 @@ font-family: "Montserrat", "Lato", sans-serif;
     padding: 0.5em;
     border: 1px solid var(--accent2-color);
     position: absolute;
-    top: 50%;
-    bottom: 50%;
     transform: translate(-50%, -50%);
 }
 
