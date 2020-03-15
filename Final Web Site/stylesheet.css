@@ -16,6 +16,11 @@ font-family: "Montserrat", "Lato", sans-serif;
     justify-content: center;
     font-family: var(--heading-font);
     color: var(--accent2-color);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
 }
 
 .banner-box img {
@@ -25,22 +30,7 @@ font-family: "Montserrat", "Lato", sans-serif;
     grid-row: 1;
 }
 
-.action {
-    grid-column: 2;
-    grid-row: 1;
-    background-color: gray;
-    margin: 1em 3em;
-    padding: 1em;
-    text-align: center;
-    font-family: var(--heading-font);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-transform: uppercase;
-}
-
-.action img {
+.logo img {
     width: 70px;
     height: 70px;
     background-color: var(--accent2-color);
@@ -92,14 +82,6 @@ nav a:hover {
     color: whitesmoke;
 }
 
-.action {
-    grid-column: 1;
-    grid-row: 1;
-    margin: 1em 3em;
-    padding: 1em;
-    text-align: center;
-    font-family: var(--heading-font);
-}
 
 .action button {
     line-height: 2em;
