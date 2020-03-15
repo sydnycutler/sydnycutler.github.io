@@ -24,16 +24,19 @@ font-family: "Montserrat", "Lato", sans-serif;
 }
 
 .logo img {
-    width: 20px;
-    height: 20px;
+    width: 10px;
     background-color: var(--accent2-color);
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 20px 20px 20px 20px;
     padding: 0.5em;
     border: 1px solid var(--accent2-color);
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
 }
 
-button {
-    width: 10em;
+.banner-box button {
+    width: 20em;
     background-color: var(--primary-color);
     color: whitesmoke;
     line-height: 2em;
@@ -78,6 +81,7 @@ nav a:hover {
 
 .full img{
    width: 100%;
+
    border: 1px solid var(--accent2-color);
 }
 
