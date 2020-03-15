@@ -80,3 +80,17 @@ nav a:hover {
    width: 100%;
    border: 1px solid var(--accent2-color);
 }
+
+main {
+    background-color: whitesmoke;
+}
+
+h1, h2, h3 {
+    color: #974f1e;
+    text-align: left;
+}
+
+p{
+    color: #3a5435;
+    text-align: left;
+}
