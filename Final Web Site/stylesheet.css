@@ -78,6 +78,5 @@ nav a:hover {
 
 .full img{
    width: 100%;
-   height: 300px;
    border: 1px solid var(--accent2-color);
 }
