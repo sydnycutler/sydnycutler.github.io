@@ -48,7 +48,7 @@
         <h2 class="section-heading text-center">An Introduction to Hold Fast Knives</h2>
 
         <img src="/Final Web Site/images/Screen Shot 2019-11-08 at 3.48.30 PM.png" alt="jKnife" height="200" width="636">
-        <p>Hold Fast Knives are handcraft and unique. No two knifes are like each other. However, there are different styles of knifes that can be made. There are EDC (every day carry) knives, hunting knives, bushcraft knifes, camping knives, and even kitchen knives. And the fun doesn't stop there we also have different types of wood for the base of your knife including ash, cherry, hickory, mahogany, maple, oak, pine, rosewood, and walnut.</p>
+        <p>Hold Fast Knives are handcraft and unique. No two knifes are like each other. So have fun as you search for the perfect knife for you!</p>
     </div>
 
     <div class="container" id="quiz-questions">
@@ -58,62 +58,69 @@
                 <h2 class="section-heading text-center">How often do you plan on using your knife?</h2>
 
                 <p style="font-style: italic"></p>
-                <input data-endingsentence="Everyday!" name="rq" onclick="setAnswerButton()" type="radio">Redania
-                <input data-endingsentence="Most days" name="rq" onclick="setAnswerButton()" type="radio">Temeria
-                <input data-endingsentence="When I need it" name="rq" onclick="setAnswerButton()" type="radio">Kaedwen
-                <input data-endingsentence="Rare occasions, many just to look at." name="rq" onclick="setAnswerButton()" type="radio">Aedirn
+                <input data-endingsentence="EDC Knife, " name="rq" onclick="setAnswerButton()" type="radio">Every day!
+                <input data-endingsentence="Kitchen Knife, " name="rq" onclick="setAnswerButton()" type="radio">Most days
+                <input data-endingsentence="Camping Knife, " name="rq" onclick="setAnswerButton()" type="radio">Only outdoors
+                <input data-endingsentence="Hunting Knife, " name="rq" onclick="setAnswerButton()" type="radio">For hunting
+                <input data-endingsentence="Bushcraft Knife, " name="rq" onclick="setAnswerButton()" type="radio">Never, only for looks
             </form>
         </div>
 
         <div class="question invisible" id="question-2">
             <form>
-                <h2 class="section-heading text-center">What was your first step towards being a witcher?</h2>
+                <h2 class="section-heading text-center">Would you carry your knife with you?</h2>
 
-                <p style="font-style: italic">Whilst young you were forced to undergo the Witcher transformation. What were the events that led to this occurring?</p>
-                <input data-endingsentence="Your journey as a Witcher began when you were forcibly taken from your dwelling in the middle of the night. " name="rq" onclick="setAnswerButton()" type="radio">Forcibly taken from your home
-                <input data-endingsentence="Your journey as a Witcher started when your parents sold you to a Witcher in exchange for a pouch of gold. " name="rq" onclick="setAnswerButton()" type="radio">Sold by your parents
-                <input data-endingsentence="You have always despised your parents for forcing you to become a Witcher out of their desire to see less monsters on the road. " name="rq" onclick="setAnswerButton()" type="radio">Willingly given up
+                <p style="font-style: italic"></p>
+                <input data-endingsentence="with a sheath " name="rq" onclick="setAnswerButton()" type="radio">Absolutely
+                <input data-endingsentence="without a sheath. " name="rq" onclick="setAnswerButton()" type="radio">No
             </form>
         </div>
 
         <div class="question invisible" id="question-3">
             <form>
-                <h2 class="section-heading text-center">You have found something unexpected in a cave system!</h2>
+                <h2 class="section-heading text-center">If you answered "Absolutely," which do you prefer the night or day?</h2>
 
-                <p style="font-style: italic">You stumble upon a Kikimore while exploring a cave-system with the another young witcher undergoing the trial process. What will you do?</p>
-                <input data-endingsentence="You are known for being brave and willing to risk your own life in order to protect others. " name="rq" onclick="setAnswerButton()" type="radio">Fight the Kikimore
-                <input data-endingsentence="You draw a line between bravery and is not afraid to appear cowardly in the interests of self-preservation. " name="rq" onclick="setAnswerButton()" type="radio"> Run away
-                <input data-endingsentence="You value self-preservation to the extent that you are willing to kill other people to improve your odds at survival. " name="rq" onclick="setAnswerButton()" type="radio">Injure the other person and run
+                <p style="font-style: italic"></p>
+                <input data-endingsentence="made with light leather. " name="rq" onclick="setAnswerButton()" type="radio">Day
+                <input data-endingsentence="made with dark leather. " name="rq" onclick="setAnswerButton()" type="radio">Night
+                <input data-endingsentence="" name="rq" onclick="setAnswerButton()" type="radio">I answered "No"
             </form>
         </div>
 
         <div class="question invisible" id="question-4">
             <form>
-                <h2 class="section-heading text-center">You have taken your first steps as a qualified Witcher</h2>
+                <h2 class="section-heading text-center">Which type of wood do you prefer?</h2>
 
-                <p style="font-style: italic">You venture out on your own after several hard years of Witcher training. You come across a merchant who begs for protection in exchange for a tiny sum.</p>
-                <input data-endingsentence="Witcher tradition means nothing to you, and you are willing to accept jobs with incredibly low pay to help people out. " name="rq" onclick="setAnswerButton()" type="radio">Accept the offer
-                <input data-endingsentence="Above all you consider yourself a monster slayer - you do not get involved with contracts that are not directly related to killing monsters. " name="rq" onclick="setAnswerButton()" type="radio">Reject the offer because you're not a guard
-                <input data-endingsentence="You are willing to accept a wide variety of jobs provided you are paid enough money. " name="rq" onclick="setAnswerButton()" type="radio"> Demand more money
+                <p style="font-style: italic"></p>
+                <input data-endingsentence="" name="rq" onclick="setAnswerButton()" type="radio">Light
+                <input data-endingsentence="" name="rq" onclick="setAnswerButton()" type="radio">Dark
+                <input data-endingsentence="" name="rq" onclick="setAnswerButton()" type="radio">Both
             </form>
         </div>
 
         <div class="question invisible" id="question-5">
             <form>
-                <h2 class="section-heading text-center">Sorcerers, Sorceresses & Witchers</h2>
+                <h2 class="section-heading text-center">If you answered "Light," choose from the first 5 woods. If you answered "Dark," choose from the last 4 woods. And if you answered "Both," choose any type.</h2>
 
 
-                <p style="font-style: italic">You encounter a Sorceresses who offers to split the reward half/half for killing a local dangerous monster. What do you do?</p>
-                <input data-endingsentence="You have no qualms with working with Sorceresses(s) if it means less risk while fighting monsters. " name="rq" onclick="setAnswerButton()" type="radio">Accept the offer
-                <input data-endingsentence="The best words that you can bring to mind when thinking of Sorceresses is repugnance. " name="rq" onclick="setAnswerButton()" type="radio"> Deny the offer & abandon the contract
-                <input data-endingsentence="You have little respect for Sorceresses who attempt to steal your bussiness, and will glady risk getting into fights with them. " name="rq" onclick="setAnswerButton()" type="radio">Deny the offer and attempt killing the monster yourself
+                <p style="font-style: italic"></p>
+                <input data-endingsentence="And a handle made of ash wood." name="rq" onclick="setAnswerButton()" type="radio">Ash
+                <input data-endingsentence="And a handle made of hickory wood." name="rq" onclick="setAnswerButton()" type="radio">Hickory
+                <input data-endingsentence="And a handle made of maple wood." name="rq" onclick="setAnswerButton()" type="radio">Maple
+                <input data-endingsentence="And a handle made of oak wood." name="rq" onclick="setAnswerButton()" type="radio">Oak
+                <input data-endingsentence="And a handle made of pine wood." name="rq" onclick="setAnswerButton()" type="radio">Pine
+                <input data-endingsentence="And a handle made of cherry wood." name="rq" onclick="setAnswerButton()" type="radio">Cherry
+                <input data-endingsentence="And a handle made of mahogany wood." name="rq" onclick="setAnswerButton()" type="radio">Mahogany
+                <input data-endingsentence="And a handle made of rosewood." name="rq" onclick="setAnswerButton()" type="radio">Rosewood
+                <input data-endingsentence="And a handle made of walnut wood." name="rq" onclick="setAnswerButton()" type="radio">Walnut
+
             </form>
         </div>
 
         <div class="invisible" id="confirm_answer">
             <br>
             <br>
-            <button class="button" onclick="nextQuestion()" type="button">Next Question</button>
+            <button class="button" onclick="nextQuestion()" type="button">What's my perfect knife?</button>
         </div>
 
         <div class="invisible" id="results_screen">
