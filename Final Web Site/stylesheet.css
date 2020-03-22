@@ -28,7 +28,7 @@ font-family: "Montserrat", "Lato", sans-serif;
     position: relative;
 }
 
-.banner-box button {
+button {
     width: 20em;
     background-color: var(--primary-color);
     color: whitesmoke;
