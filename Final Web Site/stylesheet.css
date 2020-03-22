@@ -94,3 +94,62 @@ p{
     color: #3a5435;
     text-align: left;
 }
+
+.section-background-image {
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	opacity: 0.25;
+}
+
+.section {
+	background-color: #fff;
+	color: inherit;
+	position: relative;
+	padding: 85px 0;
+	background-color: #f6f6f6;
+	color: inherit;
+	text-align: center;
+
+
+}
+
+.section-dark {
+	background-color: #222;
+	color: #ccc;
+}
+
+.quiz-section {
+	padding: 160px 0;
+	text-align: center;
+	height: 100%;
+}
+
+.quiz-section .container {
+	position: relative;
+	z-index: 1;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.quiz-section:before {
+	content: "";
+	display: inline-block;
+	height: 100%;
+	width: 1px;
+	vertical-align: middle;
+}
+
+/*make the background somewhat darker*/
+.quiz-section:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	z-index: 0;
+	height: 160px;
+	width: 100%;
+	display: block;
+	opacity: 0.3;
+}
