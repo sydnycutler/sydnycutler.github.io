@@ -32,7 +32,7 @@ button {
 }
 
 span.time {
-    text-align: right;
+    float: right;
     font-style: italic;
     color: #888;
 }
