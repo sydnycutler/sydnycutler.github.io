@@ -27,14 +27,11 @@ button {
     justify-items: left;
     background-color: white;
     border-color: black;
-    shape-outside: round;
+    border-radius: 15px 15px;
 }
 
-.time {
-    grid-column-end: 4;
+p.time {
     text-align: right;
-    justify-content: right;
-    justify-items: right;
     font-style: italic;
     color: #888;
 }
