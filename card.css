@@ -30,7 +30,10 @@ button {
 }
 
 .time {
+    grid-column-end: 4;
     text-align: right;
+    justify-content: right;
+    justify-items: right;
     font-style: italic;
     color: #888;
 }
