@@ -27,6 +27,7 @@ button {
     justify-items: left;
     background-color: white;
     border-color: black;
+    shape-outside: round;
 }
 
 .time {
