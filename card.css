@@ -30,7 +30,7 @@ button {
 }
 
 .time {
-    text-align: end;
+    text-align: right;
     font-style: italic;
     color: #888;
 }
