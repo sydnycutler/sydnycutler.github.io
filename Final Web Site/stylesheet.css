@@ -39,6 +39,10 @@ button {
     align-items: center;
 }
 
+button:hover {
+    opacity: 0.7;
+  }
+
 nav {
     background-color: var(--primary-color);
     text-align: center;
