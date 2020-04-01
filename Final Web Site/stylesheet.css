@@ -155,10 +155,9 @@ p{
 	opacity: 0.3;
 }
 
-.card {
-    width: 400px;    
+.card {   
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
+    max-width: 400px;
     margin: auto;
     text-align: center;
     color: var(--primary-color);
