@@ -112,8 +112,6 @@ p{
 	background-color: #f6f6f6;
 	color: inherit;
 	text-align: center;
-
-
 }
 
 .section-dark {
@@ -142,7 +140,6 @@ p{
 	vertical-align: middle;
 }
 
-/*make the background somewhat darker*/
 .quiz-section:after {
 	content: "";
 	position: absolute;
@@ -153,3 +150,34 @@ p{
 	display: block;
 	opacity: 0.3;
 }
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    width: 20em;
+    background-color: var(--primary-color);
+    color: whitesmoke;
+    line-height: 2em;
+    font-family: var(--paragraph-font);
+    border-radius: 2em;
+    font-size: 1em;
+    align-items: center;
+    padding: 12px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
