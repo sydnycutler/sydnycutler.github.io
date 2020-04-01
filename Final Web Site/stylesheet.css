@@ -156,7 +156,8 @@ p{
     max-width: 300px;
     margin: auto;
     text-align: center;
-    font-family: arial;
+    background-color: var(--accent2-color);
+    font-family: var(--heading-font);
   }
   
   .price {
@@ -165,7 +166,6 @@ p{
   }
   
   .card button {
-    width: 20em;
     background-color: var(--primary-color);
     color: whitesmoke;
     line-height: 2em;
