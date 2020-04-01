@@ -160,12 +160,13 @@ p{
     max-width: 300px;
     margin: auto;
     text-align: center;
+    color: var(--primary-color);
     background-color: var(--accent2-color);
     font-family: var(--heading-font);
   }
   
   .price {
-    color: grey;
+    color: black;
     font-size: 22px;
   }
   
@@ -174,7 +175,7 @@ p{
     color: whitesmoke;
     line-height: 2em;
     font-family: var(--paragraph-font);
-    border-radius: 2em;
+    border-radius: 1em;
     font-size: 1em;
     align-items: center;
     padding: 12px;
