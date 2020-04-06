@@ -177,6 +177,7 @@ p{
     font-family: var(--paragraph-font);
     border-radius: 1em;
     font-size: 1em;
+    align-content: center;
     align-items: center;
     padding: 10px;
     text-align: center;
