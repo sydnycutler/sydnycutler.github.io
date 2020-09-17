@@ -12,6 +12,10 @@ h1 {
     background-color: var(--accent1-color);
     text-align: center;
     font-family: var(--heading-font);
+    border-radius: 25px;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
 }
 
 main {
@@ -22,6 +26,11 @@ footer {
     background-color: var(--accent2-color);
     text-align: center;
     font-family: var(--heading-font);
+    border-radius: 25px;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
 }
 
 img {
