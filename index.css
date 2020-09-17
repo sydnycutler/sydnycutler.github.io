@@ -8,3 +8,23 @@
     --paragraph-font: "Montserrat", sans-serif
 }
 
+h1 {
+    background-color: var(--accent1-color);
+    text-align: center;
+    font-family: var(--heading-font);
+}
+
+main {
+    font-family: var(--paragraph-font);
+}
+
+footer {
+    background-color: var(--accent2-color);
+    text-align: center;
+    font-family: var(--heading-font);
+}
+
+img {
+    float:right;
+    margin: 0 0 0 15px;
+}
