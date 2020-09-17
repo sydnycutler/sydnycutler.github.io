@@ -16,6 +16,7 @@ h1 {
     padding: 20px;
     height: 75px;
     width: 100%;
+    border-bottom: 1px var(--primary-color);
 }
 
 main {
