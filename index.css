@@ -16,6 +16,7 @@ h1 {
     padding: 20px;
     height: 75px;
     width: 100%;
+    color: var(--secondary-color);
 }
 
 h2 {
@@ -34,6 +35,7 @@ footer {
     padding: 20px;
     height: 75px;
     width:100%;
+    color: var(--secondary-color);
 }
 
 img {
