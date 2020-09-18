@@ -36,14 +36,5 @@
 <footer>
     &copy; 2020 | Sydny Cutler | Utah | <a href="https://www.byui.edu/online" target="_blank">BYUI Online
         Learning</a>
-        <script> 
-                var string = document.lastModified; 
-                alert(document.lastModified);
-                let oLastModif = new Date(document.lastModified);
-                let nLastModif = Date.parse(document.lastModified);
-
-                if (Date.parse(document.lastModified) > parseFloat(document.cookie.replace(/(?:(?:^|.*;)\s*last_modif\s*\=\s*([^;]*).*$)|^.*$/, "$1") || "0")) {
-        document.cookie = "last_modif=" + Date.now() + "; expires=Fri, 31 Dec 9999 23:59:59 GMT; path=" + location.pathname;
-            } 
-        </script> 
+        <p class="footer-update-info">Last Updated 09/16/2020 10.44.35</p>
 </footer>

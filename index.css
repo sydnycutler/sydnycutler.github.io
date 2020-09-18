@@ -42,5 +42,14 @@ img {
     float:right;
     margin: 0 0 0 15px;
     padding: 20px;
-    box-shadow: 0 0 15px #333;
+    border-radius: 0px 10px 0px 0px;
+    box-shadow: 2px 2px 2px 2px rgb(36, 36, 36);
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
