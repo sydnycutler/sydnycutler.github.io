@@ -31,8 +31,16 @@ img {
     align-items: right;
 }
 
-footer {
+.footer-update-info {
     font-family: var(--secondary-color);
     color: var(--accent2-color);
     text-align: center;
+}
+
+.principle {
+    margin: 10px 10px 10px 10px;
+    box-shadow: 5px 5px 10px 1px rgba(200, 200, 200, 0.767);
+    margin: 0px 0px 20px 0px;
+    border: 1px var(--accent1-color);
+    padding: 0;
 }
