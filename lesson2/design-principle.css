@@ -30,3 +30,9 @@ main {
 img {
     align-items: right;
 }
+
+footer {
+    font-family: var(--secondary-color);
+    color: var(--accent2-color);
+    text-align: center;
+}
