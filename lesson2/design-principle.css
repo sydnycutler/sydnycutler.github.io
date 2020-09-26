@@ -8,7 +8,7 @@
     --paragraph-font: "Montserrat", sans-serif
 }
 
-h1 {
+header {
     background-color: var(--accent1-color);
     text-align: center;
     font-family: var(--heading-font);
@@ -31,9 +31,12 @@ img {
     align-items: right;
 }
 
-.footer-update-info {
-    font-family: var(--secondary-color);
-    color: var(--accent2-color);
+footer {
+    background-color: var(--accent1-color);
+    color: var(--secondary-color);
+    font-family: var(--paragraph-font);
+    padding: 20px;
+    line-height: 75px;
     text-align: center;
 }
 
