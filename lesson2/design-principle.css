@@ -7,6 +7,12 @@
     --heading-font: "Montserrat", sans-serif;
     --paragraph-font: "Montserrat", sans-serif
 }
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1em;
+    display: block;
+}
 
 header {
     background-color: var(--accent1-color);
