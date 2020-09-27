@@ -52,7 +52,7 @@ footer {
 }
 
 img {
-    width: 10em;
+    width: 15em;
 }
 
 div {
@@ -77,7 +77,7 @@ p {
 }
 
 .contrast {
-   grid-template-columns: 0 0 0 0 40px;
+   grid-template-columns: 0 0 0 50px;
     padding: 10px;
     text-align: center;
 }
