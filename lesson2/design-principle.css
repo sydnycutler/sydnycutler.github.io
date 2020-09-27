@@ -7,12 +7,21 @@
     --heading-font: "Montserrat", sans-serif;
     --paragraph-font: "Montserrat", sans-serif
 }
-main {
-    display: grid;
+
+html {
+    line-height: 1em;
+}
+
+.design-box {
     grid-template-columns: 1fr 1fr;
-    column-gap: 1em;
+    display: grid;
+    grid-gap: 2em;
+    padding: 10px;
+    margin: 10px;
+    justify-content: center;
+}
+main {
     display: block;
-    font-family: var(--paragraph-font);
     float: right;
 }
 
@@ -47,8 +56,8 @@ footer {
     margin: 10px 10px 10px 10px;
     box-shadow: 5px 5px 10px 1px rgba(200, 200, 200, 0.767);
     margin: 0px 0px 20px 0px;
-    border: 1px var(--accent1-color);
-    padding: 0;
+    border: 10px var(--accent1-color);
+    padding: 10px;
 }
 
 div {
@@ -58,4 +67,19 @@ div {
 
 p {
     padding: 1em;
+}
+
+.thirds {
+    grid-column: 1/1;
+    text-align: center;
+}
+
+.white-space {
+    grid-column: 2/2;
+    text-align: center;
+}
+
+.contrast {
+    grid-column: 3/3;
+    text-align: center;
 }
