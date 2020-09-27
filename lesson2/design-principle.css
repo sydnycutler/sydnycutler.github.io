@@ -71,13 +71,13 @@ p {
 }
 
 .white-space {
-    grid-template-columns: 0 0 auto;
+    grid-template-columns: 0 50px;
   padding: 10px;
     text-align: center;
 }
 
 .contrast {
-   grid-template-columns: 0 0 0 50px;
+   grid-template-columns: 0 0 auto;
     padding: 10px;
     text-align: center;
 }
