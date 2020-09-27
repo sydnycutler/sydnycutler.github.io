@@ -65,28 +65,19 @@ p {
 }
 
 .thirds {
-    float: left;
-  width: 33.33%;
+  grid-template-columns: 40px;
   padding: 10px;
     text-align: center;
 }
 
 .white-space {
-    float: left;
-  width: 33.33%;
+    grid-template-columns: 0 0 auto;
   padding: 10px;
     text-align: center;
 }
 
 .contrast {
-    float: left;
-    width: 33.33%;
+   grid-template-columns: 0 0 0 0 40px;
     padding: 10px;
     text-align: center;
-}
-
-.design-box::after {
-    content: "";
-    clear: both;
-    display: table;
 }
