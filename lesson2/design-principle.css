@@ -59,16 +59,16 @@ p {
 }
 
 .thirds {
-    grid-column: 1/1;
+    grid-column: 40px;
     text-align: center;
 }
 
 .white-space {
-    grid-column: 2/1;
+    grid-column: 50px;
     text-align: center;
 }
 
 .contrast {
-    grid-column: 3/1;
+    grid-column: auto;
     text-align: center;
 }
