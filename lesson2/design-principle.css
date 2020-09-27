@@ -61,16 +61,19 @@ p {
 }
 
 .thirds {
-    grid-column: 40px;
+    grid-column-start: 1;
+    grid-row-start: 1;
     text-align: center;
 }
 
 .white-space {
-    grid-column: 50px;
+    grid-column-start: 2;
+    grid-row-start: 1;
     text-align: center;
 }
 
 .contrast {
-    grid-column: auto;
+    grid-column-start: 3;
+    grid-row-start: 1;
     text-align: center;
 }
