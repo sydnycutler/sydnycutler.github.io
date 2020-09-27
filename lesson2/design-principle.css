@@ -12,6 +12,8 @@ main {
     grid-template-columns: 1fr 1fr;
     column-gap: 1em;
     display: block;
+    font-family: var(--paragraph-font);
+    float: right;
 }
 
 header {
@@ -26,10 +28,6 @@ header {
 
 h2 {
     border-bottom: 1px solid;
-}
-
-main {
-    font-family: var(--paragraph-font);
 }
 
 img {
@@ -56,4 +54,8 @@ footer {
 div {
     padding: 1em;
     display: box;
+}
+
+p {
+    padding: 1em;
 }
