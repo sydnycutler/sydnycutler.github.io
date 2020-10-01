@@ -80,6 +80,15 @@ nav a:hover {
    width: 100%;
    border: 1px solid var(--accent2-color);
 }
+body {
+    background-color: #3399CC;
+    border-left: 20px solid #2B81AC;
+    border-right: 20px solid #2B81AC;
+    min-height: 100%;
+    color: #FFF;
+    font-family: var(--paragraph-font);
+    align-content: center;
+}
 
 main {
     background-color: whitesmoke;
@@ -87,6 +96,9 @@ main {
 
 h1 {
     text-align: center;
+    font-weight: 500;
+    font-size: 26px;
+    text-transform: capitalize;
 }
 
 h2, h3 {
@@ -97,6 +109,11 @@ h2, h3 {
 p{
     color: #3a5435;
     text-align: left;
+}
+
+footer {
+    margin: 20px 0;
+    font-size: 17px;
 }
 
 .section-background-image {
