@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat&display=swap');
+:root {
+--primary-color: #062b14;
+--secondary-color: #974f1e;
+--accent1-color: #3a5435;
+--accent2-color: #ba7321;
+font-family: "Montserrat", "Lato", sans-serif;
+--heading-font: "Montserrat", sans-serif;
+--paragraph-font: "Lato", sans-serif,
+}
+
+.banner-box {
+    align-items: center;
+    justify-content: center;
+    font-family: var(--heading-font);
+    color: var(--accent2-color);
+    position: relative;
+    text-transform: uppercase;
+}
+
+.logo img {
+    align-items: center;
+    width: 10px;
+    background-color: var(--accent2-color);
+    border-radius: 20px 20px 20px 20px;
+    padding: 0.5em;
+    border: 1px solid var(--accent2-color);
+    position: relative;
+}
+
+button {
+    width: 20em;
+    background-color: var(--primary-color);
+    color: whitesmoke;
+    line-height: 2em;
+    font-family: var(--paragraph-font);
+    border-radius: 2em;
+    font-size: 1em;
+    align-items: center;
+}
+
+button:hover {
+    opacity: 0.7;
+  }
+
+nav {
+    background-color: var(--primary-color);
+    text-align: center;
+    box-shadow: 0 2px 15px gray;
+    font-family: var(--heading-font);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+}
+
+nav ul li {
+    flex: 1 1 100%;
+}
+
+nav li a {
+    display: block;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-size: 0.95rem;
+    color: whitesmoke;
+}
+
+nav a:hover {
+    background-color: var(--accent2-color);
+    color: whitesmoke;
+}
+
+.full-image img{
+   width: 100%;
+   border: 1px solid var(--accent2-color);
+}
+
+main {
+    background-color: whitesmoke;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2, h3 {
+    color: #974f1e;
+    text-align: left;
+}
+
+p{
+    color: #3a5435;
+    text-align: left;
+}
+
+.section-background-image {
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	opacity: 0.25;
+}
+
+.section {
+	background-color: #fff;
+	color: inherit;
+	position: relative;
+	padding: 85px 0;
+	background-color: #f6f6f6;
+	color: inherit;
+	text-align: center;
+}
+
+.section-dark {
+	background-color: gray;
+	color: #ccc;
+}
+
+.quiz-section {
+	padding: 160px 0;
+	text-align: center;
+	height: 100%;
+}
+
+.quiz-section .container {
+	position: relative;
+	z-index: 1;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.quiz-section:before {
+	content: "";
+	display: inline-block;
+	height: 100%;
+	width: 1px;
+	vertical-align: middle;
+}
+
+.quiz-section:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	z-index: 0;
+	height: 160px;
+	width: 100%;
+	display: block;
+	opacity: 0.3;
+}
+
+.card {   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    color: var(--primary-color);
+    background-color: gray;
+    font-family: var(--heading-font);
+  }
+  
+  .price {
+    color: black;
+    font-size: 22px;
+  }
+  
+  .card button {
+    background-color: var(--primary-color);
+    color: whitesmoke;
+    line-height: 2em;
+    font-family: var(--paragraph-font);
+    border-radius: 1em;
+    font-size: 1em;
+    align-content: center;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
