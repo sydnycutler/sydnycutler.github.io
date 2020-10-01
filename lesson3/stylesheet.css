@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Montserrat&display=swap');
 :root {
---primary-color: #062b14;
---secondary-color: #974f1e;
---accent1-color: #3a5435;
---accent2-color: #ba7321;
+--primary-color: #fff212;
+--secondary-color: #3399CC;
+--accent1-color: #c0bfbd;
+--accent2-color: #ff66c4;
 font-family: "Montserrat", "Lato", sans-serif;
 --heading-font: "Montserrat", sans-serif;
 --paragraph-font: "Lato", sans-serif,
@@ -46,7 +46,7 @@ button:hover {
 nav {
     background-color: var(--primary-color);
     text-align: center;
-    box-shadow: 0 2px 15px gray;
+    box-shadow: 0 2px 15px var(--accent1-color);
     font-family: var(--heading-font);
 }
 
@@ -81,13 +81,10 @@ nav a:hover {
    border: 1px solid var(--accent2-color);
 }
 body {
-    background-color: #3399CC;
-    border-left: 20px solid #2B81AC;
-    border-right: 20px solid #2B81AC;
+    background-color: var(--secondary-color);
     min-height: 100%;
     color: #FFF;
     font-family: var(--paragraph-font);
-    align-content: center;
 }
 
 main {
@@ -102,12 +99,12 @@ h1 {
 }
 
 h2, h3 {
-    color: #974f1e;
+    color: var(--accent2-color);
     text-align: left;
 }
 
 p{
-    color: #3a5435;
+    color: black;
     text-align: left;
 }
 
@@ -136,40 +133,8 @@ footer {
 }
 
 .section-dark {
-	background-color: gray;
+	background-color: var(--accent1-color);
 	color: #ccc;
-}
-
-.quiz-section {
-	padding: 160px 0;
-	text-align: center;
-	height: 100%;
-}
-
-.quiz-section .container {
-	position: relative;
-	z-index: 1;
-	vertical-align: middle;
-	display: inline-block;
-}
-
-.quiz-section:before {
-	content: "";
-	display: inline-block;
-	height: 100%;
-	width: 1px;
-	vertical-align: middle;
-}
-
-.quiz-section:after {
-	content: "";
-	position: absolute;
-	top: 0;
-	z-index: 0;
-	height: 160px;
-	width: 100%;
-	display: block;
-	opacity: 0.3;
 }
 
 .card {   
