@@ -44,7 +44,7 @@ button:hover {
   }
 
 nav {
-    background-color: var(--primary-color);
+    background-color: green;
     text-align: center;
     box-shadow: 0 2px 15px var(--accent1-color);
     font-family: var(--heading-font);
