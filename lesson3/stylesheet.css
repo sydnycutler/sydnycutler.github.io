@@ -22,11 +22,11 @@ font-family: "Montserrat", "Lato", sans-serif;
 }
 
 nav {
-    background-color:whitesmoke;
+    background-color:var(--accent2-color);
     text-align: center;
     box-shadow: 0 2px 15px var(--accent1-color);
     font-family: var(--heading-font);
-    color: black;
+    color: whitesmoke;
 }
 
 nav ul {
@@ -51,8 +51,8 @@ nav li a {
 }
 
 nav a:hover {
-    background-color: var(--accent2-color);
-    color: whitesmoke;
+    background-color: whitesmoke;
+    color: var(--accent2-color);
 }
 
 body {
