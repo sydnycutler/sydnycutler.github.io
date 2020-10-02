@@ -9,6 +9,8 @@ font-family: "Montserrat", "Lato", sans-serif;
 --paragraph-font: "Lato", sans-serif,
 }
 
+
+
 .logo img {
     align-items: center;
     width: 10px;
@@ -85,3 +87,42 @@ footer {
     margin: 20px 0;
     font-size: 17px;
 }
+.content{
+    position:relative;
+    max-width:550px;
+    margin:0 auto;
+    text-align:center
+}
+.left-persona .person-box .container{
+    text-align:left
+}
+    .right-persona .content .container{
+        text-align:right
+    }
+    .middle-persona .person-box .container{
+        text-align:justify
+    }
+    .person-box p{
+        padding-bottom:0
+    }
+    .image{
+        display:inline-block;
+        max-width:100%;
+        margin-bottom:30px;
+        line-height:0
+    }
+    .header a, h4 a{
+        text-decoration:none
+    }
+    .image_wrap{
+        display:block;
+        margin:auto
+    }
+    .left-persona .image,.right-persona .image{
+        display:table-cell;
+        width:32px;
+        line-height:0
+    }
+    .left-persona .image img,.right-persona .image img{
+        width:inherit
+    }
