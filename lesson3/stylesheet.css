@@ -87,8 +87,13 @@ footer {
 table, th, td {
     border: 2px var(--secondary-color) solid;
     color: #2b2b2b;
+    padding: 0.5em;
     }
     
     table {
     background-image: url(image/back.gif);
+    }
+
+    td h3 {
+        text-align: center;
     }
