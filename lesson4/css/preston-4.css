@@ -36,7 +36,7 @@ header img {
     font-style: var(--heading-font);
 }
 main h2 {
-    padding-left: 10px;
+    padding-left: 200px;
     font-style: var(--heading-font)
 }
 .motto {
@@ -96,7 +96,7 @@ ul {
 footer {
     text-align: center;
 }
-script {
+h4 {
     text-align: center;
 }
 @media only screen and (min-width: 32.5em) {
