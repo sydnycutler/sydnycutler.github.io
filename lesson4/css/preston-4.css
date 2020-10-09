@@ -29,6 +29,7 @@ header img {
 .headings {
     display: flex;
     flex-direction: column;
+    padding-top: 40px;
 }
 .headings h1 {
     font-size: 1.6rem;
@@ -65,14 +66,14 @@ nav {
 }
 .navigation a {
     display: block;
-    color: var(--accent1-color);
+    color: white;
     padding: .75rem;
     text-align: center;
     text-decoration: none;
 }
 .navigation a:hover {
-    color: var(--secondary-color);
-    background-color: var(--accent1-color);
+    color: white;
+    background-color: var(--accent2-color);
     font-weight: 700;
 }
 .responsive li {
@@ -123,7 +124,7 @@ font-size: 3rem;
         flex: 1 1 100%;
     }
     .navigation li a {
-        color: var(--accent1-color);
+        color: white;
     }
     .contentbox {
         max-width: 900px;
