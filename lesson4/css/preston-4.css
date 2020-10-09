@@ -35,7 +35,10 @@ header img {
     margin: 0 0 0 17px;
     font-style: var(--heading-font);
 }
-
+main h2 {
+    padding-left: 10px;
+    font-style: var(--heading-font)
+}
 .motto {
     font-style: italic;
     letter-spacing: 1pt;
@@ -90,7 +93,12 @@ ul {
     background-color: var(--secondary-color);
     font-style: var(--paragraph-font);
 }
-
+footer {
+    text-align: center;
+}
+script {
+    text-align: center;
+}
 @media only screen and (min-width: 32.5em) {
     header img {
         width: 100%;
