@@ -36,8 +36,9 @@ header img {
     font-style: var(--heading-font);
 }
 h2 {
-    padding-left: 3rem;
-    font-style: var(--heading-font)
+    font-style: var(--heading-font);
+    text-align: center;
+    
 }
 .motto {
     font-style: italic;
