@@ -1,10 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Sacramento&display=swap');
+:root {
+--primary-color: #fff212;
+--secondary-color: #3399CC;
+--accent1-color: #c0bfbd;
+--accent2-color: #ff66c4;
+font-family: "Sacramento", "Montserrat", sans-serif;
+--heading-font: "Sacramento", sans-serif;
+--paragraph-font: "Montserrat", sans-serif,
+}
+
 body {
-    background-color: ;
+    background-color: var(--accent1-color);
     padding: 0;
     margin: 0;
 }
 header {
-    background-color: ;
+    background-color: var(--accent2-color);
     padding: 5px 0;
     display: flex;
     align-content: center;
@@ -21,22 +32,23 @@ header img {
 .headings h1 {
     font-size: 1.6rem;
     margin: 0 0 0 17px;
+    font-style: var(--heading-font);
 }
 
 .motto {
     font-style: italic;
     letter-spacing: 1pt;
-    color: ;
+    color: white;
     margin-left: 20px;
     font-size: .9rem;
 }
 .contentbox {
     display: block;
     margin: 10px auto;
-    border: 1px solid lightpink;
+    border: 1px solid var(--accent2-color);
     padding: 15px;
-    background-color: whitesmoke;
-    font-style: "Sacramento";
+    background-color: var(--secondary-color);
+    font-style: var(--paragraph-font);
 }
 
 @media only screen and (min-width: 32.5em) {

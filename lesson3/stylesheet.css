@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Sacramento&display=swap');
 :root {
 --primary-color: #fff212;
 --secondary-color: #3399CC;
 --accent1-color: #c0bfbd;
 --accent2-color: #ff66c4;
-font-family: "Montserrat", "Lato", sans-serif;
---heading-font: "Montserrat", sans-serif;
---paragraph-font: "Lato", sans-serif,
+font-family: "Sacramento", "Montserrat", sans-serif;
+--heading-font: "Sacramento", sans-serif;
+--paragraph-font: "Montserrat", sans-serif,
 }
 
 .logo img {
