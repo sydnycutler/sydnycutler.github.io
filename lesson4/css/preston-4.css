@@ -45,7 +45,7 @@ header img {
 }
 nav {
     margin: 0 auto;
-    max-width: 100%;
+    max-width: 900px;
     background-color: var(--secondary-color)
 }
 .navigation {
