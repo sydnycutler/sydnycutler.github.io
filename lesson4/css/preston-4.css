@@ -35,7 +35,7 @@ header img {
     margin: 0 0 0 17px;
     font-style: var(--heading-font);
 }
-main h2 {
+h2 {
     padding-left: 3rem;
     font-style: var(--heading-font)
 }
