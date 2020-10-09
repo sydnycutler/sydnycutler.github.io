@@ -29,7 +29,6 @@ header img {
 .headings {
     display: flex;
     flex-direction: column;
-    padding-top: 40px;
 }
 .headings h1 {
     font-size: 1.6rem;
@@ -103,7 +102,10 @@ footer {
         width: 100%;
     }
     .headings h1 {
-font-size: 3rem;
+        font-size: 3rem;
+    }
+    .headings {
+        padding-top: 40px;
     }
     .motto {
         letter-spacing: 1.5pt;
