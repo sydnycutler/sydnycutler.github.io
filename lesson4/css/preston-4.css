@@ -37,7 +37,7 @@ header img {
 }
 h2 {
     font-style: var(--heading-font);
-    margin: 0 auto;
+    text-align: center;
 }
 .motto {
     font-style: italic;
