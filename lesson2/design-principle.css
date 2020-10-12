@@ -7,15 +7,16 @@
     --heading-font: "Montserrat", sans-serif;
     --paragraph-font: "Montserrat", sans-serif
 }
-
-.design-box {
+.three-boxes {
     grid-template-columns: 1fr 1fr;
     display: grid;
     grid-gap: 2em;
     padding: 10px;
     margin: 10px;
+}
+.design-box {
     justify-content: center;
-    border: 10px var(--accent1-color);
+    border: 10px solid var(--accent1-color);
 }
 
 header {
