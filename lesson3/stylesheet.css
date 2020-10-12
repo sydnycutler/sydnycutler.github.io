@@ -107,9 +107,6 @@ nav {
 nav ul{
     display: flex;
 }
-li:first-child {
-    display: none;
-}
 li {
     display: block;
     flex: 1 1 100%;
