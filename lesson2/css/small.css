@@ -7,16 +7,20 @@
     --heading-font: "Montserrat", sans-serif;
     --paragraph-font: "Montserrat", sans-serif
 }
-.three-boxes {
-    grid-template-columns: 1fr 1fr;
+main {
+    margin: 0 auto;
     display: grid;
-    grid-gap: 2em;
-    padding: 10px;
-    margin: 10px;
+    grid-template-columns: 1fr;
+    font-size: 1rem;
 }
-.design-box {
-    justify-content: center;
-    border: 10px solid var(--accent1-color);
+main section {
+    margin: .5rem;
+    border: 1px solid var(--accent1-color);
+    padding: .1rem;
+    background-color: whitesmoke;
+}
+header, footer, nav, section {
+    display: block;
 }
 
 header {
@@ -42,14 +46,6 @@ footer {
     text-align: center;
 }
 
-.principle {
-    margin: 10px 10px 10px 10px;
-    box-shadow: 5px 5px 10px 1px rgba(200, 200, 200, 0.767);
-    margin: 0px 0px 20px 0px;
-    border: 10px;
-    padding: 10px;
-}
-
 img {
     width: 15em;
 }
@@ -62,25 +58,6 @@ div {
 p {
     padding: 1em;
 }
-
-.thirds {
-  grid-template-columns: 40px;
-  padding: 10px;
-    text-align: center;
-}
-
-.white-space {
-    grid-template-columns: 0 0 auto;
-  padding: 10px;
-    text-align: center;
-}
-
-.contrast {
-   grid-template-columns: 0 0 0 50px;
-    padding: 10px;
-    text-align: center;
-}
-
 .title {
     align-items: center;
 }
