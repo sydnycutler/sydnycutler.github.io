@@ -50,6 +50,10 @@ img {
     width: 15em;
 }
 
+picture {
+    align-content: center;
+}
+
 div {
     padding: 1em;
     display: box;
