@@ -95,8 +95,9 @@ ul {
     position: relative;
     display: block;
 }
-.herodiv img {
+.hero {
     align-items: center;
+    height: 200px;
 }
 .summary {
     position: absolute;
