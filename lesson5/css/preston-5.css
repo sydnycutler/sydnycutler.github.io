@@ -135,9 +135,7 @@ footer {
         font-size: larger;
         margin-left: 17px;
     }
-    nav ul {
-        width: 100%;
-    }
+
     .navigation {
         display: flex;
     }
@@ -146,6 +144,7 @@ footer {
     }
     .navigation li {
         display: block;
+        width: 1000px;
         flex: 1 1 100%;
     }
     .navigation li a {
