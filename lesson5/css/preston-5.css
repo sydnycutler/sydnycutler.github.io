@@ -95,6 +95,9 @@ ul {
     position: relative;
     display: block;
 }
+.herodiv h2 {
+    text-align: left;
+}
 .hero {
     height: auto;
     width: 100%;
