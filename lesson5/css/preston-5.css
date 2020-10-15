@@ -98,6 +98,7 @@ ul {
 .hero {
     align-items: center;
     height: 200px;
+    width: 100%;
 }
 .summary {
     position: absolute;
