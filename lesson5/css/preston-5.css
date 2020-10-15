@@ -96,9 +96,9 @@ ul {
     display: block;
 }
 .hero {
-    align-items: center;
     height: 200px;
     width: 100%;
+    text-align:center;
 }
 .summary {
     position: absolute;
