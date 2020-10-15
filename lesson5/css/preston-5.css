@@ -101,7 +101,7 @@ ul {
     border: 1px solid black;
     padding: 1.5rem;
     box-shadow: 0 0 30px #111;
-    opacity: .1;
+    opacity: .8;
 }
 .contentbox {
     display: block;
