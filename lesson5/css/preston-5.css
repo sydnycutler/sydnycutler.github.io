@@ -48,7 +48,7 @@ h2 {
 }
 nav {
     margin: 0 auto;
-    max-width: 2000px;
+    max-width: 1500px;
     background-color: var(--secondary-color)
 }
 .navigation {
@@ -153,6 +153,6 @@ footer {
         color: white;
     }
     .contentbox {
-        max-width: 2000px;
+        max-width: 1500px;
     }
 }
