@@ -182,7 +182,7 @@ footer {
         padding: 1rem;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: left;
         justify-content: center;
         background-color: whitesmoke;
     }
@@ -195,5 +195,12 @@ footer {
         display: block;
         float: right;
         width: 60px;
+    }
+    .contact {
+        margin: 0 auto;
+        padding: 1rem;
+        display: flex;
+        text-align: right;
+        justify-content: center;
     }
 }
