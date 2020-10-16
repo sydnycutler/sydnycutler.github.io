@@ -117,9 +117,6 @@ ul {
     box-shadow: 0 0 30px #111;
     align-content: center;
 }
-.break {
-    display: block;
-}
 .grid { 
 	display: grid;
     grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
@@ -128,7 +125,7 @@ ul {
 	background-color: whitesmoke;
 }
 .weather {
-    width: 75px;
+    width: 150px;
 }
 .pumpkins {
     display: none;
