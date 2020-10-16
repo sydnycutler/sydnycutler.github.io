@@ -115,7 +115,6 @@ ul {
     border: 1px solid black;
     padding: 1.5rem;
     box-shadow: 0 0 30px #111;
-    align-content: center;
 }
 .grid { 
 	display: grid;
@@ -145,7 +144,7 @@ ul {
     max-width: 400px;
 }
 .contact {
-    display: flex;
+    position: absolute;
     float:right;
     text-align: right;
     margin: 0 auto;
