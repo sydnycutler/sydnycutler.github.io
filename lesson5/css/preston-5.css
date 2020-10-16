@@ -125,7 +125,7 @@ ul {
 	background-color: whitesmoke;
 }
 .weather {
-    width: 150px;
+    max-width: 85px;
 }
 .pumpkins {
     display: none;
@@ -212,9 +212,9 @@ footer {
     .navigation li a {
         color: white;
     }
-    .break {
-        display: none;
-    }
+   .weather {
+       width: 100px
+   }
     .google {
         margin: 10px 0 30px;
         border: 1px solid #000;
