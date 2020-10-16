@@ -141,6 +141,13 @@ ul {
 .google {
     display: none;
 }
+.contact {
+    display: flex;
+    float:right;
+    text-align: right;
+    margin: 0 auto;
+    padding: 1rem;
+}
 .fa {
     padding: 20px;
     font-size: 10px;
@@ -229,12 +236,5 @@ footer {
         float: right;
         height: 150px;
         width: auto;
-    }
-    .contact {
-        display: block;
-        float:right;
-        text-align: right;
-        margin: 0 auto;
-        padding: 1rem;
     }
 }
