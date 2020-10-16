@@ -115,6 +115,7 @@ ul {
     padding: 1.5rem;
     box-shadow: 0 0 30px #111;
     display: block;
+    align-content: center;
 }
 .grid { 
 	display: grid;
