@@ -111,7 +111,6 @@ ul {
 }
 .summary {
     display: block;
-    position: absolute;
     background-color: whitesmoke;
     border: 1px solid black;
     padding: 1.5rem;
@@ -179,6 +178,7 @@ footer {
 @media only screen and (min-width: 32.5em) {
     .summary {
         display: block;
+        position: absolute;
         top: 25px;
         left: 50px;
         background-color: whitesmoke;
