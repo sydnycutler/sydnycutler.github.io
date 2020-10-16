@@ -126,8 +126,7 @@ ul {
 	background-color: whitesmoke;
 }
 .weather {
-    max-width: 25px;
-    width: 20px;
+    width: 75px;
 }
 .pumpkins {
     display: none;
