@@ -8,4 +8,9 @@ try {
     document
     .getElementsByClassName("navigation") [0]
     .classList.toggle("responsive");
-  }    
+  }
+.message {
+  let d = new Date();
+  d.getDay()
+  if (d.getDate()
+}
