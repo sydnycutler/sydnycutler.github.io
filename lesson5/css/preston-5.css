@@ -125,6 +125,9 @@ ul {
 .grid-block {
 	background-color: whitesmoke;
 }
+.pumpkins {
+    display: none;
+}
 .contentbox {
     display: block;
     margin: 10px auto;
@@ -187,5 +190,10 @@ footer {
         margin: 10px 0 30px;
         border: 1px solid #000;
         box-shadow: 0 0 30px #555;
+    }
+    .pumpkins {
+        display: block;
+        float: right;
+        width: 60px;
     }
 }
