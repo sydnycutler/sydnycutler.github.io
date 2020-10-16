@@ -216,18 +216,14 @@ footer {
         box-shadow: 0 0 30px #111;
         opacity: .8;
     }
-    .map {
-        margin: 0 auto;
-        padding: 1rem;
-        display: inline;
-        flex-direction: column;
-        align-items: left;
-        justify-content: left;
-    }
     .google {
         margin: 10px 0 30px;
         border: 1px solid #000;
         box-shadow: 0 0 30px #555;
+        padding: 1rem;
+        display: inline-flex;
+        align-items: left;
+        justify-content: left;
     }
     .pumpkins {
         display: block;
