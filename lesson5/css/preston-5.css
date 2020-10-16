@@ -224,10 +224,10 @@ footer {
        width: 100px
    }
     .google {
-        margin: 10px 0 30px;
+        margin: 10px 0 30px 200px;
         border: 1px solid #000;
         box-shadow: 0 0 30px #555;
-        padding: 200px;
+        padding: 1rem;
         display: inline-flex;
         align-items: left;
         justify-content: left;
@@ -238,7 +238,7 @@ footer {
     .pumpkins {
         display: block;
         float: right;
-        padding: 200px;
+        padding-right: 200px;
         height: 300px;
         width: auto;
     }
