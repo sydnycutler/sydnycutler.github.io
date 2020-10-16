@@ -217,11 +217,10 @@ footer {
         opacity: .8;
     }
     .map {
-        width: max-content;
         margin: 0 auto;
         border: 1px solid var(--accent1-color);
         padding: 1rem;
-        display: flex;
+        display: inline;
         flex-direction: column;
         align-items: left;
         justify-content: left;
@@ -241,8 +240,7 @@ footer {
     .contact {
         margin: 0 auto;
         padding: 1rem;
-        display: block;
-        float: right;
+        display: inline;
         text-align: right;
     }
 }
