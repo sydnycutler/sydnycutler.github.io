@@ -110,7 +110,8 @@ ul {
     text-align:center;
 }
 .summary {
-    display:absolute;
+    display: block;
+    position: absolute;
     background-color: whitesmoke;
     border: 1px solid black;
     padding: 1.5rem;
