@@ -118,6 +118,9 @@ ul {
     box-shadow: 0 0 30px #111;
     align-content: center;
 }
+.break {
+    display: block;
+}
 .grid { 
 	display: grid;
     grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
@@ -212,7 +215,9 @@ footer {
     .navigation li a {
         color: white;
     }
-    
+    .break {
+        display: none;
+    }
     .google {
         margin: 10px 0 30px;
         border: 1px solid #000;
