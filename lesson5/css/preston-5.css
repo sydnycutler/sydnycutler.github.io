@@ -111,13 +111,10 @@ ul {
 }
 .summary {
     position: block;
-    top: 25px;
-    left: 50px;
     background-color: whitesmoke;
     border: 1px solid black;
     padding: 1.5rem;
     box-shadow: 0 0 30px #111;
-    opacity: .8;
 }
 .grid { 
 	display: grid;
@@ -210,8 +207,14 @@ footer {
         color: white;
     }
     .summary {
-        max-width: 1000px;
         display: absolute;
+        top: 25px;
+        left: 50px;
+        background-color: whitesmoke;
+        border: 1px solid black;
+        padding: 1.5rem;
+        box-shadow: 0 0 30px #111;
+        opacity: .8;
     }
     .map {
         width: max-content;
@@ -232,7 +235,7 @@ footer {
     .pumpkins {
         display: block;
         float: right;
-        width: max-width;
+        height: ;
     }
     .contact {
         margin: 0 auto;
