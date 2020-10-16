@@ -240,7 +240,8 @@ footer {
     .contact {
         margin: 0 auto;
         padding: 1rem;
-        display: inline;
+        display: flex;
+        float:right;
         text-align: right;
     }
 }
