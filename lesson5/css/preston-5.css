@@ -15,6 +15,12 @@ body {
     margin: 0;
     font-family: var(--paragraph-font)
 }
+.banner {
+    display: block;
+    margin: 10px;
+    border: 1px solid white;
+    background-color: var(--primary-color);
+}
 header {
     background-color: var(--accent2-color);
     padding: 5px 0;
@@ -112,7 +118,13 @@ ul {
     box-shadow: 0 0 30px #111;
     opacity: .8;
 }
-
+.grid { 
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
+}
+.grid-block {
+	background-color: whitesmoke;
+}
 .contentbox {
     display: block;
     margin: 10px auto;

@@ -9,8 +9,9 @@ try {
     .getElementsByClassName("navigation") [0]
     .classList.toggle("responsive");
   }
-.message {
-  let d = new Date();
-  d.getDay()
-  if (d.getDate()
-}
+function toggleMenu() {
+  var d = new Date();
+    if (d.getDay() !== 5) {
+          document.getElementsByClassName("banner");
+        }        
+    } 
