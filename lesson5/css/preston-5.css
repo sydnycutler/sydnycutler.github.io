@@ -227,15 +227,18 @@ footer {
         margin: 10px 0 30px;
         border: 1px solid #000;
         box-shadow: 0 0 30px #555;
-        padding: 1rem;
+        padding: 200px;
         display: inline-flex;
         align-items: left;
         justify-content: left;
     }
+    .article {
+        padding-left: 200px;
+    }
     .pumpkins {
         display: block;
         float: right;
-        padding: 1rem;
+        padding: 200px;
         height: 300px;
         width: auto;
     }
