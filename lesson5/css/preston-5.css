@@ -113,8 +113,8 @@ ul {
     background-color: whitesmoke;
     border: 1px solid black;
     padding: 1.5rem;
+    display:block;
     box-shadow: 0 0 30px #111;
-    display: block;
     align-content: center;
 }
 .grid { 
