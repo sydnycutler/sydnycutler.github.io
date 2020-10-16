@@ -141,6 +141,9 @@ ul {
 .google {
     display: none;
 }
+.article {
+    max-width: 300px;
+}
 .contact {
     display: flex;
     float:right;
