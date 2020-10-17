@@ -192,7 +192,7 @@ ul {
     color: white;
   }
   .long {
-    height: 250px;
+    height: 300px;
     width: auto;
     display: block;
     margin: 10px auto;
@@ -207,7 +207,7 @@ footer {
 }
 @media only screen and (min-width: 40em) {
     .long {
-        height: 250px;
+        height: 300px;
         width: auto;
     }
 }
