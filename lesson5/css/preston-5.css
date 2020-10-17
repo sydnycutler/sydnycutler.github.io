@@ -132,6 +132,7 @@ ul {
 }
 .contentbox {
     display: block;
+    position: relative;
     margin: 10px auto;
     border: 1px solid var(--accent2-color);
     padding: 15px;
@@ -146,10 +147,9 @@ ul {
 }
 .contact {
     display: block;
-    position: absolute;
-    top: 0px;
-    left: 200px;
     margin: 0 auto;
+    margin-right: 200px;
+    padding: 1.5rem;
 }
 .fa {
     padding: 20px;
