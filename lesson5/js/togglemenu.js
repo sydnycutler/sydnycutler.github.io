@@ -11,4 +11,7 @@ try {
   var d = new Date();
     if (d.getDay() !== 5) {
           document.getElementsByClassName("banner");
-        }        
+        } 
+    else {
+      document.getElementsByClassName("banner").style.visibility = "hidden";
+    }       
