@@ -224,8 +224,8 @@ footer {
         border: 1px solid #000;
         box-shadow: 0 0 30px #555;
         padding: 1rem;
+        float: left;
         display: inline-flex;
-        align-items: left;
         justify-content: left;
     }
     .article {
