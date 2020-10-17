@@ -249,6 +249,6 @@ footer {
         padding-left: 200px;
     }
     .long {
-        max-height: 1000px;
+        height: 500px;
     }
 }
