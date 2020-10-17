@@ -136,7 +136,22 @@ ul {
 .pumpkins {
     display: none;
 }
-#contact {
+.contact {
+    text-align: right;
+    margin-right: 200px;
+    margin-top: 30px;
+}
+.address {
+    text-align: right;
+    margin-right: 200px;
+    margin-top: 30px;
+}
+.number {
+    text-align: right;
+    margin-right: 200px;
+    margin-top: 30px;
+}
+.site {
     text-align: right;
     margin-right: 200px;
     margin-top: 30px;
