@@ -141,7 +141,7 @@ ul {
 }
 .contact {
     text-align: right;
-    margin-right: 200px;
+    margin-right: 150px;
     margin-top: 50px;
 }
 .contentbox {
@@ -172,7 +172,7 @@ ul {
 .fa-facebook {
   background: #3B5998;
   color: white;
-  margin-right: 200px;
+  margin-right: 150px;
 }
 .fa-twitter {
   background: #55ACEE;
@@ -243,8 +243,7 @@ footer {
     }
     .grid {
         max-width: 580px;
-        margin-left: 450px;
-        margin-right: 450px;
+        justify-content: center;
     }
    .weather {
        width: 100px
@@ -252,12 +251,12 @@ footer {
    .pumpkins {
         display: block;
         float: right;
-        padding-right: 200px;
+        padding-right: 150px;
         height: 300px;
         width: auto;
     }
     .google {
-        margin: 10px 0 30px 200px;
+        margin: 10px 0 30px 150px;
         border: 1px solid #000;
         box-shadow: 0 0 30px #555;
         padding: 1rem;
@@ -267,7 +266,7 @@ footer {
         text-align: left;
     }
     .article {
-        padding-left: 200px;
+        padding-left: 150px;
     }
   
 }
