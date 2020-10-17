@@ -137,7 +137,6 @@ ul {
 }
 .contentbox {
     display: block;
-    position: relative;
     margin: 10px auto;
     border: 1px solid var(--accent2-color);
     padding: 15px;
@@ -201,6 +200,12 @@ footer {
     .long {
         height: 1000px;
         width: auto;
+        display: block;
+        margin: 10px auto;
+        border: 1px solid var(--accent2-color);
+        padding: 15px;
+        background-color: whitesmoke;
+        font-style: var(--paragraph-font);
     }
     header img {
         width: 100%;
