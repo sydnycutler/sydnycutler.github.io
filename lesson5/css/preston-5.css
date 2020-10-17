@@ -125,12 +125,12 @@ ul {
 }
 .forecast {
     text-align: center;
-    justify-content: center;
 }
 .grid { 
 	display: grid;
     grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
     max-width: 580px;
+    justify-content: center;
 }
 .grid-block {
 	background-color: whitesmoke;
