@@ -123,12 +123,14 @@ ul {
     width: 400px;
     box-shadow: 0 0 30px #111;
 }
+.forecast {
+    text-align: center;
+    align-content: center;
+}
 .grid { 
 	display: grid;
     grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
     max-width: 580px;
-    text-align: center;
-    align-content: center;
 }
 .grid-block {
 	background-color: whitesmoke;
