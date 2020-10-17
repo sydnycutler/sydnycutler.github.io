@@ -8,7 +8,13 @@ font-family: "Montserrat", "Lato", sans-serif;
 --heading-font: "Montserrat", sans-serif;
 --paragraph-font: "Lato", sans-serif,
 }
-
+@font-face { font-family: 'ETmodules'; 
+    src:url('https://www.understandingcode.com/wp-content/themes/Divi/fonts/modules.eot'); 
+    src:url('https://www.understandingcode.com/wp-content/themes/Divi/fonts/modules.eot?#iefix') format('embedded-opentype'), 
+      url('https://www.understandingcode.com/wp-content/themes/Divi/fonts/modules.ttf') format('truetype'), 
+      url('https://www.understandingcode.com/wp-content/themes/Divi/fonts/modules.woff') format('woff'), 
+      url('https://www.understandingcode.com/wp-content/themes/Divi/fonts/modules.svg#ETmodules') format('svg');
+  }
 body {
     background-color: white;
     padding: 0;
@@ -137,19 +143,19 @@ ul {
 }
 .address::before {
     font-family: ETmodules !important;
-	content: "\f276";
+	content: "\e01d";
   	color: black;
   	font-size: 1em;
 }
 .number::before {
     font-family: ETmodules !important;
-	content: "\f879";
+	content: "\e00b";
   	color: black;
   	font-size: 1em;
 }
 .site::before {
     font-family: ETmodules !important;
-	content: "\f0e0";
+	content: "\e076";
   	color: black;
   	font-size: 1em;
 }
