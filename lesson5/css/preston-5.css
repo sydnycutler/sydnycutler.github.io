@@ -21,8 +21,8 @@ body {
     margin: 0;
     font-family: var(--paragraph-font)
 }
-.banner {
-    display: block;
+#id {
+    display: none;
     margin: 10px;
     border: 1px solid white;
     text-align: center;
