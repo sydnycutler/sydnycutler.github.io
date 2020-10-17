@@ -127,7 +127,8 @@ ul {
     text-align: center;
 }
 .grid { 
-	display: grid;
+    display: grid;
+    place-items: center;
     grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
 }
 .grid-block {
@@ -140,6 +141,7 @@ ul {
     display: none;
 }
 .contact {
+    display: block;
     text-align: right;
     margin-right: 150px;
     margin-top: 50px;
@@ -242,8 +244,8 @@ footer {
         color: white;
     }
     .grid {
-        max-width: 580px;
-        justify-content: center;
+        display: flex;
+        max-width: 570px;
     }
    .weather {
        width: 100px
