@@ -130,10 +130,10 @@ ul {
 	display: grid;
     grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
     max-width: 580px;
-    justify-content: center;
+    justify-self: center;
 }
 .grid-block {
-	background-color: whitesmoke;
+    background-color: whitesmoke;
 }
 .weather {
     max-width: 85px;
