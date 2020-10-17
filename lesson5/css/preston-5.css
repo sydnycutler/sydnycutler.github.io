@@ -130,6 +130,10 @@ ul {
 .pumpkins {
     display: none;
 }
+.contact {
+    text-align: right;
+    margin-right: 200px;
+}
 .contentbox {
     display: block;
     position: relative;
@@ -219,6 +223,13 @@ footer {
    .weather {
        width: 100px
    }
+   .pumpkins {
+        display: block;
+        float: right;
+        padding-right: 200px;
+        height: 300px;
+        width: auto;
+    }
     .google {
         margin: 10px 0 30px 200px;
         border: 1px solid #000;
@@ -231,11 +242,7 @@ footer {
     .article {
         padding-left: 200px;
     }
-    .pumpkins {
-        display: block;
-        float: right;
-        padding-right: 200px;
-        height: 300px;
-        width: auto;
+    .long {
+        height: 400px;
     }
 }
