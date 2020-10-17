@@ -244,8 +244,9 @@ footer {
         color: white;
     }
     .grid {
-        display: flex;
-        max-width: 570px;
+        display: grid;
+        max-width: 550px;
+        place-items: center;
     }
    .weather {
        width: 100px
