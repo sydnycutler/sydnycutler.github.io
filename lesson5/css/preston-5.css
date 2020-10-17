@@ -256,7 +256,6 @@ footer {
         display: grid;
         max-width: 550px;
         place-items: center;
-        padding-left: 20px;
     }
    .weather {
        width: 100px
