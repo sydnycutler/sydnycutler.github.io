@@ -153,8 +153,10 @@ ul {
 .fa {
     padding: 20px;
     font-size: 10px;
+    margin-right: 200px;
+    margin-top: 100px;
     width: 10px;
-    text-align: center;
+    text-align: right;
     text-decoration: none;
     border-radius: 50%;
   }
@@ -164,33 +166,22 @@ ul {
 .fa-facebook {
   background: #3B5998;
   color: white;
-  text-align: right;
-    margin-right: 200px;
-    margin-top: 100px;
 }
 .fa-twitter {
   background: #55ACEE;
   color: white;
-  text-align: right;
-    margin-right: 200px;
-    margin-top: 100px;
 }
 .fa-instagram {
     background: #7232bd;
     color: white;
-    text-align: right;
-    margin-right: 200px;
-    margin-top: 100px;
   }
   
 .fa-pinterest {
     background: #cb2027;
     color: white;
-    text-align: right;
-    margin-right: 200px;
-    margin-top: 100px;
   }
 footer {
+    margin-top: 10px;
     text-align: center;
 }
 @media only screen and (min-width: 37.5em) {
