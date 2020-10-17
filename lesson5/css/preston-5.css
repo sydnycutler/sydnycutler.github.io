@@ -145,12 +145,6 @@ ul {
 .article {
     max-width: 400px;
 }
-.contact {
-    display: block;
-    margin: 0 auto;
-    margin-right: 200px;
-    padding: 1.5rem;
-}
 .fa {
     padding: 20px;
     font-size: 10px;
