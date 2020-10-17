@@ -120,9 +120,9 @@ ul {
     background-color: whitesmoke;
     border: 1px solid black;
     padding: 1.5rem;
-    width: 350px;
+    width: 450px;
     box-shadow: 0 0 30px #111;
-    font-size: 20px;
+    font-size: 10px;
 }
 .forecast {
     text-align: center;
