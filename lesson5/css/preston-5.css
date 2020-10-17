@@ -197,7 +197,7 @@ ul {
     color: white;
   }
 footer {
-    margin-top: 10px;
+    margin-top: 20px;
     text-align: center;
 }
 @media only screen and (min-width: 37.5em) {
@@ -213,7 +213,7 @@ footer {
         opacity: .8;
     }
     .long {
-        height: 1000px;
+        height: 350px;
         width: auto;
         display: block;
         margin: 10px auto;
