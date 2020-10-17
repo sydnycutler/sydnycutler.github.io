@@ -147,7 +147,7 @@ ul {
 .contact {
     position: absolute;
     top: 0px;
-    right: 200px;
+    left: 200px;
     margin: 0 auto;
 }
 .fa {
