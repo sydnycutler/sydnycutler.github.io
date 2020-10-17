@@ -5,9 +5,8 @@ try {
     alert('Error with code or your browser does not support Locale');
   }  
   function toggleMenu() {
-    document
-    .getElementsByClassName("navigation") [0]
-    .classList.toggle("responsive");
+    document.getElementsByClassName("navigation") [0];
+    document.classList.toggle("responsive");
   }
   var d = new Date();
     if (d.getDay() !== 5) {
