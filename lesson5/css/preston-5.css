@@ -130,7 +130,8 @@ ul {
 	display: grid;
     grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
     max-width: 580px;
-    margin-left: 350px;
+    margin-left: 450px;
+    margin-right: 450px;
 }
 .grid-block {
     background-color: whitesmoke;
