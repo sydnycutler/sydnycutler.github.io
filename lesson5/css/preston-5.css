@@ -126,6 +126,7 @@ ul {
 .grid { 
 	display: grid;
     grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
+    max-width: 580px;
 }
 .grid-block {
 	background-color: whitesmoke;
