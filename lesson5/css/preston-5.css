@@ -130,10 +130,28 @@ ul {
 .pumpkins {
     display: none;
 }
-.contact {
+#contact {
     text-align: right;
     margin-right: 200px;
     margin-top: 30px;
+}
+.address::before {
+    font-family: ETmodules !important;
+	content: "\f276";
+  	color: black;
+  	font-size: 1em;
+}
+.number::before {
+    font-family: ETmodules !important;
+	content: "\f879";
+  	color: black;
+  	font-size: 1em;
+}
+.site::before {
+    font-family: ETmodules !important;
+	content: "\f0e0";
+  	color: black;
+  	font-size: 1em;
 }
 .contentbox {
     display: block;
