@@ -198,6 +198,10 @@ footer {
         box-shadow: 0 0 30px #111;
         opacity: .8;
     }
+    .long {
+        height: 1000px;
+        width: auto;
+    }
     header img {
         width: 100%;
     }
@@ -248,7 +252,5 @@ footer {
     .article {
         padding-left: 200px;
     }
-    .long {
-        height: 500px;
-    }
+  
 }
