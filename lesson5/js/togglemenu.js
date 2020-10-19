@@ -11,7 +11,7 @@ try {
   }
   function showhide() {
     var d = new Date(5);
-    var s = document.getElementById(d.getDay());
+    var s = document.getElementsByClassName("banner")(d.getDay());
     s.style.display = (s.style.display == 'block') ? 'none' : 'block';
 }
 showhide();
