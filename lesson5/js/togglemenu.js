@@ -9,10 +9,9 @@ try {
     .getElementsByClassName("navigation") [0]
     .classList.toggle("responsive");
   }
-  var d = new Date();
-    if (d.getDay() !== 5) {
-          document.getElementsByClassName("banner");
-        } 
-    else {
-      document.getElementsByClassName("banner").style.visibility = "hidden";
-    }       
+  function showhide() {
+    var d = new Date();
+    var s = document.getElementById(d.getDay());
+    s.style.display = (s.style.display == 'block') ? 'none' : 'block';
+}
+showhide();
