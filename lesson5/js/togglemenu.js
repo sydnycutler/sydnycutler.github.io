@@ -11,7 +11,7 @@ try {
   }
   function showhide() {
     var d = new Date();
-    if (d.getDate() == 5) {
+    if (d.getDay() == 5) {
       document.getElementById("banner").style.display = "block";
     }
 }
