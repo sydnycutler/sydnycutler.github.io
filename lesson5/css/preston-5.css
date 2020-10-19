@@ -21,12 +21,13 @@ body {
     margin: 0;
     font-family: var(--paragraph-font)
 }
-.banner {
+#banner {
     display: none;
     margin: 10px;
     border: 1px solid white;
     text-align: center;
     background-color: var(--primary-color);
+    font-weight: bolder;
 }
 header {
     background-color: var(--accent2-color);

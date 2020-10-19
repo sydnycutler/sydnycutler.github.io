@@ -10,8 +10,8 @@ try {
     .classList.toggle("responsive");
   }
   function showhide() {
-    var d = new Date(5);
-    var s = document.getElementsByClassName("banner")(d.getDay());
-    s.style.display = (s.style.display == 'block') ? 'none' : 'block';
+    var d = new Date();
+    if (d.getDate() == 5) {
+      document.getElementById("banner").style.display = "block";
+    }
 }
-showhide();
