@@ -46,18 +46,19 @@
 <main>
     <h2 class="title">Preston Idaho</h2>
     <div class="herodiv">
-        <img class="hero" src="/lesson5/images/foggy-forest.jpg">
+        <figure class="hero">
+            <img src="../lesson5/images/pexels-tahir-shaw-186980.jpg" alt="banner img"srcset="images/large.jpg 1x,images/medium.jpg 2x,
+            images/small.jpg 3x">
+        </figure>
             <section class="summary">
             <h2>Weather Summary</h2>
-            <p>Forecast: <span id="forecast">56 / 38 °F</span></p>
-            <p>Wind Speed: <span id="wind">13 mph</span></p>
-            <p>Humidity: <span id="humidity">24%</span></p>
-            <p>Dew Point: <span id="dew">20 °F</span></p>
-            <p>Last Reported: <span id="date">October 15, 2020 at 1:30pm</span></p>
             <input type="text" id="temp"> Temperature </input>
             <input type="text" id="windSpeed"> Wind Speed </input>
             <div onload="doInputOutput();">Wind Chill</div>
             <div id="output"></div>
+            <p>Humidity: <span id="humidity">24%</span></p>
+            <p>Dew Point: <span id="dew">20 °F</span></p>
+            <p>Last Reported: <span id="date">October 15, 2020 at 1:30pm</span></p>
             </section>
     </div>
 
