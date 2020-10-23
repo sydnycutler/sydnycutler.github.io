@@ -148,6 +148,7 @@ ul {
 .column {
     margin: 0 auto 0 auto;
     width: 100%;
+    padding-left: 100px;
     border-right: 1px solid #333;
 	column-count: 6;
     column-gap: 0;
