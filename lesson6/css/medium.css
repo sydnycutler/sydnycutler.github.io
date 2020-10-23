@@ -3,4 +3,9 @@
         height: 300px;
         width: auto;
     }
+    .hero {
+        height: auto;
+        width: 100%;
+        text-align:center;
+    }
 }

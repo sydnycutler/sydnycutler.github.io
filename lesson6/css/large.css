@@ -39,6 +39,11 @@
     .navigation li a {
         color: white;
     }
+    .hero {
+        height: auto;
+        width: 100%;
+        text-align:center;
+    }
     .grid {
         display: grid;
         max-width: 550px;
