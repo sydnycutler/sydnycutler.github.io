@@ -127,7 +127,7 @@ ul {
 .forecast {
     margin: 0 auto 0 auto;
     text-align: center;
-    width: 75%;
+    width: 100%;
 }
 .col-head {
 	display: block;
@@ -139,7 +139,7 @@ ul {
 	background-color: var(--accent2-color);
 	color: white;
 }
-.data {
+.weather {
 	display: block;
 	padding: 0 5px 5px;
 	font-size: 0.8rem;
