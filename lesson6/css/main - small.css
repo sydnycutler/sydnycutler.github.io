@@ -119,10 +119,10 @@ ul {
     display: block;
     background-color: whitesmoke;
     border: 1px solid black;
-    padding: 1.5rem;
+    padding: .9rem;
     width: 400px;
     box-shadow: 0 0 30px #111;
-    font-size: 15px;
+    font-size: 12px;
 }
 .forecast {
     margin: 0 auto 0 auto;
@@ -146,7 +146,7 @@ ul {
 	text-align: center;
 }
 .column {
-    margin-right: 100px;
+    margin: 0 auto 0 auto;
     width: 100%;
     border-right: 1px solid #333;
 	column-count: 6;
