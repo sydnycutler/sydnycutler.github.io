@@ -47,18 +47,19 @@
     <h2 class="title">Preston Idaho</h2>
     <div class="herodiv">
         <picture class="hero">
-            <source srcset="images/wdd230_image_medium.jpg" media="(min-width: 40px) and (max-width: 59px)">
-            <source srcset="images/wdd230_image_large.jpg" media="(min-width: 60em)">
+            <source media="(min-width: 40px) and (max-width: 59px)" srcset="images/wdd230_image_medium.jpg">
+            <source media="(min-width: 60em)" srcset="images/wdd230_image_large.jpg">
             <img src="/lesson6/images/Original/wdd230_image_small.jpg" alt="hero image">
         </picture>
             <section class="summary">
             <h2>Weather Summary</h2>
-            <input type="text" id="temp"> Temperature </input>
-            <input type="text" id="windSpeed"> Wind Speed </input>
-            <div onload="doInputOutput();">Wind Chill</div>
-            <div id="output"></div>
-            <p>Humidity: <span id="humidity">24%</span></p>
-            <p>Dew Point: <span id="dew">20 °F</span></p>
+            <p>Temperature:
+                   <p>High: <span>50</span>&deg;</p>
+                   <p>Low: <span>32</span>&deg;</p>
+                   <p>Chance of Precipitation: 41%</p>
+                   <p>Wind: 8mph NW</p>
+                   <p>Wind Chill: <span id="windChill"></span>&deg;</p>  
+            </ul> </p>
             <p>Last Reported: <span id="date">October 15, 2020 at 1:30pm</span></p>
             </section>
     </div>

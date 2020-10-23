@@ -1,19 +1,6 @@
-function doInputOutput () {
-    var temp = parseFloat (document.getElementById('temp').value);
-    var windSpeed = parseFloat (document.getElementById('windSpeed').value);
-    var itsCold = windChill(temp,windSpeed)
-    
-    var div = document.getElementById ('output');
-        div.innerHTML = itsCold;
-    }
-    
-    function windChill (t,v) {
-    
-    var itFeelsLike = 35.74 + 0.6215 * t -35.75* a + .4275 * t * a;
-    var a = Math.pow(v,.16);
+var temp= 50;
+var speed= 8;
+var windChill= (35.74 + (0.6215 * temp))-(35.75 * Math.pow(speed,0.16)) + (0.4275*temp*Math.pow(speed,0.16));
 
-    return itFeelslike;
-    
-    }
-
-    
+var windChill= Math.round(windChill);
+document.getElementById("windChill").innerHTML= windChill;
