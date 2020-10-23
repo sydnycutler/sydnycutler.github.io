@@ -127,9 +127,8 @@ ul {
     font-size: 10px;
 }
 .forecast {
+    margin: 0 auto 0 auto;
     text-align: center;
-    place-items: center;
-    align-content: center;
     width: 100%;
 }
 .col-head {
@@ -149,7 +148,7 @@ ul {
 	text-align: center;
 }
 .column {
-    text-align: center;
+    margin: 0 auto 0 auto;
     border-right: 1px solid #333;
 	column-count: 6;
     column-gap: 0;
