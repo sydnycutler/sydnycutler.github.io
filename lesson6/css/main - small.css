@@ -128,7 +128,7 @@ ul {
 }
 .forecast {
     text-align: center;
-    max-width: 570px;
+    width: 100%;
 }
 .col-head {
 	display: block;
@@ -159,9 +159,6 @@ ul {
 }
 .column-block {
 	background-color: whitesmoke;
-}
-.weather {
-    max-width: 85px;
 }
 .pumpkins {
     display: none;
