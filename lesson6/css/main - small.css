@@ -125,9 +125,9 @@ ul {
     font-size: 15px;
 }
 .forecast {
-    margin: 0 auto 0 10%;
+    margin: 0 auto 0 auto;
     text-align: center;
-    width: 100%;
+    width: 75%;
 }
 .col-head {
 	display: block;
