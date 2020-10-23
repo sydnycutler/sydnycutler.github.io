@@ -53,12 +53,15 @@
    .weather {
        width: 100px
    }
-   .pumpkins img {
+   .pumpkins {
         display: block;
         float: right;
         padding-right: 150px;
         height: 300px;
         width: auto;
+    }
+    .pumpkins img {
+        float: right;
     }
     .google {
         margin: 10px 0 30px 150px;

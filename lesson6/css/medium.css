@@ -8,11 +8,13 @@
         width: 100%;
         text-align:center;
     }
-    .pumpkins img {
+    .pumpkins {
         display: block;
-        float: right;
         padding-right: 50px;
         height: 150px;
         width: auto;
+    }
+    .pumpkins img {
+        float: right;
     }
 }
