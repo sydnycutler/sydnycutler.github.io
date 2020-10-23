@@ -1,8 +1,19 @@
-    function windChill(){
-        var temp = parseFloat(document.getElementById("temp").innerText);
-        var speed = parseFloat(document.getElementById("speed").innerText);
-        var result = "";
+function doInputOutput () {
+    var temp = parseFloat (document.getElementById('temp').value);
+    var windSpeed = parseFloat (document.getElementById('windSpeed').value);
+    var itsCold = windChill(temp,windSpeed)
     
-        (temp <= 50 && speed > 10) ? result = ((35.74+(0.6215 * temp)) - (35.75*Math.pow(speed,0.16))+(0.4275*temp)*(Math.pow(speed,0.16))).toFixed(2) : result = "N/A";
-    document.getElementById("windChill").innerHTML = result;
+    var div = document.getElementById ('output');
+        div.innerHTML = itsCold;
     }
+    
+    function windChill (t,v) {
+    
+    var itFeelsLike = 35.74 + 0.6215 * t -35.75* a + .4275 * t * a;
+    var a = Math.pow(v,.16);
+
+    return itFeelslike;
+    
+    }
+
+    
