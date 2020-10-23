@@ -125,7 +125,8 @@ ul {
     font-size: 15px;
 }
 .forecast {
-    margin: 0 auto 0 25%;
+    margin: 0 auto 0 auto;
+    margin-left: 100px;
     text-align: center;
     width: 100%;
 }
