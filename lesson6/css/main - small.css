@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat&display=swap');
+/*@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat&display=swap');*/
 :root {
 --primary-color: #ffd900f5;
 --secondary-color: #3399cc;
@@ -8,13 +8,7 @@ font-family: "Montserrat", "Lato", sans-serif;
 --heading-font: "Montserrat", sans-serif;
 --paragraph-font: "Lato", sans-serif,
 }
-@font-face { font-family: 'ETmodules'; 
-    src:url('https://www.understandingcode.com/wp-content/themes/Divi/fonts/modules.eot'); 
-    src:url('https://www.understandingcode.com/wp-content/themes/Divi/fonts/modules.eot?#iefix') format('embedded-opentype'), 
-      url('https://www.understandingcode.com/wp-content/themes/Divi/fonts/modules.ttf') format('truetype'), 
-      url('https://www.understandingcode.com/wp-content/themes/Divi/fonts/modules.woff') format('woff'), 
-      url('https://www.understandingcode.com/wp-content/themes/Divi/fonts/modules.svg#ETmodules') format('svg');
-  }
+
 body {
     background-color: white;
     padding: 0;
