@@ -116,11 +116,12 @@ ul {
     margin: 0 auto 0 auto;
 }
 .summary {
-    display: block;
-    background-color: whitesmoke;
-    border: 1px solid black;
+    display: grid;
+    justify-content: center;
     padding: .9rem;
     width: 400px;
+    background-color: whitesmoke;
+    border: 1px solid black;
     box-shadow: 0 0 30px #111;
     font-size: 12px;
 }
