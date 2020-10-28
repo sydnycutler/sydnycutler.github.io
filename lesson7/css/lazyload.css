@@ -20,11 +20,12 @@ body {
     align-items: center;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    border: solid 40px #FFF;
+
 }
 .photo {
     grid-column-start: 2/3;
     grid-column-end: 3/4;
+    border: solid 40px #FFF;
 }
 article img[data-src] {
     filter: blur(0.2em);
