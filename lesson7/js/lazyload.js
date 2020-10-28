@@ -13,7 +13,7 @@ const imgOptions = {
     rootMargin = "0px 0px 50px 0px"
 };
 if("IntersectionObserver" in window) {
-const imgObserver = new IntersectionObserver((items, imgObserver) => {
+const imgObserver = new IntersectionObserver((items, observer) => {
 items.forEach((item) => {
     if (!item.isIntersecting) {
         return;
