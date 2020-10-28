@@ -4,7 +4,6 @@ const preloadImage = (image) => {
     image.setAttribute("src", image.getAttribute("data-src"));
     image.onload = () => {
         image.removeAttribute("data-src");
-        const src = img.getAttribute("data-src");
     };
     };
 

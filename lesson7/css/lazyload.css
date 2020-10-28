@@ -1,10 +1,9 @@
-
 body {
     margin: 0;
     font-family: Raleway;
     font-size: 16pt; 
     text-align: center;
-    background: hsl(0, 0%, 96%);
+    background: whitesmoke
  }
  .title {
     margin-bottom: 10px;
@@ -13,21 +12,21 @@ body {
     color: gray;
     font-size: 1em;
     margin-top: 0;
- }
-  
- .photo { 
-    display: block; 
-    margin: 30vh auto;
-    box-shadow: 0px 10px 40px rgba(0,0,0,.3);
-    background: #eee;
-    border: solid 40px #FFF;
-    opacity: 0;
-    transition: opacity .35s linear;
- }
- .photo[data-scroll="in"] {
-    opacity: 1;
-    transition-duration: 1s;
- }
+ } 
+.images {
+    padding: 4em 0;
+    display: grid;
+    gap: 20px;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.from-left {
+    grid-column: 2/3;
+}
+.from-right {
+    grid-column: 3/4;
+}
 article img[data-src] {
     filter: blur(0.2em);
   }
