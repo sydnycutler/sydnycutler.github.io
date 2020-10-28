@@ -5,6 +5,9 @@ body {
     text-align: center;
     background: whitesmoke
  }
+ main {
+     display: grid;
+ }
  .title {
     margin-bottom: 10px;
  }
@@ -27,11 +30,11 @@ body {
     grid-column-end: 3/4;
     border: solid 40px #FFF;
 }
-article img[data-src] {
+img[data-src] {
     filter: blur(0.2em)!important;
   }
   
-  article img {
+img {
     filter: blur(0em);
     transition: filter 0.5s;
   }
