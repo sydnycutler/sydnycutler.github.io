@@ -28,7 +28,7 @@ body {
     border: solid 40px #FFF;
 }
 article img[data-src] {
-    filter: blur(0.2em);
+    filter: blur(0.2em)!important;
   }
   
   article img {
