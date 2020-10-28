@@ -1,0 +1,229 @@
+/*@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat&display=swap');*/
+:root {
+--primary-color: #ffd900f5;
+--secondary-color: #3399cc;
+--accent1-color: #c0bfbd;
+--accent2-color: #ff66c4;
+font-family: "Montserrat", "Lato", sans-serif;
+--heading-font: "Montserrat", sans-serif;
+--paragraph-font: "Lato", sans-serif,
+}
+
+body {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    font-family: var(--paragraph-font)
+}
+#banner {
+    display: none;
+    text-align: center;
+    background-color: var(--primary-color);
+}
+#banner p {
+    margin: 10px;
+    padding: 2px;
+    font-weight: bolder;
+}
+header {
+    background-color: var(--accent2-color);
+    padding: 5px 0;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+header img {
+    width: 50px;
+    height: auto;
+}
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+.headings h1 {
+    font-size: 1.6rem;
+    margin: 0 0 0 17px;
+    font-style: var(--heading-font);
+}
+h2 {
+    font-style: var(--heading-font) !important;
+}
+.title {
+    margin-left: 150px;
+}
+.motto {
+    font-style: italic;
+    letter-spacing: 1pt;
+    color: white;
+    margin-left: 20px;
+    font-size: .9rem;
+}
+nav {
+    margin: 0 auto;
+    max-width: 1000px;
+    background-color: var(--secondary-color)
+}
+.navigation {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+.navigation li:first-child {
+    display: block;
+}
+.navigation li {
+    display: none;
+}
+.navigation a {
+    display: block;
+    color: white;
+    padding: .75rem;
+    text-align: center;
+    text-decoration: none;
+}
+.navigation a:hover {
+    color: white;
+    background-color: var(--accent2-color);
+    font-weight: 700;
+}
+.active {
+    background-color: #016ca1;
+}
+.responsive li {
+    display: block;
+}
+ul {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+.herodiv {
+    margin: 10px auto;
+    position: relative;
+    display: block;
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height:100%;
+}
+.hero {
+    height: auto;
+    width: 100%;
+    margin: 0 auto 0 auto;
+}
+.summary {
+    display: grid;
+    justify-content: center;
+    padding: .9rem;
+    width: 400px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    box-shadow: 0 0 30px #111;
+    font-size: 12px;
+}
+.forecast {
+    margin: 0 auto 0 auto;
+    text-align: center;
+    width: 100%;
+}
+.col-head {
+	display: block;
+	padding: 5px;
+	border-bottom: 1px solid #333;
+    text-align: center;
+    font-weight: 700;
+	font-size: 1rem;
+	background-color: var(--accent2-color);
+	color: white;
+}
+.weather {
+	display: block;
+	padding: 0 5px 5px;
+	font-size: 0.8rem;
+	text-align: center;
+}
+.column {
+    margin: 0 auto 0 auto;
+    width: 100%;
+    border-right: 1px solid #333;
+	column-count: 6;
+    column-gap: 0;
+    place-items: center;
+}
+.column img {
+    width: 50%;
+    border-radius: 100px;
+	padding: 0.25rem;
+}
+.column-block {
+	background-color: whitesmoke;
+}
+.pumpkins {
+    display: none;
+}
+.contact {
+    display: block;
+    text-align: right;
+    margin-right: 150px;
+    margin-top: 50px;
+}
+.contentbox {
+    display: block;
+    margin: 10px auto;
+    border: 1px solid var(--accent2-color);
+    padding: 15px;
+    background-color: var(--secondary-color);
+    font-style: var(--paragraph-font);
+}
+.google {
+    display: none;
+}
+.article {
+    max-width: 400px;
+}
+.fa {
+    padding: 20px;
+    font-size: 10px;
+    width: 10px;
+    text-decoration: none;
+    border-radius: 50%;
+    float: right;
+  }
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  margin-right: 150px;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+    background: #7232bd;
+    color: white;
+} 
+.fa-pinterest {
+    background: #cb2027;
+    color: white;
+}
+  .long {
+    height: 300px;
+    width: auto;
+    display: block;
+    margin: 10px auto;
+    border: 1px solid var(--accent2-color);
+    padding: 15px;
+    background-color: whitesmoke;
+    font-style: var(--paragraph-font);
+}
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
