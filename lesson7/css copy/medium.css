@@ -1,20 +1,7 @@
 @media only screen and (min-width: 25em) {
-    .long {
-        height: 300px;
-        width: auto;
-    }
-    .hero {
-        height: auto;
-        width: 100%;
-        text-align:center;
-    }
-    .pumpkins {
-        display: block;
-        padding-right: 50px;
-        height: 150px;
-        width: auto;
-    }
-    .pumpkins img {
-        float: right;
+    img {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        width: 300px;
     }
 }

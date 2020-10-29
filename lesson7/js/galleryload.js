@@ -1,14 +1,33 @@
-let lazyImages = [...document.querySelectorAll(".gallery")];
+let imagesToLoad = document.querySelectorAll("img[data-src]");
+const imgOption = {
+    threshold:1,
+    rootMargin: "0px 0px 50px 0px"
 
-function lazyLoad() {
-  lazyImages.forEach(image => {
-    if(image.offsetTop < window.scrollY + 150) {
-      image.setAttribute("src", image.getAttribute("data-src"));
-      image.classList.add("loaded");
-    }
-  });
-}
+};
+const loadImages = (image) => {
+    image.setAttribute("src", image.getAttribute("data-src"));
+    image.onload = () => {
+        image.removeAttribute("data-src");
+    };
+};
 
-lazyLoad();
+if('IntersectionObserver' in window) {
+    const observer = new IntersectionObserver((items, observer) => {
+      items.forEach((item) => {
+        if(item.isIntersecting) {
+          loadImages(item.target);
+          observer.unobserve(item.target);
+        }
+      });
+    });
+    imagesToLoad.forEach((img) => {
+      observer.observe(img);
+    });
+  } else {
+    imagesToLoad.forEach((img) => {
+      loadImages(img);
+    });
+  }
 
-window.addEventListener("scroll", lazyLoad);
+imagesToLoad();
+window.addEventListener("scroll", imagesToLoad);
