@@ -22,7 +22,7 @@
     }
     .gallery {
     grid-column: 1/4;
-    width: 400px;
-    height: 200px;
+    width: 450px;
+    height: auto;
     }
 }

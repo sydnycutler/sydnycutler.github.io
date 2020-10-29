@@ -23,7 +23,7 @@
     .gallery {
         grid-column-start: 2/3;
         grid-column-end: 3/4;
-        width: 400px;
-        height: 200px;
+        width: 450px;
+        height: auto;
     }
 }
