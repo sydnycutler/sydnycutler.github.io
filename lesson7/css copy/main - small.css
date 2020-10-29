@@ -104,6 +104,10 @@ figure {
     align-items: center;
     border: 3px solid var(--accent2-color);
 }
+figcaption {
+    padding: 10px;
+    text-align: center;
+}
 img {
     display: grid;
     grid-template-columns: 1fr;
