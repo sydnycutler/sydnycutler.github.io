@@ -100,6 +100,10 @@ ul {
     margin-inline-end: 0px;
 
 }
+figure {
+    display: grid;
+    align-items: center;
+}
 img {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
