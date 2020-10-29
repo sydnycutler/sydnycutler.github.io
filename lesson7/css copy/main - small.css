@@ -108,6 +108,9 @@ ul {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
+figure {
+    border: 3px solid var(--accent2-color);
+}
 figcaption {
     padding: 10px;
     text-align: center;
@@ -116,10 +119,9 @@ figcaption {
     box-shadow: 0 0 50px #333;
 }
 .gallery {
-  width: auto;
+  width: 200px;
   background-position: center;
   margin-bottom: 5vh;
-  border: 3px solid var(--accent2-color);
 }
 .fa {
     padding: 20px;
