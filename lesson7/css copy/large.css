@@ -12,10 +12,12 @@
     .navigation li a {
         color: white;
     }
-    img {
+    .images {
+        padding: 4em 0;
         display: grid;
+        gap: 20px;
+        align-items: center;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
-        width: 300px;
     }
 }
