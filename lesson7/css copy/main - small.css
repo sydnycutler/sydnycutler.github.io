@@ -103,6 +103,7 @@ ul {
 figure {
     display: grid;
     align-items: center;
+    border: 3px solid var(--accent2-color);
 }
 img {
     grid-template-columns: 1fr;
