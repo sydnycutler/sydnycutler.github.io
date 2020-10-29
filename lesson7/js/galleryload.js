@@ -1,9 +1,9 @@
-let lazyImages = [...document.querySelectorAll(".img-lazy")];
+let lazyImages = [...document.querySelectorAll(".gallery")];
 
 function lazyLoad() {
   lazyImages.forEach(image => {
     if(image.offsetTop < window.scrollY + 150) {
-      image.style.backgroundImage = `url(${image.getAttribute('data-src')})`
+      image.setAttribute("src", image.getAttribute("data-src"));
       image.classList.add("loaded");
     }
   });
