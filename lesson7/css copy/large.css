@@ -23,6 +23,6 @@
     .gallery {
     grid-column: 1/4;
     width: 450px;
-    height: auto;
+    height: 250px;
     }
 }

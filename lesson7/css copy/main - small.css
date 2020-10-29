@@ -122,7 +122,7 @@ figcaption {
 }
 .gallery {
   width: 450px;
-  height: auto;
+  height: 250px;
   align-items: center;
   margin-bottom: 5px;
   grid-column: 1/1;
