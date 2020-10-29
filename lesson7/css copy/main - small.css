@@ -103,7 +103,7 @@ ul {
 .images {
     padding: 4em 0;
     display: grid;
-    gap: 20px;
+    gap: 10px;
     align-items: center;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -122,7 +122,7 @@ figcaption {
   width: 400px;
   background-position: center;
   margin-bottom: 5vh;
-  grid-column-start: 3;
+  grid-column: 1/1;
 }
 .fa {
     padding: 20px;
