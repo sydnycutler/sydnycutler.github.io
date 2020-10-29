@@ -101,7 +101,7 @@ ul {
 
 }
 .images {
-    padding: 10px 0;
+    padding: 0;
     display: grid;
     gap: 5px;
     align-items: center;
