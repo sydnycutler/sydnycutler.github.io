@@ -1,6 +1,6 @@
 @media only screen and (min-width: 25em) {
     .images {
-        padding: 4em 0;
+        padding: 10px 0;
         display: grid;
         gap: 5px;
         align-items: center;
@@ -10,5 +10,7 @@
     .gallery {
         grid-column-start: 2/3;
         grid-column-end: 3/4;
+        width: 300px;
+        height: 200px;
     }
 }

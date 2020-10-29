@@ -101,7 +101,7 @@ ul {
 
 }
 .images {
-    padding: 4em 0;
+    padding: 10px 0;
     display: grid;
     gap: 5px;
     align-items: center;
@@ -119,8 +119,8 @@ figcaption {
     box-shadow: 0 0 50px #333;
 }
 .gallery {
-  width: 400px;
-  height: 300px;
+  width: 200px;
+  height: 100px;
   background-position: center;
   margin-bottom: 5vh;
   grid-column: 1/1;
