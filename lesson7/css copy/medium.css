@@ -1,4 +1,17 @@
 @media only screen and (min-width: 40em) {
+    .navigation {
+        display: flex;
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+    .navigation li a {
+        color: white;
+    }
     .images {
         padding: 10px 0;
         display: grid;
