@@ -123,7 +123,6 @@ figcaption {
 .gallery {
   width: 450px;
   height: 250px;
-  vertical-align: middle;
   margin-right: auto;
   margin-left: auto;
   justify-content: center;
