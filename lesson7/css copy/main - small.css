@@ -119,10 +119,10 @@ figcaption {
     box-shadow: 0 0 50px #333;
 }
 .gallery {
-  width: auto;
+  width: 400px;
   height: auto;
-  background-position: center;
-  margin-bottom: 5vh;
+  align-items: center;
+  margin-bottom: 5px;
   grid-column: 1/1;
 }
 .fa {
