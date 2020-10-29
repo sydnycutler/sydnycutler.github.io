@@ -119,9 +119,10 @@ figcaption {
     box-shadow: 0 0 50px #333;
 }
 .gallery {
-  width: 200px;
+  width: 400px;
   background-position: center;
   margin-bottom: 5vh;
+  grid-column-start: 3;
 }
 .fa {
     padding: 20px;
