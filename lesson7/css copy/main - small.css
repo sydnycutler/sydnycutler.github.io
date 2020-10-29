@@ -100,91 +100,20 @@ ul {
     margin-inline-end: 0px;
 
 }
-.herodiv {
-    margin: 10px auto;
-    position: relative;
-    display: block;
+.gallery:hover {
+    box-shadow: 0 0 50px #333;
 }
-.hero img {
-    display: block;
-    width: 100%;
-    height:100%;
+.gallery {
+  width: 100%;
+  height: 800px;
+  background-size: cover;
+  image-rendering: pixelated;
+  background-position: center;
+  margin-bottom: 5vh;
 }
-.hero {
-    height: auto;
-    width: 100%;
-    margin: 0 auto 0 auto;
-}
-.summary {
-    display: grid;
-    justify-content: center;
-    padding: .9rem;
-    width: 400px;
-    background-color: whitesmoke;
-    border: 1px solid black;
-    box-shadow: 0 0 30px #111;
-    font-size: 12px;
-}
-.forecast {
-    margin: 0 auto 0 auto;
-    text-align: center;
-    width: 100%;
-}
-.col-head {
-	display: block;
-	padding: 5px;
-	border-bottom: 1px solid #333;
-    text-align: center;
-    font-weight: 700;
-	font-size: 1rem;
-	background-color: var(--accent2-color);
-	color: white;
-}
-.weather {
-	display: block;
-	padding: 0 5px 5px;
-	font-size: 0.8rem;
-	text-align: center;
-}
-.column {
-    margin: 0 auto 0 auto;
-    width: 100%;
-    border-right: 1px solid #333;
-	column-count: 6;
-    column-gap: 0;
-    place-items: center;
-}
-.column img {
-    width: 50%;
-    border-radius: 100px;
-	padding: 0.25rem;
-}
-.column-block {
-	background-color: whitesmoke;
-}
-.pumpkins {
-    display: none;
-}
-.contact {
-    display: block;
-    text-align: right;
-    margin-right: 150px;
-    margin-top: 50px;
-}
-.contentbox {
-    display: block;
-    margin: 10px auto;
-    border: 1px solid var(--accent2-color);
-    padding: 15px;
-    background-color: var(--secondary-color);
-    font-style: var(--paragraph-font);
-}
-.google {
-    display: none;
-}
-.article {
-    max-width: 400px;
-}
+.loaded {
+    image-rendering: auto;
+  }
 .fa {
     padding: 20px;
     font-size: 10px;
