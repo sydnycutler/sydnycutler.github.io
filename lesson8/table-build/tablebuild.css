@@ -1,10 +1,11 @@
 table {
-    margin: auto;
-    box-shadow: 0 0 20px black;
-    height: 250px;
-    border: lightgray solid 1px;
+    margin: 0 auto;
+    box-shadow: 10px 10px 20px darkgray;
+    width: 350px;
+    border:1px solid lightgray;
     border-collapse: collapse;
     font-family: "Ubuntu", sans-serif;
+    text-align: center;
 }
 
 .title {
@@ -38,3 +39,8 @@ td:nth-child(12) {
     background-color: #628ca6;
     color: #e7f0ed;
   }
+
+tfoot tr td{
+    background-color:#7fb9c2;
+    font-size: 0.75rem;
+}
