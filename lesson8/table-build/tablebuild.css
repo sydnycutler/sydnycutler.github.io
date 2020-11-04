@@ -28,7 +28,7 @@ table {
 
 th, td {
     border: lightgray solid 1.5px;
-    padding: 4px;
+    padding: 10px;
 }
 
 td:nth-child(12) {
