@@ -34,7 +34,7 @@ em {
     font-style: italic;
 }
 
-.differ {
+td:nth-child(12) {
     background-color: #628ca6;
-    color: #e7f0ed
-}
+    color: #e7f0ed;
+  }
