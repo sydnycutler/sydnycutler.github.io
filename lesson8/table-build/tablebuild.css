@@ -1,0 +1,40 @@
+table {
+    margin: auto;
+    box-shadow: 0 0 20px black;
+    height: 250px;
+    border: lightgray solid 1px;
+    border-collapse: collapse;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.title {
+    font-size: 20px;
+    font-style: bold;
+    background-color: #7fb9c2;
+}
+.subtitle {
+    color: white;
+    background-color: #628ca6;
+}
+
+.blue {
+    background-color: #e7f0ed;
+}
+
+.green {
+    background-color: #e7ffed;
+}
+
+th, td {
+    border: lightgray solid 1.5px;
+    padding: 4px;
+}
+
+em {
+    font-style: italic;
+}
+
+.differ {
+    background-color: #628ca6;
+    color: #e7f0ed
+}
