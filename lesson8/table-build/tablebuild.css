@@ -33,7 +33,7 @@ th, td {
     padding: 10px;
 }
 
-.special {
+td .special {
     background-color: #628ca6;
     color: #e7f0ed;
   }
