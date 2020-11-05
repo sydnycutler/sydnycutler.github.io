@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
 table {
     margin: 0 auto;
     box-shadow: 10px 10px 20px darkgray;
     width: 350px;
     border:1px solid lightgray;
     border-collapse: collapse;
-    font-family: "Ubuntu", sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     text-align: center;
 }
 
@@ -31,7 +33,7 @@ th, td {
     padding: 10px;
 }
 
-td:nth-child(12) {
+td:nth-child(even) {
     background-color: #628ca6;
     color: #e7f0ed;
   }
