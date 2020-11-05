@@ -33,9 +33,9 @@ th, td {
     padding: 10px;
 }
 
-td .special {
-    background-color: #628ca6 !important;
-    color: #e7f0ed !important;
+.detail {
+    background-color: #628ca6;
+    color: #e7f0ed;
   }
 
 tfoot tr td{
