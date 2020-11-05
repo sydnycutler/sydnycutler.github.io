@@ -34,8 +34,8 @@ th, td {
 }
 
 td .special {
-    background-color: #628ca6;
-    color: #e7f0ed;
+    background-color: #628ca6 !important;
+    color: #e7f0ed !important;
   }
 
 tfoot tr td{
