@@ -17,7 +17,7 @@ table {
 }
 .subtitle {
     color: white;
-    background-color: #628ca6;
+    background-color: #628ca6 !important;
 }
 
 tr:nth-child(odd) {
