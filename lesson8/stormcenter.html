@@ -39,16 +39,9 @@
     </nav>
     <main>
         <h1 class=title>Storm Center</h1>
-        <!-- multistep form -->
         <form id="msform">
-            <!-- progressbar -->
-            <ul id="progressbar">
-                <li class="active">Contact Information</li>
-                <li>Storm Information</li>
-                <li>Storm Region</li>
-            </ul>
-            <!-- fieldsets -->
-            <fieldset>
+           
+            <fieldset class="questions">
                 <h2 class="fs-title">Contact Information</h2>
                 <h3 class="fs-subtitle">Let us know how to contact you</h3>
                 <label class="info">Full Name*<input type="text" name="name" required>
@@ -56,9 +49,7 @@
                     <label class="info">Phone Number*<input type="tel" name="phone" class="first" placeholder="555-555-5555" 
                         required></label>
                     <input type="number" name="zipCode" class="first" placeholder="Zip Code"required></label>
-                <input type="button" name="next" class="next action-button" value="Next">
-            </fieldset>
-            <fieldset>
+                
                 <h2 class="fs-title">Storm Information</h2>
                 <h3 class="fs-subtitle">Give information on the current situation</h3>
                  <label class="info">Storm Date<input type="date" name="stormDate" class="first"></label>
@@ -70,6 +61,7 @@
                     <option value="Thunderstorm">
                     <option value="Tornado">
                 </datalist>
+
                 <label class="info">Storm Severity<input type="range" name="stormSeverity" id="rating" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)" class="first">
                     <span id="values">5</span>
                 </label>
@@ -87,10 +79,6 @@
                     <option value="10">
                 </datalist>
                 
-                <input type="button" name="previous" class="previous action-button" value="Previous">
-                <input type="button" name="next" class="next action-button" value="Next">
-            </fieldset>
-            <fieldset>
                 <h2 class="fs-title">Storm Region</h2>
                 <h3 class="fs-subtitle">Give information on your current location</h3>
                     <select>
@@ -106,7 +94,7 @@
                 <label class="option"><input type="radio" name="level" value="Maybe">Maybe</label>
 
                 <label class="info">Additional Information or Comments<textarea name="comments" rows="5" cols="33"></textarea></label>
-                <input type="button" name="previous" class="previous action-button" value="Previous">
+
                 <input type="submit" name="submit" class="submit action-button" value="Submit">
             </fieldset>
         </form>

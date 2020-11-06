@@ -87,7 +87,7 @@ nav {
     display: block;
 }
 #msform {
-	width: 400px;
+	width: 80%;
 	margin: 50px auto;
 	text-align: center;
 	position: relative;
@@ -150,54 +150,66 @@ nav {
 	color: #666;
 	margin-bottom: 20px;
 }
+form fieldset{
+    margin: 0 auto;
+    border: 1px solid darkorange;
+    border-radius:  10px;
+    padding:  .5rem 2%;
+    width: 90%;
+    max-width: 500px;   
+}
+form legend{
+    color: darkcyan;
+    text-shadow: 1px 1px gray;
+    margin:0 1rem;
+    padding: 0 .5rem;
+}
+form label.info, form div{
+    display:block;
+    padding-top:  1rem;
+    color:black;
+    font-size: .8rem;
+}
+form label.info,label.info, form label.info select, .danger{
+    -webkit-appearance:none;
+    display: block;
+    font-size: .90rem;
+    width:400px;
+    border-radius: .75rem;
+    padding:.75rem;
+    
+   
+    
 
-#progressbar {
-	margin-bottom: 30px;
-	overflow: hidden;
-	counter-reset: step;
+}
+.questions{
+    margin-top: 60px;
 }
 
-#progressbar li {
-	list-style-type: none;
-	color: white;
-	text-transform: uppercase;
-	font-size: 9px;
-	width: 33.33%;
-	float: left;
-	position: relative;
-}
+input.info{
+    border-radius: 5px;
+    width: 100%;
+    padding: .75rem;
 
-#progressbar li:before {
-	content: counter(step);
-	counter-increment: step;
-	width: 20px;
-	line-height: 20px;
-	display: block;
-	font-size: 10px;
-	color: #333;
-	background: white;
-	border-radius: 3px;
-	margin: 0 auto 5px auto;
 }
-
-#progressbar li:after {
-	content: '';
-	width: 100%;
-	height: 2px;
-	background: white;
-	position: absolute;
-	left: -50%;
-	top: 9px;
-	z-index: -1;
+.option{
+    display: block;
+    padding-top:0;
+    padding-bottom: 10px;
 }
-
-#progressbar li:first-child:after {
-	content: none; 
+.submit{
+    border: none;
+    background-color: var(--accent2-color);
+    color: white;
+    font-size: 1em;
+    border-radius:  1rem;
+    padding: .75rem;
+    width:200px;
+    margin-left: 20px;
 }
-
-#progressbar li.active:before,  #progressbar li.active:after{
-	background: var(--secondary-color);
-	color: white;
+.submit:hover {
+background-color: var(--secondary-color);
+color: white;
 }
 footer {
     margin-top: 20px;
