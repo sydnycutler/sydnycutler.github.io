@@ -8,22 +8,16 @@ font-family: "Montserrat", "Lato", sans-serif;
 --heading-font: "Montserrat", sans-serif;
 --paragraph-font: "Lato", sans-serif,
 }
-
+html {
+	height: 100%;
+	background: 
+		linear-gradient(var(--primary-color), var(--accent2-color));
+}
 body {
-    background-color: white;
+    background-color: var(--accent1-color);
     padding: 0;
     margin: 0;
     font-family: var(--paragraph-font)
-}
-#banner {
-    display: none;
-    text-align: center;
-    background-color: var(--primary-color);
-}
-#banner p {
-    margin: 10px;
-    padding: 2px;
-    font-weight: bolder;
 }
 header {
     background-color: var(--accent2-color);
@@ -100,72 +94,118 @@ ul {
     margin-inline-end: 0px;
 
 }
-.images {
-    padding: 10px 0;
-    display: grid;
-    gap: 10px;
-    align-items: center;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+#msform {
+	width: 400px;
+	margin: 50px auto;
+	text-align: center;
+	position: relative;
 }
-figure {
-    margin-left: 5px;
-    margin-right: 5px;
+
+#msform fieldset {
+	background: white;
+	border: 0 none;
+	border-radius: 3px;
+	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+	padding: 20px 30px;
+	box-sizing: border-box;
+	width: 80%;
+	margin: 0 10%;
+	position: relative;
 }
-figcaption {
-    padding: 10px;
-    text-align: center;
+
+#msform fieldset:not(:first-of-type) {
+	display: none;
 }
-.gallery:hover {
-    box-shadow: 0 0 50px #333;
+
+#msform input, #msform textarea {
+	padding: 15px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin-bottom: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	font-family: montserrat;
+	color: #2C3E50;
+	font-size: 13px;
 }
-.gallery {
-  width: 450px;
-  height: 250px;
-  margin-right: auto;
-  margin-left: auto;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 5px;
-  grid-column: 1/1;
+
+#msform .action-button {
+	width: 100px;
+	background: var(--secondary-color);
+	font-weight: bold;
+	color: white;
+	border: 0 none;
+	border-radius: 1px;
+	cursor: pointer;
+	padding: 10px 5px;
+	margin: 10px 5px;
 }
-.fa {
-    padding: 20px;
-    font-size: 10px;
-    width: 10px;
-    text-decoration: none;
-    border-radius: 50%;
-    float: right;
-  }
-.fa:hover {
-    opacity: 0.7;
+
+#msform .action-button:hover, #msform .action-button:focus {
+	box-shadow: 0 0 0 2px white, 0 0 0 3px var(--secondary-color);
 }
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-  margin-right: 150px;
+
+.fs-title {
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #2C3E50;
+	margin-bottom: 10px;
 }
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
+
+.fs-subtitle {
+	font-weight: normal;
+	font-size: 13px;
+	color: #666;
+	margin-bottom: 20px;
 }
-.fa-instagram {
-    background: #7232bd;
-    color: white;
-} 
-.fa-pinterest {
-    background: #cb2027;
-    color: white;
+
+#progressbar {
+	margin-bottom: 30px;
+	overflow: hidden;
+	counter-reset: step;
 }
-  .long {
-    height: 300px;
-    width: auto;
-    display: block;
-    margin: 10px auto;
-    border: 1px solid var(--accent2-color);
-    padding: 15px;
-    background-color: whitesmoke;
-    font-style: var(--paragraph-font);
+
+#progressbar li {
+	list-style-type: none;
+	color: white;
+	text-transform: uppercase;
+	font-size: 9px;
+	width: 33.33%;
+	float: left;
+	position: relative;
+}
+
+#progressbar li:before {
+	content: counter(step);
+	counter-increment: step;
+	width: 20px;
+	line-height: 20px;
+	display: block;
+	font-size: 10px;
+	color: #333;
+	background: white;
+	border-radius: 3px;
+	margin: 0 auto 5px auto;
+}
+
+#progressbar li:after {
+	content: '';
+	width: 100%;
+	height: 2px;
+	background: white;
+	position: absolute;
+	left: -50%;
+	top: 9px;
+	z-index: -1;
+}
+
+#progressbar li:first-child:after {
+	content: none; 
+}
+
+#progressbar li.active:before,  #progressbar li.active:after{
+	background: var(--secondary-color);
+	color: white;
 }
 footer {
     margin-top: 20px;
