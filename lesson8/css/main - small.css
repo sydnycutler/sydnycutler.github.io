@@ -184,8 +184,10 @@ input.info{
     padding: .75rem;
 
 }
-.option{
-    display: block;
+.choice{
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
     padding-top:0;
     padding-bottom: 10px;
 }
@@ -202,11 +204,6 @@ input.info{
 .submit:hover {
 background-color: var(--secondary-color);
 color: white;
-}
-.danger {
-    width: 80%;
-    display: flex;
-    float: center;
 }
 footer {
     margin-top: 20px;
