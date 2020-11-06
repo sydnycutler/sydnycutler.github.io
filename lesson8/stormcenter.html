@@ -52,8 +52,8 @@
                          Storm Information
                      </legend>
                      <label class="info">Storm Date<input type="date" name="stormDate" class="first"></label>
-                     <label class="info">Storm Type<input list="storm-type-list" name="stormType" class="first"></label>
-                     <datalist id="storm-type-list">
+                     <label class="info">Storm Type<input list="stormlist" name="stormType" class="first"></label>
+                     <datalist id="stormlist">
                          <option value="Flash Flood">
                          <option value="Hail">
                          <option value="Hurricane"> 
@@ -62,11 +62,10 @@
                      </datalist>
                      <label class="info">Storm Severity<input type="range" name="stormSeverity" id="rating" min="1" max="10" step="1" list="tickmarks"
                      oninput="adjustRating(this.value)" onchange="adjustRating(this.value)" class="first">
-                         <span id="ratingvalue">5</span>
+                         <span id="values">5</span>
                      </label>
          
                      <datalist id="tickmarks">
-                         <option value="0">
                          <option value="1">
                          <option value="2">
                          <option value="3">
@@ -93,7 +92,7 @@
                      <label class="option"><input type="radio" name="level" value="Maybe">Maybe</label>
                      <label class="info">Additional Information or Comments<textarea name="comments" rows="5" cols="33"></textarea></label>
                  </fieldset>
-                 <input type="submit" value="Submit My Form" class="submit">
+                 <input type="submit" value="Submit" class="submitForm">
                 </form>
              </main>
       <script src="js/togglemenu.js"></script>      
