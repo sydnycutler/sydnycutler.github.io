@@ -207,6 +207,9 @@ input.info{
 background-color: var(--secondary-color);
 color: white;
 }
+.danger {
+    width: 80%;
+}
 footer {
     margin-top: 20px;
     text-align: center;
