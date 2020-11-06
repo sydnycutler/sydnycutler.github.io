@@ -40,20 +40,22 @@
     <main>
         <h1 class=title>Storm Center</h1>
         <form id="msform">
-           
+
             <fieldset class="questions">
                 <h2 class="fs-title">Contact Information</h2>
                 <h3 class="fs-subtitle">Let us know how to contact you</h3>
                 <label class="info">Full Name*<input type="text" name="name" required>
-                    <label class="info"><input type="text" name="email" placeholder="Email Address" required></label>
-                    <label class="info">Phone Number*<input type="tel" name="phone" class="first" placeholder="555-555-5555" 
-                        required></label>
-                    <input type="number" name="zipCode" class="first" placeholder="Zip Code"required></label>
-                
+                    <label class="info">Email Address<input type="text" name="email" placeholder="Email Address"
+                            required></label>
+                    <label class="info">Phone Number*<input type="tel" name="phone"
+                            placeholder="555-555-5555" required></label>
+                    <label class="info">Zip Code</label><input type="number" name="zipCode"
+                        placeholder="Zip Code" required></label>
+
                 <h2 class="fs-title">Storm Information</h2>
                 <h3 class="fs-subtitle">Give information on the current situation</h3>
-                 <label class="info">Storm Date<input type="date" name="stormDate" class="first"></label>
-                <label class="info">Storm Type<input list="stormlist" name="stormType" class="first"></label>
+                <label class="info">Storm Date<input type="date" name="stormDate"></label>
+                <label class="info">Storm Type<input list="stormlist" name="stormType"></label>
                 <datalist id="stormlist">
                     <option value="Flash Flood">
                     <option value="Hail">
@@ -62,8 +64,8 @@
                     <option value="Tornado">
                 </datalist>
 
-                <label class="info">Storm Severity<input type="range" name="stormSeverity" id="rating" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)" class="first">
-                    <span id="values">5</span>
+                <label class="info">Storm Severity<input type="range" name="stormSeverity" id="rating" min="1" max="10"
+                        step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                 </label>
 
                 <datalist id="tickmarks">
@@ -78,22 +80,23 @@
                     <option value="9">
                     <option value="10">
                 </datalist>
-                
+
                 <h2 class="fs-title">Storm Region</h2>
                 <h3 class="fs-subtitle">Give information on your current location</h3>
-                    <select>
-                        <option value="">Select Region</option>
-                        <option value="preston">Preston</option>
-                        <option value="sodaSpring">Soda Springs</option>
-                        <option value="fishHaven">Fish Haven</option>
-                    </select>
+                <select>
+                    <option value="">Select Region</option>
+                    <option value="preston">Preston</option>
+                    <option value="sodaSpring">Soda Springs</option>
+                    <option value="fishHaven">Fish Haven</option>
+                </select>
 
                 <div class="danger">User in-danger level</div>
                 <label class="option"><input type="radio" name="level" value="Yes">Yes</label>
                 <label class="option"><input type="radio" name="level" value="No">No</label>
                 <label class="option"><input type="radio" name="level" value="Maybe">Maybe</label>
 
-                <label class="info">Additional Information or Comments<textarea name="comments" rows="5" cols="33"></textarea></label>
+                <label class="info">Additional Information or Comments<textarea name="comments" rows="5"
+                        cols="33"></textarea></label>
 
                 <input type="submit" name="submit" class="submit action-button" value="Submit">
             </fieldset>
