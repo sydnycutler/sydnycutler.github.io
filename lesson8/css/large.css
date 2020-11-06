@@ -1,0 +1,28 @@
+@media only screen and (min-width: 62em) {
+    .navigation {
+        display: flex;
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+    .navigation li a {
+        color: white;
+    }
+    .images {
+        padding: 10px 0;
+        display: grid;
+        gap: 10px;
+        align-items: center;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .gallery {
+    grid-column: 1/4;
+    width: 450px;
+    height: 250px;
+    }
+}
