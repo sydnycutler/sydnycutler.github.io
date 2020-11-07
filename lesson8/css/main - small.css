@@ -96,7 +96,7 @@ nav {
 	box-shadow: 0 0 15px 1px var(--accent2-color);
 	padding: 20px 30px;
 	box-sizing: border-box;
-	width: 80%;
+	width: 0 auto;
 	margin: 0 auto;
 	position: relative;
 }
@@ -112,7 +112,7 @@ nav {
 	margin-bottom: 10px;
 	width: 100%;
 	box-sizing: border-box;
-	font-family: montserrat;
+	font-family: var(--heading-font);
 	color: #2C3E50;
 	font-size: 13px;
 }
