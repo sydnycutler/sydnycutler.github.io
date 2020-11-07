@@ -53,7 +53,7 @@
                         placeholder="Zip Code" required></label>
 
                 <h2 class="fs-title">Storm Information</h2>
-                <h3 class="fs-subtitle">Give information on the current situation</h3>
+                <h3 class="fs-subtitle">Let us know information on the storm situation</h3>
                 <label class="info">Storm Date<input type="date" name="stormDate"></label>
                 <label class="info">Storm Type<input list="stormlist" name="stormType"></label>
                 <datalist id="stormlist">
@@ -81,15 +81,14 @@
                     <option value="10">10</option>
                 </datalist>
 
-                <h2 class="fs-title">Storm Region</h2>
-                <h3 class="fs-subtitle">Give information on your current location</h3>
-                <select>
+                <label class="info">Storm Region<select name="stormRegion">
                     <option value="">Select Region</option>
                     <option value="preston">Preston</option>
                     <option value="sodaSpring">Soda Springs</option>
                     <option value="fishHaven">Fish Haven</option>
                 </select>
-
+                </label>
+                
                 <div class="danger">User in-danger level</div>
                 <label class="choice"><input type="radio" name="level" value="Yes">Yes</label>
                 <label class="choice"><input type="radio" name="level" value="No">No</label>
