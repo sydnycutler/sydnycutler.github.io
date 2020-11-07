@@ -13,7 +13,7 @@ body {
     background-color: var(--accent1-color);
     padding: 0;
     margin: 0;
-    font-family: var(--paragraph-font);
+    font-family: var(--paragraph-font)
 }
 header {
     background-color: var(--accent2-color);
@@ -83,10 +83,9 @@ nav {
     display: block;
 }
 #msform {
-	width: 0 auto;
+	width: 90%;
 	margin: 50px auto;
-    text-align: center;
-    align-items: center;
+	text-align: center;
 	position: relative;
 }
 
@@ -99,8 +98,7 @@ nav {
 	box-sizing: border-box;
 	width: 80%;
 	margin: 0 auto;
-    position: relative;
-    text-align: center;
+	position: relative;
 }
 
 #msform fieldset:not(:first-of-type) {
@@ -136,8 +134,7 @@ nav {
 }
 
 .fs-title {
-    font-size: 25px;
-    font-family: var(--heading-font);
+	font-size: 15px;
 	text-transform: uppercase;
 	color: #2C3E50;
 	margin-bottom: 10px;
@@ -145,8 +142,7 @@ nav {
 
 .fs-subtitle {
 	font-weight: normal;
-    font-size: 20px;
-    font-family: var(--heading-font);
+	font-size: 13px;
 	color: #666;
 	margin-bottom: 20px;
 }
@@ -155,7 +151,6 @@ form label.info, form div{
     padding-top:  1rem;
     color:black;
     font-size: .8rem;
-    text-align: center;
 }
 form label.info,label.info, form label.info select, .danger{
     -webkit-appearance:none;
@@ -167,13 +162,13 @@ form label.info,label.info, form label.info select, .danger{
 }
 .questions{
     margin-top: 60px;
-    text-align: center;
 }
 
 input.info{
     border-radius: 5px;
     width: 100%;
     padding: .75rem;
+
 }
 .choice{
     display: inline-block;
@@ -181,7 +176,6 @@ input.info{
     cursor: pointer;
     padding-top:0;
     padding-bottom: 10px;
-    text-align: center;
 }
 .submit{
     border: none;
