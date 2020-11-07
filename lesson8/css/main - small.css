@@ -83,7 +83,7 @@ nav {
     display: block;
 }
 #msform {
-	width: 80%;
+	width: 70%;
 	margin: 50px auto;
 	text-align: left;
 	position: relative;
@@ -96,7 +96,7 @@ nav {
 	box-shadow: 0 0 15px 1px var(--accent2-color);
 	padding: 20px 30px;
 	box-sizing: border-box;
-	width: 80%;
+	width: 70%;
 	margin: 0 auto;
 	position: relative;
 }
