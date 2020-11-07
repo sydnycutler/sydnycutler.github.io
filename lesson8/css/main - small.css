@@ -98,7 +98,8 @@ nav {
 	box-sizing: border-box;
 	width: 80%;
 	margin: 0 auto;
-	position: relative;
+    position: relative;
+    text-align: center;
 }
 
 #msform fieldset:not(:first-of-type) {
@@ -153,6 +154,7 @@ form label.info, form div{
     padding-top:  1rem;
     color:black;
     font-size: .8rem;
+    text-align: center;
 }
 form label.info,label.info, form label.info select, .danger{
     -webkit-appearance:none;
@@ -164,6 +166,7 @@ form label.info,label.info, form label.info select, .danger{
 }
 .questions{
     margin-top: 60px;
+    text-align: center;
 }
 
 input.info{
@@ -177,6 +180,7 @@ input.info{
     cursor: pointer;
     padding-top:0;
     padding-bottom: 10px;
+    text-align: center;
 }
 .submit{
     border: none;
