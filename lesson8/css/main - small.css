@@ -146,20 +146,6 @@ nav {
 	color: #666;
 	margin-bottom: 20px;
 }
-form fieldset{
-    margin: 0 auto;
-    border: 1px solid darkorange;
-    border-radius:  10px;
-    padding:  .5rem 2%;
-    width: 90%;
-    max-width: 500px;   
-}
-form legend{
-    color: darkcyan;
-    text-shadow: 1px 1px gray;
-    margin:0 1rem;
-    padding: 0 .5rem;
-}
 form label.info, form div{
     display:block;
     padding-top:  1rem;
