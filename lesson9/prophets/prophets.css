@@ -27,6 +27,17 @@ section {
 img {
     box-shadow: 0 0 5px 5px goldenrod;
 }
+ul{
+    padding: 2em;
+}
+ul li{
+    display: inline;
+    border-right: 2px solid goldenrod;
+    padding: 5px;
+}
+ul li:nth-child(3){
+    border-right: none;
+}
 footer {
     box-shadow: 0 0 5px 5px goldenrod;
     padding:1em;
