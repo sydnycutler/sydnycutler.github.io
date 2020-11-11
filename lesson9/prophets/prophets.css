@@ -3,6 +3,7 @@
 main{
     box-shadow: 0 0 5px 5px cornsilk;
     padding:1em;
+    margin: 0 auto;
 }
 h1, h2 {
     font-family: 'Dancing Script', cursive;
@@ -16,17 +17,19 @@ main section {
     display: block;
     padding: 5px;
     text-align: center;
+    margin-bottom: 5px;
 }
 .cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 3px;
+    display: flex;
+    flex-direction: column;
     background-color: cornsilk;
     border: 2px solid goldenrod;
+    margin: 10px;
 }
 img {
     box-shadow: 0 0 5px 5px goldenrod;
     height: 350px;
+    margin: 10px;
 }
 footer {
     box-shadow: 0 0 5px 5px cornsilk;
@@ -38,5 +41,17 @@ footer {
     .card {
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+}
+@media only screen and (min-width: 60em) {
+    .card {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media only screen and (min-width: 82.5em) {
+    .card {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
