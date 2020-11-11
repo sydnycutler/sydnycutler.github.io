@@ -37,7 +37,7 @@ footer {
 @media only screen and (min-width: 32.5em) {
     .card {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
 @media only screen and (min-width: 62em) {
