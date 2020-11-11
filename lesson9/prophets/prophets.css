@@ -21,7 +21,6 @@ main section {
     margin-bottom: 5px;
 }
 .cards {
-    display: block;
     background-color: cornsilk;
     border: 2px solid goldenrod;
     margin: 10px;
@@ -36,22 +35,4 @@ footer {
     padding:1em;
     text-align: center;
     color: lightpink;
-}
-@media only screen and (min-width: 32.5em) {
-    .card {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-}
-@media only screen and (min-width: 60em) {
-    .card {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-}
-@media only screen and (min-width: 82.5em) {
-    .card {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
 }
