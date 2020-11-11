@@ -10,12 +10,14 @@ h1, h2 {
     text-align: center;
     margin: 0 auto;
     position: absolute;
+    display: block;
 }
 p {
     font-family: 'Quicksand', sans-serif;
     margin-top: 3px;
     margin: 0 0 5px 0;
     position: absolute;
+    display: block;
 }
 main section {
     width: 270px;  
