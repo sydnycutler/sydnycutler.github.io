@@ -27,14 +27,14 @@ main section {
     flex-direction: column;
     background-color: cornsilk;
     border: 2px solid goldenrod;
-    margin: 10px;
-    padding: 10px;
+    margin: 20px;
+    padding: 20px;
     align-items: center;
 }
 img {
     box-shadow: 0 0 5px 5px goldenrod;
     height: 350px;
-    margin: 10px;
+    margin: 20px;
 }
 footer {
     box-shadow: 0 0 5px 5px cornsilk;
