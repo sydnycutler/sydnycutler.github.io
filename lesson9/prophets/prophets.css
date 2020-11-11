@@ -22,4 +22,6 @@ p {
 footer {
     box-shadow: 0 0 5px 5px goldenrod;
     padding:1em;
+    text-align: center;
+    color: lightpink;
 }
