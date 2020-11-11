@@ -13,7 +13,7 @@ fetch(requestURL)
             let h2 = document.createElement('h2');
             let date = document.createElement('p');
             let place = document.createElement('p')
-            let img = document.createElement('img');
+            let image = document.createElement('img');
 
             h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
             card.appendChild(h2);
