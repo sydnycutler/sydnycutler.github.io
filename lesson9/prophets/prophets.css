@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Quicksand&display=swap');
 
 main{
-    box-shadow: 0 0 10px 5px goldenrod;
+    box-shadow: 0 0 5px 5px goldenrod;
     padding:1em;
 }
 h1, h2 {
@@ -19,6 +19,6 @@ p {
     border: 2px solid goldenrod;
 }
 footer {
-    box-shadow: 0 0 10px 5px goldenrod;
+    box-shadow: 0 0 5px 5px goldenrod;
     padding:1em;
 }
