@@ -19,13 +19,13 @@ main section {
 }
 .cards {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 3px;
     background-color: cornsilk;
     border: 2px solid goldenrod;
 }
 img {
     box-shadow: 0 0 5px 5px goldenrod;
+    width: 200px;
 }
 footer {
     box-shadow: 0 0 5px 5px goldenrod;
