@@ -8,10 +8,12 @@ main{
 h1, h2 {
     font-family: 'Dancing Script', cursive;
     text-align: center;
+    display: block;
 }
 p {
     font-family: 'Quicksand', sans-serif;
     margin-top: 3px;
+    display: block;
 }
 main section {
     width: 270px;  
