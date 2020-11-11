@@ -19,7 +19,7 @@ main section {
 }
 .cards {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 3px;
     background-color: cornsilk;
     border: 2px solid goldenrod;
@@ -37,12 +37,6 @@ footer {
 @media only screen and (min-width: 32.5em) {
     .card {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-}
-@media only screen and (min-width: 62em) {
-    .card {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 }
