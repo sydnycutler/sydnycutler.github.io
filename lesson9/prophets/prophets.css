@@ -34,8 +34,7 @@ main section {
 img {
     box-shadow: 0 0 5px 5px goldenrod;
     height: 350px;
-    padding: 20px;
-    margin-bottom: 500px;
+    margin: 20px;
 }
 footer {
     box-shadow: 0 0 5px 5px cornsilk;
