@@ -29,6 +29,7 @@ main section {
     border: 2px solid goldenrod;
     margin: 20px;
     padding: 20px;
+    margin-bottom: 200px;
     align-items: center;
 }
 img {
