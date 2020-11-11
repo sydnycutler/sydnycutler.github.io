@@ -14,14 +14,14 @@ p {
     margin-top: 3px;
 }
 main section {
-    display: block;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     padding: 5px;
     text-align: center;
     margin-bottom: 5px;
 }
 .cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: block;
     background-color: cornsilk;
     border: 2px solid goldenrod;
     margin: 10px;
