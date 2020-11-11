@@ -26,8 +26,6 @@ main section {
 img {
     box-shadow: 0 0 5px 5px goldenrod;
     width: 200px;
-    overflow: hidden;
-    display: flex;
 }
 footer {
     box-shadow: 0 0 5px 5px goldenrod;
