@@ -29,13 +29,13 @@ main section {
     border: 2px solid goldenrod;
     margin: 20px;
     padding: 20px;
-    margin-bottom: 200px;
     align-items: center;
 }
 img {
     box-shadow: 0 0 5px 5px goldenrod;
     height: 350px;
     margin: 20px;
+    margin-bottom: 500px;
 }
 footer {
     box-shadow: 0 0 5px 5px cornsilk;
