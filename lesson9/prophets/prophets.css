@@ -20,8 +20,8 @@ main section {
     margin-bottom: 5px;
 }
 .cards {
-    display: block;
-    columns: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     background-color: cornsilk;
     border: 2px solid goldenrod;
     margin: 10px;
