@@ -19,18 +19,30 @@ main section {
 }
 .cards {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-gap: 3px;
     background-color: cornsilk;
     border: 2px solid goldenrod;
 }
 img {
     box-shadow: 0 0 5px 5px goldenrod;
-    width: 200px;
+    height: 350px;
 }
 footer {
     box-shadow: 0 0 5px 5px cornsilk;
     padding:1em;
     text-align: center;
     color: lightpink;
+}
+@media only screen and (min-width: 32.5em) {
+    .card {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media only screen and (min-width: 62em) {
+    .card {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }
