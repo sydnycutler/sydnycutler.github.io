@@ -12,12 +12,20 @@ p {
     font-family: 'Quicksand', sans-serif;
     margin-top: 3px;
 }
+section {
+    display: block;
+    padding: 5px;
+    text-align: center;
+}
 .cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 3px;
     background-color: cornsilk;
     border: 2px solid goldenrod;
+}
+img {
+    box-shadow: 0 0 5px 5px goldenrod;
 }
 footer {
     box-shadow: 0 0 5px 5px goldenrod;
