@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Quicksand&display=swap');
+
+main{
+    box-shadow: 0 0 10px 5px goldenrod;
+    padding:1em;
+}
+h1, h2 {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+p {
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 3px;
+}
+.cards {
+    display: grid;
+    grid-template-columns: max-content;
+    background-color: cornsilk;
+    border: 2px solid goldenrod;
+}
