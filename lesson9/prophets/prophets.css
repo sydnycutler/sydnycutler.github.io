@@ -18,3 +18,7 @@ p {
     background-color: cornsilk;
     border: 2px solid goldenrod;
 }
+footer {
+    box-shadow: 0 0 10px 5px goldenrod;
+    padding:1em;
+}
