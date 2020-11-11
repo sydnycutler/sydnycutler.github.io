@@ -21,7 +21,7 @@ main section {
 }
 .cards {
     display: grid;
-    float: left;
+    grid-auto-columns: max-content;
     background-color: cornsilk;
     border: 2px solid goldenrod;
     margin: 10px;
