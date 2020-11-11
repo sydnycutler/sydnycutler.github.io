@@ -14,16 +14,20 @@ p {
     margin-top: 3px;
 }
 main section {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    width: 270px;  
+    height: 370px;
     padding: 5px;
     text-align: center;
     margin-bottom: 5px;
 }
 .cards {
+    display: flex;
+    flex-direction: column;
     background-color: cornsilk;
     border: 2px solid goldenrod;
     margin: 10px;
+    padding: 10px;
+    align-items: center;
 }
 img {
     box-shadow: 0 0 5px 5px goldenrod;
@@ -36,3 +40,24 @@ footer {
     text-align: center;
     color: lightpink;
 }
+@media only screen and (min-width: 37.5em) {
+    main div.cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      justify-items: center;
+    }
+  }
+
+  @media only screen and (min-width: 60em) {
+    main div.cards {    
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media only screen and (min-width: 85em) {
+    main div.cards {    
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
