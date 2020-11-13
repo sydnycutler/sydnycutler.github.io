@@ -4,6 +4,7 @@ main{
     box-shadow: 0 0 10px 5px cornsilk;
     padding: 1em;
     margin: 0 auto;
+    border: 2px solid goldenrod;
 }
 h1, h2 {
     font-family: 'Dancing Script', cursive;
@@ -22,12 +23,12 @@ main section {
     padding: 10px;
     text-align: center;
     margin-bottom: 10px;
+    background-color: cornsilk;
 }
 .cards {
     display: flex;
     flex-direction: column;
     background-color: cornsilk;
-    border: 2px solid goldenrod;
     margin: 20px;
     padding: 20px;
     align-items: center;
