@@ -36,6 +36,7 @@ img {
     box-shadow: 0 0 5px 5px goldenrod;
     height: 350px;
     margin: 20px;
+    width: 60%;
 }
 footer {
     box-shadow: 0 0 10px 5px cornsilk;
