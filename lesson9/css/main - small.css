@@ -87,6 +87,15 @@ ul {
     margin-inline-end: 0px;
 
 }
+div .cards {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--secondary-color);
+    border: 2px solid var(--accent2-color);
+    margin: 20px;
+    padding: 20px;
+    align-items: center;
+}
 .fa {
     padding: 20px;
     font-size: 10px;
