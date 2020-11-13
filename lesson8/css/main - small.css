@@ -10,7 +10,7 @@ font-family: "Montserrat", "Lato", sans-serif;
 }
 
 body {
-    background-color: var(--accent1-color);
+    background-color: white;
     padding: 0;
     margin: 0;
     font-family: var(--paragraph-font)
@@ -34,9 +34,6 @@ header img {
     font-size: 1.6rem;
     margin: 0 0 0 17px;
     font-style: var(--heading-font);
-}
-h2 {
-    font-style: var(--heading-font) !important;
 }
 .title {
     margin-left: 150px;
@@ -81,6 +78,14 @@ nav {
 }
 .responsive li {
     display: block;
+}
+ul {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
 }
 #msform {
 	width: 70%;
