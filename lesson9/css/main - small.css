@@ -126,7 +126,7 @@ div.cards {
 div.cards:nth-child(odd) img {
     grid-column: 2;
 }
-div.cards:nth-child(odd) h1, h2, p {
+div.cards:nth-child(odd) h1, div.cards:nth-child(odd) h2, div.cards:nth-child(odd) p {
     grid-column: 1;
 	grid-row: 1;
 }
