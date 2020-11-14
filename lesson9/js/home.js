@@ -28,7 +28,7 @@ fetch(requestURL)
                 card.appendChild(pop);
                 rain.textContent = 'Annual Rain Fall:' + ' ' + towns[i].averageRainfall;
                 card.appendChild(rain);
-                image.setAttribute('src', 'images/' + towns[i].photo);
+                image.setAttribute('src', '/lesson9/images/' + towns[i].photo);
                 image.setAttribute('alt', h1.textContent + '-' + towns[i].order);
                 card.appendChild(image);
 
