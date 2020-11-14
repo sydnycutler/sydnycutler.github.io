@@ -44,4 +44,8 @@
         width: 100%;
         text-align:center;
     }
+    section {
+        width: 270px;  
+        height: 450px;
+    }
 }
