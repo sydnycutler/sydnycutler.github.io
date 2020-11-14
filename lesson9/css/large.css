@@ -44,40 +44,4 @@
         width: 100%;
         text-align:center;
     }
-    .grid {
-        display: grid;
-        max-width: 550px;
-        place-items: center;
-        padding-left: 8px;
-    }
-   .weather {
-       width: 100px
-   }
-   .pumpkins {
-        display: block;
-        float: right;
-        padding-right: 150px;
-        height: 300px;
-        width: auto;
-    }
-    .pumpkins img {
-        float: right;
-    }
-    .google {
-        margin: 10px 0 30px 150px;
-        border: 1px solid #000;
-        box-shadow: 0 0 30px #555;
-        padding: 1rem;
-        display: block;
-        float: left;
-        justify-content: left;
-        text-align: left;
-    }
-    .article {
-        padding-left: 150px;
-    }
-    .long {
-        height: 350px;
-        width: auto;
-    }
 }
