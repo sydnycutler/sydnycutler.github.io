@@ -38,7 +38,7 @@ header img {
 .title {
     margin-left: 150px;
 }
-.motto {
+header .motto {
     font-style: italic;
     letter-spacing: 1pt;
     color: white;
