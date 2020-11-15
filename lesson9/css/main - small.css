@@ -8,6 +8,10 @@ font-family: "Montserrat", "Lato", sans-serif;
 --heading-font: "Montserrat", sans-serif;
 --paragraph-font: "Lato", sans-serif,
 }
+html {
+    margin: 0;
+    padding: 0;
+}
 body {
     background-color: white;
     padding: 0;
@@ -89,6 +93,9 @@ ul {
     margin-inline-end: 0px;
 
 }
+.hero img {
+    display: none;
+}
 .herodiv {
     margin: 10px auto;
     position: relative;
@@ -103,9 +110,6 @@ ul {
     display: grid;
     margin: 0 auto 0 auto;
     text-align: center;
-    top: 100px;
-    right: 1000px;
-    padding: .9rem;
     width: 600px;
     background-color: whitesmoke;
     border: 1px solid var(--accent2-color);
@@ -120,44 +124,41 @@ main h1, main h3 {
     font-family: var(--heading-font);
     text-align: center;
     margin: 0 auto;
-    padding: 10px;
+    padding: 5px;
+}
+main h3 {
+    font-style: italic;
+    font-size: small;
 }
 p {
     font-family: var(--paragraph-font);
     margin-top: 5px;
     margin: 0 0 10px 0;
     padding: .75rem;
+    font-weight: 300px;
 }
 div.cards {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     color: whitesmoke;
     text-align: center;
-    margin: 20px auto;
-    padding: 20px;
     align-items: center;
 }
 .cards section {
-    display: block;
+   display: block;
     border: 3px solid var(--accent2-color);
     background-color: var(--secondary-color);
     padding: 20px;
     margin: 20px auto;
     align-items: center;
-}
-div.cards:nth-child(odd) img {
-    grid-column: 2;
-}
-div.cards:nth-child(odd) h1, div.cards:nth-child(odd) h2, div.cards:nth-child(odd) p {
-    grid-column: 1;
-	grid-row: 1;
+    width: 100%;
 }
 .cards h1 {
     color: white;
 }
 .card img {
     margin: 20px;
-    width: 85%;
+    width: 40%;
     height: auto;
 }
 .fa {
@@ -190,12 +191,15 @@ div.cards:nth-child(odd) h1, div.cards:nth-child(odd) h2, div.cards:nth-child(od
 }
 footer {
     margin-top: 20px;
+    padding: 10px;
     text-align: center;
+    background-color: var(--accent2-color);
+    color: white;
 }
 .figures {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    max-width: 100%;
+    max-width: 20%;
     text-align: center;
     font-size: 25px;
     font-family: var(--paragraph-font);
@@ -210,7 +214,20 @@ footer {
         display: none;
     }
     .welcome {
-        width: 450px;
+        width: 400px;
         height: auto;
+    }
+    div.cards section:nth-child(odd) img {
+        grid-column: 2;
+    }
+    div.cards section:nth-child(odd) h1, div.cards:nth-child(odd) h2, div.cards:nth-child(odd) p {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    div.cards {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 400px;
+        margin: 0 auto 0 auto;
     }
   }

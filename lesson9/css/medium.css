@@ -11,10 +11,12 @@
     .welcome {
         display: block;
         position: absolute;
+        top: 50px;
+        left: 250px;
     }
     .card img {
         margin: 20px;
-        width: 85%;
+        width: 40%;
         height: auto;
     }
   }
