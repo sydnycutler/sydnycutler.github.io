@@ -134,13 +134,15 @@ div.cards {
     display: grid;
 	grid-template-columns: 1fr;
     background-color: var(--secondary-color);
-    border: 3px solid var(--accent2-color);
     color: whitesmoke;
     text-align: center;
     margin: 20px auto;
     padding: 20px;
     align-items: center;
     max-width: 600px;
+}
+.cards section {
+    border: 3px solid var(--accent2-color);
 }
 div.cards:nth-child(odd) img {
     grid-column: 2;
