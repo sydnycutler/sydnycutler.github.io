@@ -36,7 +36,8 @@
     .welcome {
         display: block;
         position: absolute;
-        top: 25px;
+        justify-content: center;
+        top: 100px;
         margin: 0 auto 0 auto;
         background-color: whitesmoke;
         border: 1px solid black;
