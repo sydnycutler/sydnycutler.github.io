@@ -154,9 +154,10 @@ div.cards:nth-child(odd) h1, div.cards:nth-child(odd) h2, div.cards:nth-child(od
 .cards h1 {
     color: white;
 }
-img {
-    display: block;
-    width: 600px;
+.card img {
+    margin: 20px;
+    width: 85%;
+    height: auto;
 }
 .fa {
     padding: 20px;
@@ -199,7 +200,7 @@ footer {
     font-family: var(--paragraph-font);
     align-items: center;
 }
-@media only screen and (min-width: 37.5em) {
+@media only screen and (max-width: 60em) {
     header img {
         width: 60px;
         height: auto;
