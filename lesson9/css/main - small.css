@@ -93,9 +93,6 @@ ul {
     margin-inline-end: 0px;
 
 }
-.hero img {
-    display: none;
-}
 .herodiv {
     margin: 10px auto;
     position: relative;
@@ -139,12 +136,13 @@ p {
 }
 div.cards {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     color: whitesmoke;
     text-align: center;
     align-items: center;
+    align-content: center;
 }
-.cards section {
+info {
    display: block;
     border: 3px solid var(--accent2-color);
     background-color: var(--secondary-color);
@@ -153,12 +151,12 @@ div.cards {
     align-items: center;
     width: 100%;
 }
-.cards h1 {
+info h1 {
     color: white;
 }
-.card img {
-    margin: 20px;
-    width: 40%;
+info img {
+    margin: 0 auto 0 auto;
+    width: 100%;
     height: auto;
 }
 .fa {
@@ -210,7 +208,7 @@ footer {
         width: 60px;
         height: auto;
     }
-    .hero img {
+    .hero img:first-child {
         display: none;
     }
     .welcome {

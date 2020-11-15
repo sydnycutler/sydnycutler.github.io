@@ -40,19 +40,20 @@
         top: 100px;
         left: 400px;
     }
-    .cards {
+    div.cards {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
-    .cards section {
+    info {
+        display: inline-block;
         width: 400px;
         padding: 10px;
         text-align: center;
         margin-bottom: 10px;
     }
-    .card img {
+    info img {
         margin: 20px;
-        width: 40%;
+        width: 80%;
         height: auto;
     }
 }

@@ -14,9 +14,35 @@
         top: 50px;
         left: 250px;
     }
-    .card img {
+    info {
+        display: grid;
+    }
+    info:nth-child(even) img{
+        display: block;
+        grid-column: 1;
+    }
+    info:nth-child(even) p{
+        grid-column: 3;
+    }
+    info:nth-child(even) h1{
+        grid-column: 3;
+    }
+    info:nth-child(even) h3{
+        grid-column: 3;
+    }
+    info:nth-child(even) .motto{
+        grid-column: 3;
+    }
+    info img {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 6;
+        width: 80%;
         margin: 20px;
-        width: 40%;
-        height: auto;
+    }
+    info p {
+        grid-column-start: 1;
+        margin: 2px;
     }
   }
