@@ -130,16 +130,18 @@ p {
 div.cards {
     display: grid;
 	grid-template-columns: 1fr;
-    background-color: var(--secondary-color);
     color: whitesmoke;
     text-align: center;
     margin: 20px auto;
     padding: 20px;
     align-items: center;
-    max-width: 600px;
 }
 .cards section {
     border: 3px solid var(--accent2-color);
+    background-color: var(--secondary-color);
+    padding: 20px;
+    margin: 20px auto;
+    align-items: center;
 }
 div.cards:nth-child(odd) img {
     grid-column: 2;
@@ -150,6 +152,10 @@ div.cards:nth-child(odd) h1, div.cards:nth-child(odd) h2, div.cards:nth-child(od
 }
 .cards h1 {
     color: white;
+}
+.card img {
+    display: block;
+    width: 600px;
 }
 .fa {
     padding: 20px;
