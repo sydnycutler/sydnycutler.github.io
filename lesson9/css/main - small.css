@@ -208,4 +208,8 @@ footer {
     .hero img {
         display: none;
     }
+    .welcome {
+        width: 250px;
+        height: auto;
+    }
   }
