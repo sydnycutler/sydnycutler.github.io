@@ -50,8 +50,6 @@
         padding: 10px;
         text-align: center;
         margin-bottom: 10px;
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
     }
     img {
         margin: 20px;
