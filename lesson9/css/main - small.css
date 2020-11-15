@@ -100,6 +100,30 @@ ul {
     margin-inline-end: 0px;
 
 }
+.herodiv {
+    margin: 10px auto;
+    position: relative;
+    display: block;
+}
+.hero img {
+    display: none;
+}
+.hero {
+    height: auto;
+    width: 100%;
+    margin: 0 auto 0 auto;
+}
+.welcome {
+    display: grid;
+    justify-content: center;
+    text-align: center;;
+    padding: .9rem;
+    width: 400px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    box-shadow: 0 0 30px #111;
+    font-size: 12px;
+}
 main{
     padding: 1em;
     margin: 0 auto;
@@ -116,24 +140,17 @@ p {
     margin: 0 0 10px 0;
     padding: .75rem;
 }
-.main{
-    max-width: 600px;
-    margin: .5rem auto;
-	border:1px solid var(--accent2-color);
-    background-color: var(--secondary-color);
-    color: whitesmoke;
-    padding: 10px;
-    text-align: center;
-    margin-bottom: 10px;
-}
 div.cards {
     display: grid;
 	grid-template-columns: 1fr;
     background-color: var(--secondary-color);
     border: 3px solid var(--accent2-color);
-    margin: 20px;
+    color: whitesmoke;
+    text-align: center;
+    margin: 20px auto;
     padding: 20px;
     align-items: center;
+    max-width: 600px;
 }
 div.cards:nth-child(odd) img {
     grid-column: 2;
@@ -180,7 +197,7 @@ footer {
 @media only screen and (min-width: 37.5em) {
     main div.cards {
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr;
       justify-items: center;
     }
   }

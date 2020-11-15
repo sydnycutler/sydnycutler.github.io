@@ -33,14 +33,22 @@
         width: 100%;
         text-align:center;
     }
-    .main {
+    .welcome {
+        display: block;
+        position: absolute;
+        top: 25px;
+        background-color: whitesmoke;
+        border: 1px solid black;
+        padding: 1.5rem;
+        box-shadow: 0 0 30px #111;
+        opacity: .8;
+    }
+    .cards {
         width: 270px;  
         height: 450px;
         padding: 10px;
         text-align: center;
         margin-bottom: 10px;
-    }
-    .cards {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
     }
