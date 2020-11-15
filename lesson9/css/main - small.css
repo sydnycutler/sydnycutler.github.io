@@ -208,4 +208,12 @@ footer {
       grid-template-columns: 1fr;
       justify-items: center;
     }
+    .figures {
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+        font-size: 25px;
+        font-family: var(--paragraph-font);
+        align-items: center;
+    }
   }

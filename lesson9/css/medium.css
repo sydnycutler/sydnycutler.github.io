@@ -18,4 +18,12 @@
       display: grid;
       grid-template-columns: repeat(3, 1fr);
     }
+    .figures {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+        font-size: 25px;
+        font-family: var(--paragraph-font);
+        align-items: center;
+    }
   }
