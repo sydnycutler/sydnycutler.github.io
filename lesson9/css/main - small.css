@@ -196,8 +196,7 @@ footer {
 }
 .figures {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    max-width: 20%;
+    grid-template-columns: 1fr;
     text-align: center;
     font-size: 25px;
     font-family: var(--paragraph-font);
