@@ -207,8 +207,8 @@ footer {
         width: 60px;
         height: auto;
     }
-    .hero img:first-child {
-        display: none;
+    .herodiv img {
+        display: none!important;
     }
     .welcome {
         width: 400px;
