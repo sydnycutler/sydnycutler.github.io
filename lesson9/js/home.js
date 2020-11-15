@@ -11,6 +11,7 @@ fetch(requestURL)
             if (towns[i].name == 'Preston' || towns[i].name == 'Fish Haven' || towns[i].name == 'Soda Springs') {
 
                 let card = document.createElement('section');
+                let pic = document.createElement('section')
                 let h1 = document.createElement('h1');
                 let h3 = document.createElement('h3')
                 let year = document.createElement('p');
@@ -18,19 +19,29 @@ fetch(requestURL)
                 let rain = document.createElement('p');
                 let image = document.createElement('img');
 
+                pic.appendChild(pic);
+
+                pic.setAttribute('class', 'places');
+                card.setAttribute('class', 'info');
+
                 h1.textContent = towns[i].name;
                 card.appendChild(h1);
+                
                 h3.textContent = towns[i].motto;
                 card.appendChild(h3);
+                
                 year.textContent = 'Year Founded:' + ' ' + towns[i].yearFounded;
                 card.appendChild(year);
+                
                 pop.textContent = 'Population:' + ' ' + towns[i].currentPopulation;
                 card.appendChild(pop);
+                
                 rain.textContent = 'Annual Rain Fall:' + ' ' + towns[i].averageRainfall;
                 card.appendChild(rain);
-                image.setAttribute('src', '/lesson9/images/' + towns[i].photo);
+                
+                image.setAttribute('src', 'images/' + towns[i].photo);
                 image.setAttribute('alt', h1.textContent + '-' + towns[i].order);
-                card.appendChild(image);
+                pic.appendChild(image);
 
                 document.querySelector('div.cards').appendChild(card);
             }
