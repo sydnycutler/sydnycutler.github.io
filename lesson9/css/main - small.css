@@ -15,16 +15,6 @@ body {
     margin: 0;
     font-family: var(--paragraph-font)
 }
-#banner {
-    display: none;
-    text-align: center;
-    background-color: var(--primary-color);
-}
-#banner p {
-    margin: 10px;
-    padding: 2px;
-    font-weight: bolder;
-}
 header {
     background-color: var(--accent2-color);
     padding: 5px 0;
@@ -215,5 +205,9 @@ footer {
         font-size: 25px;
         font-family: var(--paragraph-font);
         align-items: center;
+    }
+    header img {
+        width: 70%;
+        height: auto;
     }
   }
