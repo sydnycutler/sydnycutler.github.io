@@ -101,13 +101,13 @@ ul {
 }
 .welcome {
     display: grid;
-    justify-content: center;
     margin: 0 auto 0 auto;
     text-align: center;
+    top: 100px;
     padding: .9rem;
     width: 800px;
     background-color: whitesmoke;
-    border: 1px solid black;
+    border: 1px solid var(--accent2-color);
     box-shadow: 0 0 30px #111;
     font-size: 12px;
 }
