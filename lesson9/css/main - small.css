@@ -106,9 +106,9 @@ ul {
 .welcome {
     display: grid;
     justify-content: center;
-    text-align: center;;
+    text-align: center;
     padding: .9rem;
-    width: 400px;
+    width: 800px;
     background-color: whitesmoke;
     border: 1px solid black;
     box-shadow: 0 0 30px #111;
