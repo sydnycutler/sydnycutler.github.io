@@ -12,6 +12,7 @@
         display: block;
         position: absolute;
         top: 25px;
+        margin: 0 auto 0 auto;
         background-color: whitesmoke;
         border: 1px solid black;
         padding: 1.5rem;
