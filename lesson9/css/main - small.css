@@ -104,8 +104,9 @@ ul {
     margin: 0 auto 0 auto;
     text-align: center;
     top: 100px;
+    right: 1000px;
     padding: .9rem;
-    width: 800px;
+    width: 600px;
     background-color: whitesmoke;
     border: 1px solid var(--accent2-color);
     box-shadow: 0 0 30px #111;
@@ -209,7 +210,7 @@ footer {
         display: none;
     }
     .welcome {
-        width: 350px;
+        width: 450px;
         height: auto;
     }
   }
