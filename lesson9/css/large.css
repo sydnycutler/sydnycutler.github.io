@@ -36,13 +36,6 @@
     .welcome {
         display: block;
         position: absolute;
-        justify-content: center;
-        margin: 0 auto 0 auto;
-        background-color: whitesmoke;
-        border: 1px solid black;
-        padding: 1.5rem;
-        box-shadow: 0 0 30px #111;
-        opacity: .8;
     }
     .cards {
         display: grid;
