@@ -95,9 +95,6 @@ ul {
     position: relative;
     display: block;
 }
-.hero img {
-    display: none;
-}
 .hero {
     height: auto;
     width: 100%;
@@ -204,5 +201,8 @@ footer {
     header img {
         width: 60px;
         height: auto;
+    }
+    .hero img {
+        display: none;
     }
   }
