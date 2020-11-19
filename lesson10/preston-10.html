@@ -62,7 +62,7 @@
                    <p>Wind: <span>8mph</span> NW</p>
                    <p>Wind Chill: <span id="windChill">46</span>&deg;</p>  
             </ul> </p>
-            <p>Last Reported: <span id="date">October 21, 2020 at 1:30pm</span></p>
+            <p>Last Reported: <span id="currentdate"></span></p>
             </section>
     </div>
 
@@ -70,29 +70,29 @@
         <h2>5 Day Forecast</h2>
     <div class="column">
 	<div class="column-block">
-		<span class="col-head">Friday</span>
-		<img class="weather" src="/lesson5/images/sun.jpg" alt="Sunny">
-		<span class="temp">59°</span>
+        <span id="weatherdate1"></span>
+        <span id="weatherimage1"></span>
+		<span id="temp1"></span>&deg; F
 	</div>
 	<div class="column-block">
-		<span class="col-head">Saturday</span>
-		<img class="weather" src="/lesson5/images/sun.jpg" alt="Sunny">
-		<span class="temp">67°</span>
+        <span id="weatherdate2"></span>
+        <span id-'weatherimage2'></span>
+		<span id="temp2"></span>&deg; F
 	</div>
 	<div class="column-block">
-		<span class="col-head">Sunday</span>
-		<img class="weather" src="/lesson5/images/cloudy.jpg" alt="Cloudy">
-		<span class="temp">64°</span>
+        <span id="weatherdate3"></span>
+        <span id='weatherimage3'></span>
+		<span id="temp3"></span>&deg; F
 	</div>
 	<div class="column-block">
-		<span class="col-head">Monday</span>
-		<img class="weather" src="/lesson5/images/partly-sunny.jpg" alt="Partly Cloud">
-		<span class="temp">66°</span>
+        <span id="weatherdate4"></span>
+        <span id='weatherimage4'></span>
+		<span id="temp4"></span>&deg; F
 	</div>
 	<div class="column-block">
-		<span class="col-head">Tuesday</span>
-		<img class="weather" src="/lesson5/images/partly-sunny.jpg" alt="Partly Cloudy">
-		<span class="temp">61°</span>
+        <span id="weatherdate5"></span>
+        <span id='weatherimage5'></span>
+		<span id="temp5"></span>&deg; F
 	</div>
 </div>
         </div>
@@ -129,6 +129,7 @@
 </footer>
 <script src="/lesson6/js/togglemenu.js"></script>
 <sript src="/lesson6/js/windchill.js"></sript>
+<script scr="/lesson10/js/forecast.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 <script>
     WebFont.load({

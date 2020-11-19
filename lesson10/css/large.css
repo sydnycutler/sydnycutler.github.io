@@ -1,0 +1,83 @@
+@media only screen and (min-width: 40em) {
+    .summary {
+        display: block;
+        position: absolute;
+        top: 25px;
+        left: 200px;
+        background-color: whitesmoke;
+        border: 1px solid black;
+        padding: 1.5rem;
+        box-shadow: 0 0 30px #111;
+        opacity: .8;
+    }
+    
+    header img {
+        width: 100%;
+    }
+    .headings h1 {
+        font-size: 3rem;
+    }
+    .headings {
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+    .motto {
+        letter-spacing: 1.5pt;
+        font-size: larger;
+        margin-left: 17px;
+    }
+    .navigation {
+        display: flex;
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+    .navigation li a {
+        color: white;
+    }
+    .hero {
+        height: auto;
+        width: 100%;
+        text-align:center;
+    }
+    .grid {
+        display: grid;
+        max-width: 550px;
+        place-items: center;
+        padding-left: 8px;
+    }
+   .weather {
+       width: 100px
+   }
+   .pumpkins {
+        display: block;
+        float: right;
+        padding-right: 150px;
+        height: 300px;
+        width: auto;
+    }
+    .pumpkins img {
+        float: right;
+    }
+    .google {
+        margin: 10px 0 30px 150px;
+        border: 1px solid #000;
+        box-shadow: 0 0 30px #555;
+        padding: 1rem;
+        display: block;
+        float: left;
+        justify-content: left;
+        text-align: left;
+    }
+    .article {
+        padding-left: 150px;
+    }
+    .long {
+        height: 350px;
+        width: auto;
+    }
+}
