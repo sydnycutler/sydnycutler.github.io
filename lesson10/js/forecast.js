@@ -14,7 +14,7 @@ fetch(apiURL)
 for (let day = 0; day < forecast.length; day++) {
     const date = new Date(forecast[day].dt_txt);
     document.getElementById('weatherdate${day+1}').textContent = weekday[date.getDay()];
-    dosument.getElementById('weatherimage')
+    dosument.getElementById('weatherimage');
     document.getElementById('${day+1}').textContent = forecast[day].main.temp;
 }
 
@@ -23,5 +23,5 @@ for (let day = 0; day < forecast.length; day++) {
      //   cont date = new Date(x.dt_txt);
        // document.getElementById('dotw${day+1}').textContent = weekday[date.getDay()];
         //document.getElementById('forecast${day+1}').textContent = forecast.main.temp;
-    })
+  //  })
   });
