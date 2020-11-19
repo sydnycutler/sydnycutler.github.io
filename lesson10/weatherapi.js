@@ -11,6 +11,7 @@ fetch(apiURL)
 
     temp.innerHTML = jsObject.main.temp;
 
+    source.textContent = "https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png";
     const iconsrc = 'https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png';
     weathericon.setAttribute('src', iconsrc);
     weathericon.setAttribute('alt', jsObject.weather[0].description)

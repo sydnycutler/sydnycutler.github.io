@@ -11,10 +11,14 @@ fetch(apiURL)
    // jsObject.list.forEach.String.includes('18:00:00');
 
    const weekday = ['Sun', 'Mon', 'Tues', 'Wed', 'Thur', 'Fri', 'Sat'];
+
 for (let day = 0; day < forecast.length; day++) {
+    
     const date = new Date(forecast[day].dt_txt);
+    const image = document.querySelector ('#weatherimage');
+    
     document.getElementById('weatherdate${day+1}').textContent = weekday[date.getDay()];
-    dosument.getElementById('weatherimage');
+    dosument.getElementById('weatherimage{day+1}').textContent = ;
     document.getElementById('${day+1}').textContent = forecast[day].main.temp;
 }
 
