@@ -16,7 +16,7 @@ fetch(apiURL)
             const imagesrc = 'https://openweathermap.org/img/f/' + jsObject.weather[0].icon + 'png'; 
             document.getElementById('tabledate').textContent= weekday[date.getDay()];
             document.getElementById('temp').textContent= forecast.main.temp;
-            document.getElementById('imagesrc').textContent = imagesrc;
+            document.getElementById('iconsrc').textContent = imagesrc;
             document.getElementById('weatherimage').setAttribute('src', imagesrc);
             document.getElementById('weatherimage').setAttribute('alt', desc);
           }
