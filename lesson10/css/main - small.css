@@ -107,8 +107,8 @@ ul {
 }
 .hero img {
     display: block;
+    height: 100%;
     width: 100%;
-    height:100%;
 }
 .hero {
     height: auto;
@@ -117,18 +117,16 @@ ul {
 }
 .summary {
     display: grid;
-    justify-content: center;
+    margin: 0 auto 0 auto;
     padding: .9rem;
-    width: 400px;
+    width: 300px;
     background-color: whitesmoke;
     border: 1px solid black;
     box-shadow: 0 0 30px #111;
-    font-size: 12px;
+    font-size: 15px;
 }
 .forecast {
-    margin: 0 auto 0 auto;
     text-align: center;
-    width: 100%;
 }
 #weatherdate {
 	display: block;
@@ -147,8 +145,6 @@ ul {
 	text-align: center;
 }
 #table {
-    margin: 0 auto 0 auto;
-    width: 100%;
     border-right: 1px solid #333;
 	column-count: 6;
     column-gap: 0;
@@ -160,6 +156,7 @@ ul {
 	padding: 0.25rem;
 }
 table {
+    margin: 0 auto 0 auto;
 	background-color: whitesmoke;
 }
 .pumpkins {
