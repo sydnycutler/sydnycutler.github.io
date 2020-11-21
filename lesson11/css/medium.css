@@ -28,6 +28,49 @@
         width: 100%;
         text-align:center;
     }
+    header img {
+        width: 70px;
+        height: auto;
+    }
+    /*home*/
+    .welcome {
+        display: block;
+        position: absolute;
+        top: 50px;
+        left: 250px;
+    }
+    info {
+        display: grid;
+    }
+    info:nth-child(even) img{
+        display: block;
+        grid-column: 1;
+    }
+    info:nth-child(even) p{
+        grid-column: 3;
+    }
+    info:nth-child(even) h1{
+        grid-column: 3;
+    }
+    info:nth-child(even) h3{
+        grid-column: 3;
+    }
+    info:nth-child(even) .motto{
+        grid-column: 3;
+    }
+    info img {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 6;
+        width: 80%;
+        margin: 20px;
+    }
+    info p {
+        grid-column-start: 1;
+        margin: 2px;
+    }
+    /*town pages*/
     table {
         width: 85%;
         padding: 10px;
@@ -55,5 +98,20 @@
     }
     .summary {
         width: 65%;
+    }
+    /*storm center & gallery*/
+    .images {
+        padding: 10px 0;
+        display: grid;
+        gap: 10px;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .gallery {
+        grid-column-start: 2/3;
+        grid-column-end: 3/4;
+        width: 450px;
+        height: 250px;
     }
 }
