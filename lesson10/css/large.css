@@ -1,10 +1,23 @@
+/*@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat&display=swap');*/
+:root {
+    --primary-color: #ffd900f5;
+    --secondary-color: #3399cc;
+    --accent1-color: #c0bfbd;
+    --accent2-color: #ff66c4;
+    font-family: "Montserrat", "Lato", sans-serif;
+    --heading-font: "Montserrat", sans-serif;
+    --paragraph-font: "Lato", sans-serif,
+    }
+
 @media only screen and (min-width: 80em) {
     .summary {
         display: block;
         position: absolute;
         top: 25px;
         left: 200px;
-        background-color: whitesmoke;
+        width: 300px;
+        background-color: var(--secondary-color);
+        color: white;
         border: 1px solid black;
         padding: 1.5rem;
         box-shadow: 0 0 30px #111;
@@ -61,8 +74,8 @@
     .contact {
         display: block;
         text-align: right;
-        margin-right: 150px;
-        margin-bottom: 70px;
+        margin-right: 300px;
+        margin-top: 80px;
     }
     .google {
         margin: 10px 0 30px 150px;

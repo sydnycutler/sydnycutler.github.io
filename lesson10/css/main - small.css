@@ -119,11 +119,13 @@ ul {
     display: grid;
     margin: 0 auto 0 auto;
     padding: .9rem;
-    width: 300px;
-    background-color: whitesmoke;
+    width: 65%;
+    background-color: var(--secondary-color);
+    color: white;
     border: 1px solid black;
     box-shadow: 0 0 30px #111;
     font-size: 15px;
+    text-align: center;
 }
 .forecast {
     text-align: center;
@@ -163,7 +165,7 @@ table {
 .contact {
     display: block;
     text-align: right;
-    margin-right: 150px;
+    margin-right: 100px;
     margin-bottom: 70px;
 }
 .contentbox {

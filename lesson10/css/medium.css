@@ -1,3 +1,14 @@
+/*@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat&display=swap');*/
+:root {
+    --primary-color: #ffd900f5;
+    --secondary-color: #3399cc;
+    --accent1-color: #c0bfbd;
+    --accent2-color: #ff66c4;
+    font-family: "Montserrat", "Lato", sans-serif;
+    --heading-font: "Montserrat", sans-serif;
+    --paragraph-font: "Lato", sans-serif,
+    }
+
 @media only screen and (min-width: 60em) {
     .hero {
         height: auto;
@@ -8,7 +19,7 @@
         display: block;
         margin: 0 auto 0 auto;
         padding: 30px;
-        height: 150px;
+        height: 200px;
         width: auto;
     }
     .text {
@@ -22,7 +33,10 @@
             padding: 1rem;
             text-align: left;
     }
-.contact {
-    display: none;
-}
+    .contact {
+        display: none;
+    }
+    .summary {
+        width: 65%;
+    }
 }
