@@ -5,21 +5,30 @@ fetch(castURL)
     .then(jsObject => {
         console.log(jsObject);
 
-        const forecast = jsObject.list.filter(x => x.dt_txt.includes('18:00:00'));
-        console.log(forecast);
-
-        // jsObject.list.forEach.String.includes('18:00:00');
-
-        const weekday = ['Sun', 'Mon', 'Tues', 'Wed', 'Thur', 'Fri', 'Sat'];
-        for(let day=0; day<forecast.length;day++){
-            const date= new Date(forecast);
-            const imagesrc = 'https://openweathermap.org/img/f/' + jsObject.weather[0].icon + 'png'; 
-            document.getElementById('tabledate').textContent= weekday[date.getDay()];
-            document.getElementById('temp').textContent= forecast.main.temp;
-            document.getElementById('iconsrc').textContent = imagesrc;
-            document.getElementById('weatherimage').setAttribute('src', imagesrc);
-            document.getElementById('weatherimage').setAttribute('alt', desc);
-          }
-           
-          });
+        var x = 1;
+        var weekDay = new Array(7);
+        weekDay[0] = "Sun";
+        weekDay[1] = "Mon";
+        weekDay[2] = "Tues";
+        weekDay[3] = "Wed";
+        weekDay[4] = "Thur";
+        weekDay[5] = "Fri";
+        weekDay[6] = "Sat";
+        for (var i = 0; i < jsObject.list.length; i++ ) {
+            var time = jsObject.list[i].dt_txt.substring(11);
+            var date = new Date(jsObject.list[i].dt * 1000);
+            var day = weekDay[date.getDay()];
+            if (time == '18:00:00' && x <= 5) {
+                document.getElementById('dotw' + x).textContent = day;
+                document.getElementById('temp' + x).textContent = jsObject.list[i].main.temp;
+    
+                const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.list[i].weather[0].icon + '.png';
+                const tion = jsObject.list[i].weather[0].description;
+                document.getElementById('icon' + x).setAttribute('src', imagesrc);
+                document.getElementById('icon' + x).setAttribute('alt', tion);
+    
+                x++
+            }
+        }
+      });
         

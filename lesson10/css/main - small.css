@@ -129,38 +129,22 @@ ul {
 }
 .forecast {
     text-align: center;
-}
-#weatherdate {
-	display: block;
-	padding: 5px;
-	border-bottom: 1px solid #333;
-    text-align: center;
-    font-weight: 700;
-	font-size: 1rem;
-	background-color: var(--accent2-color);
-	color: white;
-}
-#weatherimage, #temp {
-	display: block;
-	padding: 0 5px 5px;
-	font-size: 0.8rem;
-	text-align: center;
-}
-#table {
-    border-right: 1px solid #333;
-	column-count: 6;
-    column-gap: 0;
-    place-items: center;
-}
-#tableicon {
-    width: 50%;
-    border-radius: 100px;
-	padding: 0.25rem;
+    font-size: 18px;
+
 }
 table {
     margin: 0 auto 0 auto;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+}
+.tabledate {
     background-color: var(--secondary-color);
     color: whitesmoke;
+
+}
+td:nth-child(odd) {
+    color: var(--accent2-color);
 }
 .contact {
     display: block;

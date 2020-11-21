@@ -60,6 +60,9 @@
    .weather {
        width: 100px;
    }
+   table {
+       width: 70%;
+   }
    .pumpkins {
         display: block;
         float: right;
