@@ -1,4 +1,4 @@
-@media only screen and (min-width: 40em) {
+@media only screen and (min-width: 80em) {
     .summary {
         display: block;
         position: absolute;
@@ -44,24 +44,25 @@
         width: 100%;
         text-align:center;
     }
-    .grid {
-        display: grid;
-        max-width: 550px;
-        place-items: center;
-        padding-left: 8px;
-    }
    .weather {
-       width: 100px
+       width: 100px;
    }
    .pumpkins {
         display: block;
         float: right;
-        padding-right: 150px;
+        margin-right: 150px;
+        padding: 30px;
         height: 300px;
         width: auto;
     }
     .pumpkins img {
         float: right;
+    }
+    .contact {
+        display: block;
+        text-align: right;
+        margin-right: 150px;
+        margin-bottom: 70px;
     }
     .google {
         margin: 10px 0 30px 150px;
@@ -73,8 +74,9 @@
         justify-content: left;
         text-align: left;
     }
-    .article {
-        padding-left: 150px;
+    .text {
+        padding: 30px;
+        margin-left: 150px;
     }
     .long {
         height: 350px;

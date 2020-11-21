@@ -157,34 +157,34 @@ ul {
 }
 table {
     margin: 0 auto 0 auto;
-	background-color: whitesmoke;
-}
-.pumpkins {
-    display: none;
+    background-color: var(--secondary-color);
+    color: whitesmoke;
 }
 .contact {
     display: block;
     text-align: right;
     margin-right: 150px;
-    margin-top: 50px;
+    margin-bottom: 70px;
 }
 .contentbox {
     display: block;
     margin: 10px auto;
     border: 1px solid var(--accent2-color);
-    padding: 15px;
-    background-color: var(--secondary-color);
+    padding: 30px;
+    background-color: whitesmoke;
     font-style: var(--paragraph-font);
 }
 .google {
     display: none;
 }
-.article {
+.text {
     max-width: 400px;
+    margin: 0 auto 0 auto;
 }
 .fa {
-    padding: 20px;
-    font-size: 10px;
+    margin: 5px;
+    padding: 10px;
+    font-size: 5px;
     width: 10px;
     text-decoration: none;
     border-radius: 50%;
@@ -196,7 +196,6 @@ table {
 .fa-facebook {
   background: #3B5998;
   color: white;
-  margin-right: 150px;
 }
 .fa-twitter {
   background: #55ACEE;
@@ -210,20 +209,15 @@ table {
     background: #cb2027;
     color: white;
 }
-  .long {
-    height: 300px;
-    width: auto;
-    display: block;
-    margin: 10px auto;
-    border: 1px solid var(--accent2-color);
-    padding: 15px;
-    background-color: whitesmoke;
-    font-style: var(--paragraph-font);
-}
 footer {
     margin-top: 20px;
     padding: 10px;
     text-align: center;
     background-color: var(--accent2-color);
     color: white;
+}
+@media only screen and (max-width: 60em) {
+    .pumpkins {
+        display: none;
+    }
 }
