@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The 4caster Homepage">
+    <link rel="shortcut icon" href="/lesson6/images/favicon.ico">
+    <link href="/css/normalize.css" rel="normalize">
+    <link href="css/main - small.css" rel="small stylesheet">
+    <link href="css/medium.css" rel="medium stylesheet">
+    <link href="css/large.css" rel="large stylesheet">
+    <link rel="social stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>
+        The 4caster Homepage | WDD 230 Assignment Portal
+    </title>
+</head>
+
+<body>
+    <header>
+        <picture>
+            <img class="logo" src="/lesson3/images/The-4caster-logo.png" alt="Preston Town Page logo">
+        </picture>
+        <section class="headings">
+            <h1>
+                The 4caster
+            </h1>
+            <div class="motto">The weather is meant 4 you</div>
+        </section>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="/lesson11/home.html" class="active">Home</a></li>
+            <li><a href="/lesson11/preston.html">Preston</a></li>
+            <li><a href="/lesson11/sodasprings.html">Soda Springs</a></li>
+            <li><a href="/lesson11/fishhaven.html">Fish Haven</a></li>
+            <li><a href="/lesson11/stormcenter.html">Storm Center</a></li>
+            <li><a href="/lesson11/gallery.html">Image Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+            <div class="herodiv">
+                <img class="hero" src="/lesson5/images/foggy-forest.jpg">
+                <section class="welcome">
+                    <h1>The 4caster coming to you live!</h1>
+                    <p>Tired of all your boring weather apps and webpage? Get weather that relates to you here! Wanting
+                        to go
+                        out but don't know how to do your hair or makeup? Look us up. Need a good meme to go with the
+                        weather?
+                        Look us up. Not sure how to hashtag the weather? Look us up. We have all your weather needs that
+                        are
+                        relatable to you!</p>
+                </section>
+            </div>
+        </div>
+        <div class="cards"></div>
+    </main>
+    <footer>
+        <p><em>Have questions or concerns?</em> <b>Contact us @ 4caster@email.com or at 801.4CASTER</b></p>
+        &copy; 2020 | Sydny Cutler | Utah | <a href="https://www.byui.edu/online" target="_blank">BYUI Online
+            Learning</a> | <a href="wireframe.html">WireFrame</a>
+        <h4>Current Date: <span id="currentdate"></span></h4>
+    </footer>
+    <script src="js/home.js"></script>
+    <script src="/lesson6/js/togglemenu.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: [
+                    'Montserrat', 'Lato'
+                ]
+            }
+        });
+    </script>
+</body>
+
+</html>

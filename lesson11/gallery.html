@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The 4caster Image Gallery">
+    <link rel="shortcut icon" href="/lesson6/images/favicon.ico">
+    <link href="/css/normalize.css" rel="normalize">
+    <link href="css/main - small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="medium stylesheet">
+    <link href="css/large.css" rel="large stylesheet">
+    <title>
+        The 4caster - Image Gallery | WDD 230 Assignment Portal
+    </title>
+</head>
+
+<body>
+    <header>
+        <picture>
+            <img class="logo" src="/lesson3/images/The-4caster-logo.png" alt="Preston Town Page logo">
+        </picture>
+        <section class="headings">
+            <h1>
+                The 4caster
+            </h1>
+            <div class="motto">The weather is meant 4 you</div>
+        </section>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="/lesson11/home.html">Home</a></li>
+            <li><a href="/lesson11/preston.html">Preston</a></li>
+            <li><a href="/lesson11/sodasprings.html">Soda Springs</a></li>
+            <li><a href="/lesson11/fishhaven.html">Fish Haven</a></li>
+            <li><a href="/lesson11/stormcenter.html">Storm Center</a></li>
+            <li><a href="/lesson11/gallery.html" class="active">Image Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1 class=title>Image Gallery</h1>
+        <div class="images">
+        <figure>
+            <img class="gallery" src="/lesson7/images/boise-idaho.jpg" alt="boise idaho capitol">
+            <figcaption>
+                Cloudy weather at the capitol in Boise, Idaho.
+            </figcaption>
+        </figure>
+        <figure>
+            <img class="gallery" src="/lesson7/images/Clearwater-River-Idaho.jpg" alt="clearwater river">
+            <figcaption>
+                Rainy weather at the Clearwater River. 
+            </figcaption>
+        </figure>
+        <figure>
+            <img class="gallery" src="/lesson7/images/salmon-river-idaho.jpg" alt="salmon river">
+            <figcaption>
+                Blue skys at the Salmon River.
+            </figcaption>
+        </figure>
+        <figure>
+            <img class="gallery" src="/lesson7/images/sawtooth-forest-idaho.jpg" alt="sawtooth forest">
+            <figcaption>
+                Partly cloudy in the Sawtooth Forest.
+            </figcaption>
+        </figure>
+        <figure>
+            <img class="gallery" src="/lesson7/images/snake-river-idaho.jpg" alt="snake river">
+            <figcaption>
+                Thunderstorms at the Snake River.
+            </figcaption>
+        </figure>
+        <figure>
+            <img class="gallery" src="/lesson7/images/twin-falls-idaho.jpg" alt="twin falls">
+            <figcaption>
+                Sunny weather at Twin Falls. 
+            </figcaption>
+        </figure>
+        </div>
+    </main>
+    <footer>
+        &copy; 2020 | Sydny Cutler | Utah | <a href="https://www.byui.edu/online" target="_blank">BYUI Online
+            Learning</a>
+            <h4>Current Date: <span id="currentdate"></span></h4>
+    </footer>
+    <script src="/lesson7/js/togglemenu.js"></script>
+    <script src="/lesson7/js/galleryload.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+      google: {
+        families: [
+           'Montserrat' , 'Lato'
+        ]
+      }
+    });
+    </script>
+    </body>
+    </html>

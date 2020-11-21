@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The 4caster Storm Gallery">
+    <link rel="shortcut icon" href="/lesson6/images/favicon.ico">
+    <link href="/css/normalize.css" rel="normalize">
+    <link href="css/main - small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="medium stylesheet">
+    <link href="css/large.css" rel="large stylesheet">
+    <title>
+        The 4caster - Storm Center | WDD 230 Assignment Portal
+    </title>
+</head>
+
+<body>
+    <header>
+        <picture>
+            <img class="logo" src="/lesson3/images/The-4caster-logo.png" alt="Preston Town Page logo">
+        </picture>
+        <section class="headings">
+            <h1>
+                The 4caster
+            </h1>
+            <div class="motto">The weather is meant 4 you</div>
+        </section>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="/lesson11/home.html">Home</a></li>
+            <li><a href="/lesson11/preston.html">Preston</a></li>
+            <li><a href="/lesson11/sodasprings.html">Soda Springs</a></li>
+            <li><a href="/lesson11/fishhaven.html">Fish Haven</a></li>
+            <li><a href="/lesson11/stormcenter.html" class="active">Storm Center</a></li>
+            <li><a href="/lesson11/gallery.html">Image Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1 class=title>Storm Center</h1>
+        <form id="msform">
+
+            <fieldset class="questions">
+                <h2 class="fs-title">Contact Information</h2>
+                <h3 class="fs-subtitle">Let us know how to contact you</h3>
+                <label class="info">Full Name*<input type="text" name="name" required>
+                    <label class="info">Email Address<input type="text" name="email" placeholder="Email Address"
+                            required></label>
+                    <label class="info">Phone Number*<input type="tel" name="phone"
+                            placeholder="555-555-5555" required></label>
+                    <label class="info">Zip Code</label><input type="number" name="zipCode"
+                        placeholder="Zip Code" required></label>
+
+                <h2 class="fs-title">Storm Information</h2>
+                <h3 class="fs-subtitle">Let us know information on the storm situation</h3>
+                <label class="info">Storm Date<input type="date" name="stormDate"></label>
+                <label class="info">Storm Type<input list="stormlist" name="stormType"></label>
+                <datalist id="stormlist">
+                    <option value="Flash Flood">
+                    <option value="Hail">
+                    <option value="Hurricane">
+                    <option value="Thunderstorm">
+                    <option value="Tornado">
+                </datalist>
+
+                <label class="info">Storm Severity<input type="range" name="stormSeverity" id="rating" min="1" max="10"
+                        step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                </label>
+
+                <datalist id="tickmarks">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </datalist>
+
+                <label class="info">Storm Region</label>
+                <select name="stormRegion">
+                    <option value="">Select Region</option>
+                    <option value="preston">Preston</option>
+                    <option value="sodaSpring">Soda Springs</option>
+                    <option value="fishHaven">Fish Haven</option>
+                </select>
+
+                <div class="danger">User in-danger level</div>
+                <label class="choice"><input type="radio" name="level" value="Yes">Yes</label>
+                <label class="choice"><input type="radio" name="level" value="No">No</label>
+                <label class="choice"><input type="radio" name="level" value="Maybe">Maybe</label>
+
+                <label class="info">Additional Information or Comments<textarea name="comments" rows="5"
+                        cols="33"></textarea></label>
+
+                <input type="submit" name="submit" class="submit action-button" value="Submit">
+            </fieldset>
+        </form>
+    </main>
+    <script src="js/togglemenu.js"></script>
+    <script src="js/form.js"></script>
+</body>
+
+</html>
