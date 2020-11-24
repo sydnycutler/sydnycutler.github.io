@@ -324,13 +324,15 @@ footer {
 }
 
 .fs-title {
-	font-size: 25px;
+    font-size: 25px;
+    text-align: center;
 	text-transform: uppercase;
 	color: #2C3E50;
 	margin-bottom: 10px;
 }
 
 .fs-subtitle {
+    text-align: center;
 	font-weight: normal;
 	font-size: 20px;
 	color: #666;
@@ -341,12 +343,13 @@ form label.info, form div{
     padding-top:  1rem;
     color:black;
     font-size: .8rem;
+    text-align: left;
 }
 form label.info,label.info, form label.info select, .danger{
     -webkit-appearance:none;
     display: block;
     font-size: .90rem;
-    width:400px;
+    width:600px;
     border-radius: .75rem;
     padding:.75rem;
 }
