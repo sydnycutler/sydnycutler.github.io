@@ -309,20 +309,18 @@ footer {
 
 #msform .action-button {
 	width: 100px;
-	background: var(--secondary-color);
-	font-weight: bold;
+	background-color: var(--accent2-color);
 	color: white;
-	border: 0 none;
 	border-radius: 1px;
 	cursor: pointer;
-	padding: 10px 5px;
-	margin: 10px 5px;
+    padding: 10px 5px;
+    text-align: center;
 }
-
-#msform .action-button:hover, #msform .action-button:focus {
-	box-shadow: 0 0 0 2px white, 0 0 0 3px var(--secondary-color);
+#msform .action-button:hover {
+    background-color: var(--secondary-color);
+    color: white;
+    font-weight: 700;
 }
-
 .fs-title {
     font-size: 25px;
     text-align: center;
@@ -330,7 +328,6 @@ footer {
 	color: #2C3E50;
 	margin-bottom: 10px;
 }
-
 .fs-subtitle {
     text-align: center;
 	font-weight: normal;
@@ -341,8 +338,9 @@ footer {
 form label.info, form div{
     display:block;
     padding-top:  1rem;
-    color:black;
+    color: var(--secondary-color);
     font-size: .8rem;
+    font-weight: 700;
     text-align: left;
 }
 form label.info,label.info, form label.info select, .danger{
@@ -363,26 +361,17 @@ input.info{
     padding: .75rem;
 
 }
+.danger {
+    font-weight: 700;
+}
 .choice{
     display: inline-block;
     position: relative;
     cursor: pointer;
     padding-top:0;
     padding-bottom: 10px;
-}
-.submit{
-    border: none;
-    background-color: var(--accent2-color);
-    color: white;
-    font-size: 1em;
-    border-radius:  1rem;
-    padding: .75rem;
-    width:200px;
-    margin-left: 20px;
-}
-.submit:hover {
-background-color: var(--secondary-color);
-color: white;
+    text-align: center;
+    font-size: 13px;
 }
 /*gallery*/
 .images {
@@ -442,5 +431,9 @@ figcaption {
         align-content: center;
         grid-template-columns: 1fr;
         width: 400px;
+    }
+    #msform {
+        width: 70%;
+        position: relative;
     }
 }

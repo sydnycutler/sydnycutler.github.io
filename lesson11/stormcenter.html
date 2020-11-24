@@ -56,9 +56,8 @@
                 <h2 class="fs-title">Storm Information</h2>
                 <h3 class="fs-subtitle">Let us know information on the storm situation</h3>
                 <label class="info">Storm Date<input type="date" name="stormDate"></label>
-                <label class="info">Storm Type<input list="stormlist" name="stormType"></label>
+                <label class="info">Storm Type<input list="stormlist" name="stormType" placeholder="Input Type"></label>
                 <datalist id="stormlist">
-                    <option value="">Select Type</option>
                     <option value="Flash Flood">
                     <option value="Hail">
                     <option value="Hurricane">
@@ -99,10 +98,15 @@
                 <label class="info">Additional Information or Comments<textarea name="comments" rows="5"
                         cols="33"></textarea></label>
 
-                <input type="submit" name="submit" class="submit action-button" value="Submit">
+                <input type="button" class="submit action-button" value="Submit">
             </fieldset>
         </form>
     </main>
+    <footer>
+        &copy; 2020 | Sydny Cutler | Utah | <a href="https://www.byui.edu/online" target="_blank">BYUI Online
+            Learning</a>
+            <p>Last Reported: <span id="currentdate"></span></p>
+    </footer>
     <script src="js/togglemenu.js"></script>
     <script src="js/form.js"></script>
 </body>
