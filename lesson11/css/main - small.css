@@ -126,21 +126,21 @@ ul {
     box-shadow: 0 0 30px #111;
     font-size: 12px;
 }
-main{
+.main{
     padding: 1em;
     margin: 0 auto;
 }
-main h1, main h3 {
+.main h1, .main h3 {
     font-family: var(--heading-font);
     text-align: center;
     margin: 0 auto;
     padding: 5px;
 }
-main h3 {
+.main h3 {
     font-style: italic;
     font-size: small;
 }
-p {
+.main p {
     font-family: var(--paragraph-font);
     margin-top: 5px;
     margin: 0 0 10px 0;
@@ -180,7 +180,7 @@ info img {
     color: white;
     border: 1px solid black;
     box-shadow: 0 0 30px #111;
-    font-size: 12px;
+    font-size: 15px;
     text-align: center;
 }
 .forecast {
@@ -275,7 +275,6 @@ footer {
 #msform {
 	width: 70%;
 	margin: 50px auto;
-	text-align: left;
 	position: relative;
 }
 
@@ -295,7 +294,7 @@ footer {
 	display: none;
 }
 
-#msform input, #msform textarea {
+#msform input, #msform textarea{
 	padding: 15px;
 	border: 1px solid #ccc;
 	border-radius: 3px;
@@ -303,10 +302,12 @@ footer {
 	width: 100%;
 	box-sizing: border-box;
 	font-family: var(--heading-font);
-	color: #2C3E50;
+	color: darkgray;
 	font-size: 13px;
 }
-
+::placeholder {
+   color: darkgray; 
+}
 #msform .action-button {
 	width: 100px;
 	background-color: var(--accent2-color);
@@ -325,14 +326,14 @@ footer {
     font-size: 25px;
     text-align: center;
 	text-transform: uppercase;
-	color: #2C3E50;
+	color: black;
 	margin-bottom: 10px;
 }
 .fs-subtitle {
     text-align: center;
 	font-weight: normal;
 	font-size: 20px;
-	color: #666;
+	color: var(--accent1-color);
 	margin-bottom: 20px;
 }
 form label.info, form div{
@@ -347,14 +348,18 @@ form label.info,label.info, form label.info select, .danger{
     -webkit-appearance:none;
     display: block;
     font-size: .90rem;
-    width:600px;
+    width: 600px;
     border-radius: .75rem;
     padding:.75rem;
 }
 .questions{
     margin-top: 60px;
 }
-
+.stormRegion {
+    width: 600px;
+    padding:.75rem;
+    color: darkgray;
+}
 input.info{
     border-radius: 5px;
     width: 100%;
@@ -372,6 +377,7 @@ input.info{
     padding-bottom: 10px;
     text-align: center;
     font-size: 13px;
+    color: darkgray;
 }
 /*gallery*/
 .images {
@@ -404,6 +410,9 @@ figcaption {
   grid-column: 1/1;
 }
 @media only screen and (max-width: 60em) {
+    .hero img {
+        display: none;
+    }
     .pumpkins {
         display: none;
     }
