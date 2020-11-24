@@ -41,6 +41,7 @@
     }
     info {
         display: grid;
+        width: 90%;
     }
     info:nth-child(even) img{
         display: block;

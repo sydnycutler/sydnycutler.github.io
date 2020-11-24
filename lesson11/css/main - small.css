@@ -117,8 +117,8 @@ ul {
 }
 /*home*/
 .welcome {
-    display: grid;
-    margin: 0 auto 0 auto;
+    display: block;
+    margin: 20px auto;
     text-align: center;
     width: 600px;
     background-color: whitesmoke;
@@ -160,8 +160,7 @@ info {
     background-color: var(--secondary-color);
     padding: 20px;
     margin: 20px auto;
-    align-items: center;
-    width: 100%;
+    width: 330px;
 }
 info h1 {
     color: white;
