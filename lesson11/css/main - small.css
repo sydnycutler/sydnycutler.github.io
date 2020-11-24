@@ -151,9 +151,8 @@ div.cards {
     display: grid;
     grid-template-columns: 1fr;
     color: whitesmoke;
+    margin: 0 auto 0 auto;
     text-align: center;
-    align-items: center;
-    align-content: center;
 }
 info {
    display: block;
@@ -170,19 +169,19 @@ info h1 {
 info img {
     margin: 0 auto 0 auto;
     width: 100%;
-    height: auto;
+    height: 200px;
 }
 /*town pages*/
 .summary {
     display: grid;
     margin: 0 auto 0 auto;
-    padding: .9rem;
-    width: 65%;
+    padding: 5px;
+    width: 70%;
     background-color: var(--secondary-color);
     color: white;
     border: 1px solid black;
     box-shadow: 0 0 30px #111;
-    font-size: 15px;
+    font-size: 12px;
     text-align: center;
 }
 .forecast {
@@ -217,6 +216,10 @@ td:nth-child(odd) {
     padding: 30px;
     background-color: whitesmoke;
     font-style: var(--paragraph-font);
+}
+.article{
+    background-color: var(--secondary-color);
+    color: white;
 }
 .google {
     display: none;
@@ -421,7 +424,8 @@ figcaption {
         display: none!important;
     }
     .welcome {
-        width: 400px;
+        margin-bottom: 15px;
+        width: 440px;
         height: auto;
     }
     div.cards section:nth-child(odd) img {
@@ -433,8 +437,8 @@ figcaption {
     }
     div.cards {
         display: grid;
+        align-content: center;
         grid-template-columns: 1fr;
         width: 400px;
-        margin: 0 auto 0 auto;
     }
 }
