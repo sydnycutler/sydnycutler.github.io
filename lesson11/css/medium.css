@@ -116,7 +116,7 @@
     .gallery {
         grid-column-start: 2/3;
         grid-column-end: 3/4;
-        width: 450px;
+        width: 400px;
         height: 250px;
     }
 }

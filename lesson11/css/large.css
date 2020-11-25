@@ -130,7 +130,7 @@
         width: 70%;
         position: relative;
     }
-    
+
     .images {
         padding: 10px 0;
         display: grid;
@@ -141,7 +141,7 @@
     }
     .gallery {
     grid-column: 1/4;
-    width: 450px;
+    width: 400px;
     height: 250px;
     }
 }
