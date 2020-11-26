@@ -90,15 +90,16 @@
    table {
        width: 75%;
    }
-   .pumpkins {
+   .articleimg {
         display: block;
         float: right;
         margin-right: 150px;
         padding: 30px;
         height: 300px;
         width: auto;
+        vertical-align: center;
     }
-    .pumpkins img {
+    .articleimg img {
         float: right;
     }
     .contact {

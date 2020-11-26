@@ -76,7 +76,7 @@
         width: 85%;
         padding: 10px;
     }
-    .pumpkins {
+    .articleimg {
         display: block;
         margin: 0 auto 0 auto;
         padding: 30px;
@@ -95,7 +95,12 @@
             text-align: left;
     }
     .contact {
-        display: none;
+        display: block;
+        text-align: center;
+        padding: 10px;
+    }
+    .fa {
+        text-align: center;
     }
     .summary {
         width: 65%;
