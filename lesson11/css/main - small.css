@@ -154,6 +154,11 @@ div.cards {
     margin: 0 auto 0 auto;
     text-align: center;
 }
+.contact h3 {
+    text-align: right;
+    font-style: normal;
+    font-size: 20px;
+}
 info {
    display: block;
     border: 3px solid var(--accent2-color);
