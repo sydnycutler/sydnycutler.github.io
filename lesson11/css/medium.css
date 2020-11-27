@@ -47,6 +47,9 @@
     .fa {
         margin: 5px;
     }
+    #social {
+        display: inline-block;
+    }
     info {
         display: grid;
         width: 90%;

@@ -55,7 +55,7 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
     .contact h3 {
-        text-align: center;
+        text-align: right;
         font-style: normal;
         font-size: 20px;
     }
