@@ -80,7 +80,7 @@
         display: block;
         margin: 0 auto 0 auto;
         padding: 30px;
-        height: 200px;
+        height: 300px;
         width: auto;
     }
     .text {
@@ -106,9 +106,8 @@
         width: 65%;
     }
     /*storm center & gallery*/
-    #msform {
-        width: 70%;
-        position: relative;
+    form {
+        width: 90%;
     }
     .images {
         padding: 10px 0;

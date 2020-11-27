@@ -271,28 +271,25 @@ footer {
     align-items: center;
 }
 /*storm center*/
-#msform {
-	width: 70%;
-	margin: 50px auto;
+form {
+	width: 100%;
+	margin: 0 auto 0 auto;
 	position: relative;
 }
-
 #msform fieldset {
 	background: white;
 	border: 0 none;
 	border-radius: 3px;
 	box-shadow: 0 0 15px 1px var(--accent2-color);
-	padding: 20px 30px;
+	padding: 20px;
 	box-sizing: border-box;
-	width: 70%;
+	width: 60%;
 	margin: 0 auto;
 	position: relative;
 }
-
 #msform fieldset:not(:first-of-type) {
 	display: none;
 }
-
 #msform input, #msform textarea{
 	padding: 15px;
 	border: 1px solid #ccc;
@@ -313,7 +310,7 @@ footer {
 	color: white;
 	border-radius: 1px;
 	cursor: pointer;
-    padding: 10px 5px;
+    padding: 10px;
     text-align: center;
 }
 #msform .action-button:hover {
@@ -347,15 +344,15 @@ form label.info,label.info, form label.info select, .danger{
     -webkit-appearance:none;
     display: block;
     font-size: .90rem;
-    width: 600px;
+    width: 100%;
     border-radius: .75rem;
-    padding:.75rem;
+    padding: 1px;
 }
 .questions{
     margin-top: 60px;
 }
 .stormRegion {
-    width: 600px;
+    width: 100%;
     padding:.75rem;
     color: darkgray;
 }
@@ -367,6 +364,7 @@ input.info{
 }
 .danger {
     font-weight: 700;
+    padding-top: 1rem;
 }
 .choice{
     display: inline-block;
@@ -440,8 +438,8 @@ figcaption {
         grid-template-columns: 1fr;
         width: 400px;
     }
-    #msform {
-        width: 70%;
+    form {
+        margin: 0 auto 0 auto;
         position: relative;
     }
 }

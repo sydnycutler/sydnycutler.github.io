@@ -127,11 +127,9 @@
         width: auto;
     }
     /*storm center & gallery*/
-    #msform {
-        width: 70%;
-        position: relative;
+    form {
+        width: 80%;
     }
-
     .images {
         padding: 10px 0;
         display: grid;
