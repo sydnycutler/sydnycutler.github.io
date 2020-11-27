@@ -52,6 +52,7 @@ h2 {
 }
 .title {
 text-align: center;
+font-family: var(--heading-font);
 }
 .motto {
     font-style: italic;
