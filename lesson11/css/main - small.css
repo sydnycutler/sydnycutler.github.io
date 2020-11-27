@@ -43,7 +43,9 @@ header img {
 .headings h1 {
     font-size: 1.6rem;
     margin: 0 0 0 17px;
-    font-style: var(--heading-font);
+}
+h1 {
+    font-family: var(--heading-font) !important;
 }
 h2 {
     font-style: var(--heading-font) !important;
