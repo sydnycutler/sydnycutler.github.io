@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The Scoots Reservation Page">
+    <link rel="shortcut icon" href="/lesson6/images/favicon.ico">
+    <link href="/css/normalize.css" rel="normalize">
+    <link href="css/main-small.css" rel="small stylesheet">
+    <link href="css/medium.css" rel="medium stylesheet">
+    <link href="css/large.css" rel="large stylesheet">
+
+    <title>
+        The Scoots Reservation Page | WDD 230 Assignment Portal
+    </title>
+</head>
+<body>
+    <header>
+        <picture>
+            <img class="logo" src="" alt="Scoots logo">
+        </picture>
+        <section class="headings">
+            <h1>
+                Scoots
+            </h1>
+        </section>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="rentals.html">Rentals</a></li>
+            <li><a href="reservations.html" class="active">Reservations</a></li>
+            <li><a href="tours.html">Tours</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Reservations</h1>
+        <p>Make sure your get the rental(s) you need and reserve here!</p>
+        <form id="msform">
+
+            <fieldset class="questions">
+                <h2 class="fs-title">Contact Information</h2>
+                <h3 class="fs-subtitle">Let us know how to contact you</h3>
+                <label class="info">Full Name*<input type="text" name="name" placeholder="John Paul Jones" required>
+                <label class="info">Email Address*<input type="text" name="email" placeholder="jpj@email.com"
+                            required></label>
+                <label class="info">Phone Number<input type="tel" name="phone"
+                            placeholder="000-000-0000"></label>
+                <label class="info">Zip Code</label><input type="number" name="zipCode"
+                        placeholder="00000" required></label>
+
+                <h2 class="fs-title">Reservation Information</h2>
+                <h3 class="fs-subtitle">Let us help you with your vaction</h3>
+                <label class="info">Vehicle<input list="reserlist" name="reserType" placeholder="Vehicle Type"></label>
+                <datalist id="reserlist">
+                    <option value="">
+                    <option value="">
+                    <option value="Hurricane">
+                    <option value="Thunderstorm">
+                    <option value="Tornado">
+                </datalist>
+                <label class="info">Pick Up Date<input type="date" name="reserDate"></label>
+                <label class="info">Days for Rental </label>
+                <select name="rentalDays" class="rentalDays">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="+15">+15</option>
+                </select>
+
+                <label class="info">Additional Information or if your selected 15+, let us know how many days here.<textarea name="comments" rows="5"
+                        cols="33"></textarea></label>
+                    
+                        <h3>Thank you!</h3>
+
+                <input type="button" class="submit action-button" value="Reserve">
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

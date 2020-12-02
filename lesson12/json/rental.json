@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Honda Metro Scooter",
+        "type": "scooter",
+        "persons": "1 person max",
+        "reserhalf": "$20",
+        "reserfull": "$30",
+        "half": "$25",
+        "full": "$35",
+        "image": "images/HONDA-Metropolitan-5506_1.jpg"
+    },
+    {
+        "name": "Honda Dio Scooter",
+        "type": "scooter",
+        "persons": "2 persons max",
+        "reserhalf": "$30",
+        "reserfull": "$40",
+        "half": "$35",
+        "full": "$45",
+        "image": "images/Honda-Dio-Black-WEB.jpg"
+    },
+    {
+        "name": "Honda PCX150 Scooter",
+        "type": "scooter",
+        "persons": "2 persons max",
+        "reserhalf": "$40",
+        "reserfull": "$50",
+        "half": "$45",
+        "full": "$55",
+        "image": "images/PCX150.jpg"
+    },
+    {
+        "name": "Honda Pioneer ATV",
+        "type": "atv",
+        "persons": "4 persons max",
+        "reserhalf": "$50",
+        "reserfull": "$70",
+        "half": "$60",
+        "full": "$80",
+        "image": "images/honda-pioneer.jpg"
+    },
+    {
+        "name": "Jeep Wrangler - 4 door & A/C",
+        "type": "car",
+        "persons": "5 persons max",
+        "reserhalf": "$70",
+        "reserfull": "$100",
+        "half": "$85",
+        "full": "$125",
+        "image": "images/jeep-4-door.jpg"
+    },
+    {
+        "name": "Jeep Wrangler - 2 door",
+        "type": "car",
+        "persons": "4 persons max",
+        "reserhalf": "$60",
+        "reserfull": "$85",
+        "half": "$70",
+        "full": "$90",
+        "image": "images/jeep-2-door.jpg"
+    }
+]
