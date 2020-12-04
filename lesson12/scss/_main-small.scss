@@ -1,0 +1,86 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Josefin+Sans:wght@300&display=swap';*/
+:root {
+    --primary-color: #000000;
+    --secondary-color: #9d251a;
+    --accent1-color: #4b3782;
+    --accent2-color: #f3c408;
+    --accent3-color: #ffffff;
+
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    --heading-font: 'Amatic SC', cursive;
+    --paragraph-font: 'Josefin Sans', sans-serif;
+}
+
+/*all page*/
+section .headings,
+footer {
+    font-family: var(--heading-font);
+    background-color: var(--primary-color);
+    color: var(--accent3-color);
+    font-size: 25px;
+}
+nav {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+    font-size: 30px;
+    .navigation {
+        list-style: none;
+        text-align: center;
+        padding: 0;
+    }
+    .navigation li:first-child {
+        display: block;
+    }
+    .navigation li {
+        display: none;
+    }
+    .navigation a {
+        display: block;
+        padding: .75rem;
+        text-align: center;
+        text-decoration: none;
+    }
+    .navigation a:hover {
+        background-color: #b8afd1;
+    }
+    .active {
+        color: var(--secondary-color);
+    }
+    .responsive li {
+        display: block;
+    }
+    ul {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    
+    }
+}
+h1 {
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+    font-size: 55px;
+}
+h2 {
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+    font-size: 45px;
+}
+h3 {
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+    font-size: 35px;
+}
+h4 {
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+    font-size: 30px;
+}
+p {
+    font-family: var(--paragraph-font);
+    color: var(--primary-color);
+    font-size: 16px;
+}
