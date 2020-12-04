@@ -413,6 +413,10 @@ button:hover {
   padding: 15px;
   text-align: center; }
 
+img .hero {
+  width: 100%;
+  height: auto; }
+
 @media only screen and (min-width: 60em) and (min-width: 60em) {
   header {
     padding: 15px;
@@ -420,9 +424,6 @@ button:hover {
     header img {
       width: 150px;
       height: auto; }
-    header .headings {
-      display: flex;
-      flex-direction: column; }
 
   nav {
     width: 90%;
@@ -433,7 +434,12 @@ button:hover {
       display: none; }
     nav .navigation li {
       display: block;
-      flex: 1 1 90%; } }
+      flex: 1 1 90%; }
+
+  /*homepage*/
+  .headings {
+    display: flex;
+    flex-direction: column; } }
 @media only screen and (min-width: 80em) and (min-width: 80em) {
   header {
     padding: 15px;
@@ -441,9 +447,6 @@ button:hover {
     header img {
       width: 200px;
       height: auto; }
-    header .headings {
-      display: flex;
-      flex-direction: column; }
 
   nav {
     width: 80%;
@@ -454,4 +457,9 @@ button:hover {
       display: none; }
     nav .navigation li {
       display: block;
-      flex: 1 1 100%; } }
+      flex: 1 1 100%; }
+
+  /*homepage*/
+  .headings {
+    display: flex;
+    flex-direction: column; } }

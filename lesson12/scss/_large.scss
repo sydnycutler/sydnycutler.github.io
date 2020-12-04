@@ -6,10 +6,6 @@
             width: 200px;
             height: auto;
            }
-           .headings {
-            display: flex;
-            flex-direction: column;
-        }
     }
 nav {
     width: 80%;
@@ -25,5 +21,9 @@ nav {
     flex: 1 1 100%;
 }
 }
-
+/*homepage*/
+.headings {
+    display: flex;
+    flex-direction: column;
+}
 }
