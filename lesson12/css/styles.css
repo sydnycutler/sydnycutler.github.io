@@ -406,10 +406,17 @@ button:hover {
   text-align: center;
   background-color: var(--accent2-color);
   opacity: .8;
-  margin: 0 auto 0 auto;
   padding: 5px;
   display: block;
-  position: absolute; }
+  position: absolute;
+  top: 60%;
+  left: 50%; }
+
+.book {
+  display: block;
+  position: absolute;
+  top: 70%;
+  left: 42%; }
 
 .headings {
   font-family: var(--heading-font);
@@ -452,7 +459,12 @@ button:hover {
   .cta {
     margin-left: 200px;
     margin-right: 200px;
-    font-size: 40px; } }
+    font-size: 45px; }
+
+  .book {
+    top: 70%;
+    left: 45%;
+    font-size: 23px; } }
 @media only screen and (min-width: 80em) and (min-width: 70em) {
   header {
     padding: 15px;
@@ -479,4 +491,9 @@ button:hover {
     font-size: 40px; }
 
   .cta {
-    font-size: 45px; } }
+    font-size: 45px; }
+
+  .book {
+    top: 800px;
+    left: 47%;
+    font-size: 25px; } }

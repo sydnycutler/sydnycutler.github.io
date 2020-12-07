@@ -113,10 +113,17 @@ button:hover {
     text-align: center;
     background-color: var(--accent2-color);
     opacity: .8;
-    margin: 0 auto 0 auto;
     padding: 5px;
     display: block;
     position: absolute;
+    top: 60%;
+    left: 50%;
+}
+.book {
+    display: block;
+    position: absolute;
+    top: 70%;
+    left: 42%;
 }
 .headings {
     font-family: var(--heading-font);
