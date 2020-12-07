@@ -27,12 +27,14 @@ header {
     display: block;
     width: 100px;
     height: auto;
+    padding-top: 10px;
 }
 }
 nav {
     font-family: var(--heading-font);
-    color: var(--secondary-color);
+    color: var(--accent1-color);
     font-size: 30px;
+    margin: 0;
     .navigation {
         list-style: none;
         text-align: center;
@@ -46,15 +48,15 @@ nav {
     }
     .navigation a {
         display: block;
-        padding: .75rem;
+        padding: 10px;
         text-align: center;
         text-decoration: none;
     }
     .navigation a:hover {
-        background-color: #b8afd1;
+        color: var(--secondary-color);
     }
     .active {
-        color: var(--secondary-color);
+        color: black;
     }
     .responsive li {
         display: block;
@@ -111,6 +113,10 @@ button:hover {
     text-align: center;
     background-color: var(--accent2-color);
     opacity: .8;
+    margin: 0 auto 0 auto;
+    padding: 5px;
+    display: block;
+    position: absolute;
 }
 .headings {
     font-family: var(--heading-font);
@@ -119,8 +125,9 @@ button:hover {
     font-size: 35px;
     padding: 15px;
     text-align: center;
+    font-size: 30px;
 }
-img .hero {
+.hero {
     width: 100%;
     height: auto;
 }

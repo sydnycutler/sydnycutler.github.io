@@ -328,12 +328,14 @@ header img {
   margin: auto;
   display: block;
   width: 100px;
-  height: auto; }
+  height: auto;
+  padding-top: 10px; }
 
 nav {
   font-family: var(--heading-font);
-  color: var(--secondary-color);
-  font-size: 30px; }
+  color: var(--accent1-color);
+  font-size: 30px;
+  margin: 0; }
   nav .navigation {
     list-style: none;
     text-align: center;
@@ -344,13 +346,13 @@ nav {
     display: none; }
   nav .navigation a {
     display: block;
-    padding: .75rem;
+    padding: 10px;
     text-align: center;
     text-decoration: none; }
   nav .navigation a:hover {
-    background-color: #b8afd1; }
-  nav .active {
     color: var(--secondary-color); }
+  nav .active {
+    color: black; }
   nav .responsive li {
     display: block; }
   nav ul {
@@ -403,7 +405,11 @@ button:hover {
 .cta {
   text-align: center;
   background-color: var(--accent2-color);
-  opacity: .8; }
+  opacity: .8;
+  margin: 0 auto 0 auto;
+  padding: 5px;
+  display: block;
+  position: absolute; }
 
 .headings {
   font-family: var(--heading-font);
@@ -411,13 +417,14 @@ button:hover {
   color: var(--accent3-color);
   font-size: 35px;
   padding: 15px;
-  text-align: center; }
+  text-align: center;
+  font-size: 30px; }
 
-img .hero {
+.hero {
   width: 100%;
   height: auto; }
 
-@media only screen and (min-width: 60em) and (min-width: 60em) {
+@media only screen and (min-width: 60em) and (min-width: 50em) {
   header {
     padding: 15px;
     display: flex; }
@@ -439,8 +446,14 @@ img .hero {
   /*homepage*/
   .headings {
     display: flex;
-    flex-direction: column; } }
-@media only screen and (min-width: 80em) and (min-width: 80em) {
+    flex-direction: column;
+    font-size: 35px; }
+
+  .cta {
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 40px; } }
+@media only screen and (min-width: 80em) and (min-width: 70em) {
   header {
     padding: 15px;
     display: flex; }
@@ -462,4 +475,8 @@ img .hero {
   /*homepage*/
   .headings {
     display: flex;
-    flex-direction: column; } }
+    flex-direction: column;
+    font-size: 40px; }
+
+  .cta {
+    font-size: 45px; } }
