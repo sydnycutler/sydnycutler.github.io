@@ -6,6 +6,8 @@
     <meta name="description" content="The Scoots Homepage">
     <link rel="shortcut icon" href="/lesson12/images/favicon.ico">
     <link href='css/styles.css' rel='stylesheet'>
+    <link rel="social stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>
         The Scoots Homepage | WDD 230 Assignment Portal
@@ -31,14 +33,45 @@
         <section class="headings">
             Welcome to Scoots! View rentals, make reservations, and plan tours on the beautiful island of Cozumel!
         </section>
-        <div class='hero'
-        <img class='heroimg' src='images/vespa-498247_1920.jpg' alt='vespa image'>
+        <img class='hero' src='images/vespa-498247_1920.jpg' alt='vespa image'>
         <h3 class='cta'>Rent a vehicle for your trip!</h3>
         <a href='rentals.html'></a><button class='book'>Book Now</button></a>
-    </div>
+        <section class="summary">
+            <h2>Weather Summary</h2>
+            <p>Current: <span id='curtemp'></span></p>
+            <p>High: <span id='hightemp'>50</span>&deg;</p>
+            <p>Wind Chill: <span id="windChill"></span>N/A</p>
+            <p>Humidity: <span id='humidity'></span>%</p>
+            <p>Wind: <span id='wind'></span> mph</p>
+        </section>
+        <table>
+            <tr class="tabledate">
+                <th id="dotw1"></th>
+                <th id="dotw2"></th>
+                <th id='dotw3'></th>
+                <th id='dotw4'></th>
+                <th id='dotw5'></th>
+            </tr>
+            <tr class='tableicon'>
+                <td><img id='icon1' src=''></span></td>
+                <td><img id='icon2' src=''></span></td>
+                <td><img id='icon3' src=''></span></td>
+                <td><img id='icon4' src=''></span></td>
+                <td><img id='icon5' src=''></span></td>
+            </tr>
+            <tr class='tabletemp'>
+                <td><span id='temp1'></span>&deg; F</td>
+                <td><span id='temp2'></span>&deg; F</td>
+                <td><span id='temp3'></span>&deg; F</td>
+                <td><span id='temp4'></span>&deg; F</td>
+                <td><span id='temp5'></span>&deg; F</td>
+            </tr>
+        </table>
     </main>
     <footer>
         <span id="currentdate"></span>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-facebook"></a>
     </footer>
     <script src='js/togglemenu.js'></script>
 </body>

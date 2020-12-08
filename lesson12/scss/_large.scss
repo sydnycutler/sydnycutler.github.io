@@ -21,6 +21,12 @@ nav {
     flex: 1 1 100%;
 }
 }
+.fa-facebook {
+    left: 92%;
+  }
+  .fa-instagram {
+      left: 95%;
+  } 
 /*homepage*/
 .headings {
     display: flex;
@@ -29,13 +35,13 @@ nav {
 }
 .cta {
     font-size: 45px;
-    width: 800px;
-    top: 600px;
-    left: 22%
+    width: 1000px;
+    top: 700px;
+    left: 230px;
 }
 .book {
-    top: 800px;
-    left: 47%;
     font-size: 25px;
+    top: 850px;
+    left: 650px;
 }
 }

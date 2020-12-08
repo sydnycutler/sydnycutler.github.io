@@ -108,6 +108,30 @@ button:hover {
     background-color: #c2645c;
     color: var(--accent3-color);
 }
+.fa {
+    margin-bottom: 5px;
+    padding: 10px;
+    font-size: 5px;
+    width: 10px;
+    height: 10px;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  color: white;
+  position: absolute;
+  left: 87%;
+  padding: 5px;
+}
+.fa-instagram {
+    color: white;
+    position: absolute;
+    left: 92%;
+    padding: 5px;
+} 
 /*homepage*/
 .cta {
     text-align: center;
@@ -116,14 +140,14 @@ button:hover {
     padding: 5px;
     display: block;
     position: absolute;
-    top: 50%;
-    left: 20%;
+    top: 350px;
+    left: 100px;
 }
 .book {
     display: block;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 480px;
+    left: 200px;
 }
 .headings {
     font-family: var(--heading-font);
@@ -134,17 +158,17 @@ button:hover {
     text-align: center;
     font-size: 30px;
 }
-.heroimg {
+.hero {
     width: 100%;
     height: auto;
 }
 @media only screen and (min-width: 590px) {
     .cta {
-        top: 50%;
-        left: 20%;
+        top: 380px;
+        left: 230px;
     }
     .book {
-        top: 68%;
-        left: 42%;
+        top: 530px;
+        left: 330px;
     }
 }

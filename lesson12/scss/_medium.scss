@@ -21,21 +21,27 @@
         flex: 1 1 90%;
     }
 }
+.fa-facebook {
+    left: 92%;
+  }
+  .fa-instagram {
+      left: 95%;
+  } 
 /*homepage*/
 .headings {
     display: flex;
     flex-direction: column;
     font-size: 35px;
 }
-.cta {
-   font-size: 45px;
-   width: 700px;
-   top: 500px;
-   left: 20%
-}
-.book {
-    top: 95%;
-    left: 45%;
-    font-size: 20px;
-}
+    .cta {
+        font-size: 45px;
+        top: 500px;
+        left: 160px;
+        width: 700px;
+    }
+    .book {
+        font-size: 20px;
+        top: 650px;
+        left: 460px;
+    }
 }
