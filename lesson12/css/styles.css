@@ -394,11 +394,11 @@ button {
   margin-bottom: 15px;
   background-color: var(--secondary-color);
   color: var(--accent3-color);
-  padding: 5px;
+  padding: 10px;
   border: none; }
 
 button:hover {
-  background-color: #cf756d;
+  background-color: #c2645c;
   color: var(--accent3-color); }
 
 /*homepage*/
@@ -409,14 +409,14 @@ button:hover {
   padding: 5px;
   display: block;
   position: absolute;
-  top: 60%;
-  left: 50%; }
+  top: 50%;
+  left: 20%; }
 
 .book {
   display: block;
   position: absolute;
-  top: 70%;
-  left: 42%; }
+  top: 50%;
+  left: 50%; }
 
 .headings {
   font-family: var(--heading-font);
@@ -427,10 +427,18 @@ button:hover {
   text-align: center;
   font-size: 30px; }
 
-.hero {
+.heroimg {
   width: 100%;
   height: auto; }
 
+@media only screen and (min-width: 590px) {
+  .cta {
+    top: 50%;
+    left: 20%; }
+
+  .book {
+    top: 68%;
+    left: 42%; } }
 @media only screen and (min-width: 60em) and (min-width: 50em) {
   header {
     padding: 15px;
@@ -457,14 +465,15 @@ button:hover {
     font-size: 35px; }
 
   .cta {
-    margin-left: 200px;
-    margin-right: 200px;
-    font-size: 45px; }
+    font-size: 45px;
+    width: 700px;
+    top: 500px;
+    left: 20%; }
 
   .book {
-    top: 70%;
+    top: 95%;
     left: 45%;
-    font-size: 23px; } }
+    font-size: 20px; } }
 @media only screen and (min-width: 80em) and (min-width: 70em) {
   header {
     padding: 15px;
@@ -491,7 +500,10 @@ button:hover {
     font-size: 40px; }
 
   .cta {
-    font-size: 45px; }
+    font-size: 45px;
+    width: 800px;
+    top: 600px;
+    left: 22%; }
 
   .book {
     top: 800px;
