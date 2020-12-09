@@ -466,6 +466,11 @@ table {
 .contact-page {
   text-align: center; }
 
+.contacting {
+  width: 300px;
+  height: auto;
+  margin-bottom: 15px; }
+
 @media only screen and (min-width: 60em) and (min-width: 50em) {
   header {
     padding: 15px;
