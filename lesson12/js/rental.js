@@ -24,11 +24,11 @@ fetch(requestJSON)
             card.appendChild(persons);
             reserve1.textContent = 'Reserved Half Day:' + ' ' + rental[i].reserhalf;
             card.appendChild(reserve1);
-            reserve2.textContent = 'Reserved Full Day:' + ' ' + rental[i].reserhalf;
+            reserve2.textContent = 'Reserved Full Day:' + ' ' + rental[i].reserfull;
             card.appendChild(reserve2);
-            half.textContent = 'Half Day:' + ' ' + rental[i].reserhalf;
+            half.textContent = 'Half Day:' + ' ' +rental[i].half;
             card.appendChild(half);
-            full.textContent = 'Full Day:' + ' ' + rental[i].reserhalf;
+            full.textContent = 'Full Day:' + ' ' + rental[i].full;
             card.appendChild(full);
             image.setAttribute('src', rental[i].image);
             image.setAttribute('alt', name.textContent + '-' + rental[i].order);

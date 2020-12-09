@@ -1,8 +1,9 @@
-[
+{
+"rental": [
     {
         "name": "Honda Metro Scooter",
         "type": "scooter",
-        "persons": "1 person max",
+        "persons": "1 person",
         "reserhalf": "$20",
         "reserfull": "$30",
         "half": "$25",
@@ -12,7 +13,7 @@
     {
         "name": "Honda Dio Scooter",
         "type": "scooter",
-        "persons": "2 persons max",
+        "persons": "2 persons",
         "reserhalf": "$30",
         "reserfull": "$40",
         "half": "$35",
@@ -22,7 +23,7 @@
     {
         "name": "Honda PCX150 Scooter",
         "type": "scooter",
-        "persons": "2 persons max",
+        "persons": "2 persons",
         "reserhalf": "$40",
         "reserfull": "$50",
         "half": "$45",
@@ -32,7 +33,7 @@
     {
         "name": "Honda Pioneer ATV",
         "type": "atv",
-        "persons": "4 persons max",
+        "persons": "4 persons",
         "reserhalf": "$50",
         "reserfull": "$70",
         "half": "$60",
@@ -42,7 +43,7 @@
     {
         "name": "Jeep Wrangler - 4 door & A/C",
         "type": "car",
-        "persons": "5 persons max",
+        "persons": "5 persons",
         "reserhalf": "$70",
         "reserfull": "$100",
         "half": "$85",
@@ -52,7 +53,7 @@
     {
         "name": "Jeep Wrangler - 2 door",
         "type": "car",
-        "persons": "4 persons max",
+        "persons": "4 persons",
         "reserhalf": "$60",
         "reserfull": "$85",
         "half": "$70",
@@ -60,3 +61,4 @@
         "image": "images/jeep-2-door.jpg"
     }
 ]
+}

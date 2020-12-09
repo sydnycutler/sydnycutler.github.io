@@ -331,6 +331,11 @@ header img {
   height: auto;
   padding-top: 10px; }
 
+.banner {
+  background-color: var(--secondary-color);
+  color: white;
+  font-size: 30px; }
+
 nav {
   font-family: var(--heading-font);
   color: var(--accent1-color);
@@ -361,6 +366,15 @@ nav {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px; }
+
+.heading1 {
+  color: var(--accent3-color);
+  background-color: var(--primary-color);
+  text-align: center;
+  width: 100%; }
+
+.caption {
+  text-align: center; }
 
 h1 {
   font-family: var(--heading-font);
@@ -471,6 +485,27 @@ table {
   height: auto;
   margin-bottom: 15px; }
 
+/*rentals*/
+main .rentals {
+  width: 270px;
+  height: 350px;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 10px; }
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 20px;
+  align-items: center; }
+
+.cards img {
+  box-shadow: 0 0 5px 5px gray;
+  margin: 20px;
+  width: 65%;
+  height: auto; }
+
 @media only screen and (min-width: 60em) and (min-width: 50em) {
   header {
     padding: 15px;
@@ -516,7 +551,12 @@ table {
 
   .more-info {
     display: grid;
-    grid-template-columns: 1fr 1fr; } }
+    grid-template-columns: 1fr 1fr; }
+
+  /*rentals*/
+  div.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); } }
 @media only screen and (min-width: 80em) and (min-width: 70em) {
   header {
     padding: 15px;
@@ -562,4 +602,9 @@ table {
 
   .more-info {
     display: grid;
-    grid-template-columns: 1fr 1fr; } }
+    grid-template-columns: 1fr 1fr; }
+
+  /*rentals*/
+  div.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); } }

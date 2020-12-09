@@ -27,7 +27,7 @@ fetch(apiURL)
             document.getElementById('dotw' + x).textContent = day;
             document.getElementById('temp' + x).textContent = jsObject.daily[i].temp.day;
 
-            const imagesrc = 'http://openweathermap.org/img/wn/10d@2x.png' + jsObject.daily[i].weather[0].icon + '.png';
+            const imagesrc = 'http://openweathermap.org/img/wn/' + jsObject.daily[i].weather[0].icon + '.png';
             const tion = jsObject.daily[i].weather[0].description;
             document.getElementById('icon' + x).setAttribute('src', imagesrc);
             document.getElementById('icon' + x).setAttribute('alt', tion);

@@ -12,12 +12,16 @@
     </title>
 </head>
 <body>
+    <div id="banner" onload="showhide()">
+        <p><b><span id='alert'></span></b></p>
+    </div>
     <header>
         <picture>
             <img class="logo" src="images/1.png" alt="Scoots logo">
         </picture>
         <nav>
             <ul class="navigation">
+                <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
                 <li><a href="/lesson12/home.html">Home</a></li>
                 <li><a href="/lesson12/rentals.html">Rentals</a></li>
                 <li><a href="/lesson12/reservations.html">Reservations</a></li>
@@ -25,17 +29,16 @@
                 <li><a href="/lesson12/contact.html" class="active">Contact</a></li>
             </ul>
         </nav>
-        <section class="headings">
-        
-        </section>
     </header>
     
     <main>
-        <h1>Contact Us</h1>
-        <p>We love hearing from you!</p>
+        <h1 class='heading1'>Contact Us</h1>
+        <h3 class='caption'>We love hearing from you!</h3>
     </main>
     <footer>
-       <span id="currentdate"></span>
+        <span id="currentdate"></span>
+        <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+        <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
     </footer>
     <script src='js/togglemenu.js'></script>
 </body>

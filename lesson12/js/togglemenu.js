@@ -10,7 +10,7 @@ try {
   function showhide() {
     var d = document.getElementById('banner');
     if (d.style.display == 'none') {
-      document.getElementById("banner").style.display = "block";
+      d.style.display = "block";
     } else {
       d.style.display = 'none';
     }

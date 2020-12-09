@@ -30,6 +30,11 @@ header {
     padding-top: 10px;
 }
 }
+.banner {
+    background-color: var(--secondary-color);
+    color: white;
+    font-size: 30px;
+}
 nav {
     font-family: var(--heading-font);
     color: var(--accent1-color);
@@ -68,6 +73,15 @@ nav {
         margin-inline-start: 0px;
         margin-inline-end: 0px;
     }
+}
+.heading1 {
+    color: var(--accent3-color);
+    background-color: var(--primary-color);
+    text-align: center;
+    width: 100%;
+}
+.caption {
+    text-align: center;
 }
 h1 {
     font-family: var(--heading-font);
@@ -186,4 +200,25 @@ table {
     width: 300px;
     height: auto;
     margin-bottom: 15px;
+}
+/*rentals*/
+main .rentals {
+    width: 270px;  
+    height: 350px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.cards {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    align-items: center;
+}
+.cards img {
+    box-shadow: 0 0 5px 5px gray;
+    margin: 20px;
+    width: 65%;
+    height: auto;
 }
