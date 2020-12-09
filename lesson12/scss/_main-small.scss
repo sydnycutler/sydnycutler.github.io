@@ -139,17 +139,12 @@ button:hover {
     opacity: .8;
     padding: 5px;
     display: block;
-    position: absolute;
-    top: 420px;
-    left: 9%;
     margin: 0 auto;
     width: 80%;
 }
 .book {
     display: block;
-    position: absolute;
-    top: 500px;
-    left: 44%;
+    margin: 10px auto;
 }
 .headings {
     font-family: var(--heading-font);
@@ -167,4 +162,17 @@ button:hover {
 .summary {
     text-align: center;
 }
-
+table {
+    margin: 0 auto 0 auto;
+    width: 60%;
+    padding: 10px;
+}
+.tabledate {
+    border: 1px solid black;
+}
+.tableicon {
+    border: 1px solid black;
+}
+.tabletemp {
+    border: 1px solid black;
+}

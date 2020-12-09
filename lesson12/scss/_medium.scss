@@ -34,11 +34,15 @@
     font-size: 35px;
 }
     .cta {
+        position: absolute;
         font-size: 45px;
         top: 600px;
+        left: 10%;
     }
     .book {
+        position: absolute;
         font-size: 20px;
         top: 720px;
+        left: 45%;
     }
 }

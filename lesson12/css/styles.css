@@ -432,17 +432,12 @@ button:hover {
   opacity: .8;
   padding: 5px;
   display: block;
-  position: absolute;
-  top: 420px;
-  left: 9%;
   margin: 0 auto;
   width: 80%; }
 
 .book {
   display: block;
-  position: absolute;
-  top: 500px;
-  left: 44%; }
+  margin: 10px auto; }
 
 .headings {
   font-family: var(--heading-font);
@@ -459,6 +454,20 @@ button:hover {
 
 .summary {
   text-align: center; }
+
+table {
+  margin: 0 auto 0 auto;
+  width: 60%;
+  padding: 10px; }
+
+.tabledate {
+  border: 1px solid black; }
+
+.tableicon {
+  border: 1px solid black; }
+
+.tabletemp {
+  border: 1px solid black; }
 
 @media only screen and (min-width: 60em) and (min-width: 50em) {
   header {
@@ -492,12 +501,16 @@ button:hover {
     font-size: 35px; }
 
   .cta {
+    position: absolute;
     font-size: 45px;
-    top: 600px; }
+    top: 600px;
+    left: 10%; }
 
   .book {
+    position: absolute;
     font-size: 20px;
-    top: 720px; } }
+    top: 720px;
+    left: 45%; } }
 @media only screen and (min-width: 80em) and (min-width: 70em) {
   header {
     padding: 15px;
@@ -530,9 +543,13 @@ button:hover {
     font-size: 40px; }
 
   .cta {
+    position: absolute;
     font-size: 45px;
-    top: 700px; }
+    top: 700px;
+    left: 10%; }
 
   .book {
+    position: absolute;
     font-size: 25px;
-    top: 850px; } }
+    top: 850px;
+    left: 45%; } }

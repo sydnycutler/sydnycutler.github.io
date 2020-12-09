@@ -5,8 +5,9 @@ fetch(apiURL)
   .then((jsObject) => {
     console.log(jsObject);
 
-    document.getElementById('curtemp').textContent = jsObject.weather[0].description;
-   document.getElementById('humidity').textContent = jsObject.main.humidity;
-   document.getElementById('descript').textContext = jsObject.alerts.description;
+    document.getElementById('curtemp').textContent = jsObject.current.temp;
+    document.getElementById('descript').textContent = jsObject.current.weather.description;
+   document.getElementById('humidity').textContent = jsObject.current.humidity;
+   document.getElementById('alert').textContext = jsObject.alerts.description;
 
 });
