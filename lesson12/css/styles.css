@@ -340,6 +340,7 @@ nav {
   font-family: var(--heading-font);
   color: var(--accent1-color);
   font-size: 30px;
+  font-weight: bold;
   margin: 0; }
   nav .navigation {
     list-style: none;
@@ -355,9 +356,9 @@ nav {
     text-align: center;
     text-decoration: none; }
   nav .navigation a:hover {
-    color: var(--secondary-color); }
+    color: var(--accent2-color); }
   nav .active {
-    color: black; }
+    color: var(--secondary-color); }
   nav .responsive li {
     display: block; }
   nav ul {
@@ -469,7 +470,7 @@ button:hover {
 .summary {
   text-align: center; }
 
-table .forecast {
+table {
   margin: 0 auto 0 auto;
   width: 60%;
   padding: 10px; }
@@ -494,7 +495,7 @@ main .rentals {
   margin-bottom: 15px; }
 
 .cards section {
-  border: 5px dotted var(--secondary-color);
+  border: 5px dotted var(--accent2-color);
   border-radius: 15px;
   margin: 10px;
   text-align: center; }
