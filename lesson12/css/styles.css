@@ -433,7 +433,7 @@ button:hover {
   padding: 5px;
   display: block;
   position: absolute;
-  top: 450px;
+  top: 420px;
   left: 9%;
   margin: 0 auto;
   width: 80%; }
@@ -441,7 +441,7 @@ button:hover {
 .book {
   display: block;
   position: absolute;
-  top: 540px;
+  top: 500px;
   left: 44%; }
 
 .headings {
@@ -497,7 +497,7 @@ button:hover {
 
   .book {
     font-size: 20px;
-    top: 750px; } }
+    top: 720px; } }
 @media only screen and (min-width: 80em) and (min-width: 70em) {
   header {
     padding: 15px;
