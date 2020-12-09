@@ -15,7 +15,7 @@
 </head>
 <body>
     <div id="banner" onload="showhide();">
-        <p><b><span id = 'descript'></span></b></p>
+        <p><b><span id = 'alert'></span></b></p>
     </div>
     <header>
         <picture>
@@ -41,7 +41,8 @@
         <a href='rentals.html'></a><button class='book'>Book Now</button></a>
         <section class="summary">
             <h2>Weather & Forecast</h2>
-            <p>Current: <span id='curtemp'></span></p>
+            <p>Current Temperature: <span id='curtemp'></span>&deg; F</p>
+            <p>Description: <span id='descript'></span></p>
             <p>Humidity: <span id='humidity'></span>%</p>
         <table>
             <tr class="tabledate">
@@ -88,6 +89,5 @@
     </footer>
     <script src='js/togglemenu.js'></script>
     <script src='js/weather.js'></script>
-    <script src='js/forecast.js'></script>
 </body>
 </html>

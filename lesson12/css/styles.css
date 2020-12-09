@@ -460,15 +460,6 @@ table {
   width: 60%;
   padding: 10px; }
 
-.tabledate {
-  border: 1px solid black; }
-
-.tableicon {
-  border: 1px solid black; }
-
-.tabletemp {
-  border: 1px solid black; }
-
 @media only screen and (min-width: 60em) and (min-width: 50em) {
   header {
     padding: 15px;
