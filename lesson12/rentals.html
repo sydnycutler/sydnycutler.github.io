@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="The Scoots Rental Page">
     <link rel="shortcut icon" href="/lesson12/images/favicon.ico">
     <link href='css/styles.css' rel='stylesheet'>
+    <link rel="social stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>
         The Scoots Rental Page | WDD 230 Assignment Portal
     </title>
 </head>
+
 <body>
     <div id="banner" onload="showhide()">
         <p><b><span id='alert'></span></b></p>
@@ -30,11 +34,28 @@
             </ul>
         </nav>
     </header>
-  
+
     <main>
         <h1 class='heading1'>Rentals</h1>
         <h3 class='caption'>Choose the best option for you or your family!</h3>
         <div class="cards"></div>
+        <div class='more'>
+            <div class='remember'>
+                <h3>Information and Services</h3>
+                <ul>
+                    <li>A $50 security deposit is required to confirm reservations.</li>
+                    <li>A valid drivers license is required in hand at time of rental.</li>
+                    <li>No one under 12 years of age are allowed to ride on the scooters.</li>
+                    <li>Fuel charge not included.</li>
+                    <li>Unlimited mileage.</li>
+                    <li>Liability insurance is free of charge.</li>
+                    <li>Reservations rate requires 24 hour prior notification.</li>
+                    <li>Free delivery to Cozumel hotel, Airbnb, or private residence for 2+ day rentals.</li>
+                    <li>Payment via Google Pay, cash, credit card, debit card, or PayPal.</li>
+                    <li>Rentals may be returned to either location.</li>
+                </ul>
+            </div>
+        </div>
     </main>
     <footer>
         <span id="currentdate"></span>
@@ -44,4 +65,5 @@
     <script src="js/rental.js"></script>
     <script src='js/togglemenu.js'></script>
 </body>
+
 </html>

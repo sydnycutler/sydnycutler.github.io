@@ -469,12 +469,12 @@ button:hover {
 .summary {
   text-align: center; }
 
-table {
+table .forecast {
   margin: 0 auto 0 auto;
   width: 60%;
   padding: 10px; }
 
-.services h2 {
+.services {
   text-align: center; }
 
 .contact-page {
@@ -487,11 +487,17 @@ table {
 
 /*rentals*/
 main .rentals {
-  width: 270px;
+  width: 230px;
   height: 350px;
   padding: 10px;
   text-align: center;
-  margin-bottom: 10px; }
+  margin-bottom: 15px; }
+
+.cards section {
+  border: 5px dotted var(--secondary-color);
+  border-radius: 15px;
+  margin: 10px;
+  text-align: center; }
 
 .cards {
   display: flex;
@@ -505,6 +511,17 @@ main .rentals {
   margin: 20px;
   width: 65%;
   height: auto; }
+
+.more {
+  text-align: center; }
+
+.remember {
+  display: inline-block;
+  text-align: left;
+  max-width: 500px; }
+
+.remember h3 {
+  text-align: center; }
 
 @media only screen and (min-width: 60em) and (min-width: 50em) {
   header {
