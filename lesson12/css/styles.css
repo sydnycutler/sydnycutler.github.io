@@ -460,6 +460,12 @@ table {
   width: 60%;
   padding: 10px; }
 
+.services h2 {
+  text-align: center; }
+
+.contact-page {
+  text-align: center; }
+
 @media only screen and (min-width: 60em) and (min-width: 50em) {
   header {
     padding: 15px;
@@ -501,7 +507,11 @@ table {
     position: absolute;
     font-size: 20px;
     top: 720px;
-    left: 45%; } }
+    left: 45%; }
+
+  .more-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr; } }
 @media only screen and (min-width: 80em) and (min-width: 70em) {
   header {
     padding: 15px;
@@ -543,4 +553,8 @@ table {
     position: absolute;
     font-size: 25px;
     top: 850px;
-    left: 45%; } }
+    left: 45%; }
+
+  .more-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr; } }

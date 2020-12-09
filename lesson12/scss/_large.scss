@@ -45,4 +45,8 @@ nav {
     top: 850px;
     left: 45%;
 }
+.more-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 }
