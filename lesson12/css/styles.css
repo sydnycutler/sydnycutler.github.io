@@ -433,14 +433,16 @@ button:hover {
   padding: 5px;
   display: block;
   position: absolute;
-  top: 350px;
-  left: 100px; }
+  top: 450px;
+  left: 9%;
+  margin: 0 auto;
+  width: 80%; }
 
 .book {
   display: block;
   position: absolute;
-  top: 480px;
-  left: 200px; }
+  top: 540px;
+  left: 44%; }
 
 .headings {
   font-family: var(--heading-font);
@@ -458,14 +460,6 @@ button:hover {
 .summary {
   text-align: center; }
 
-@media only screen and (min-width: 590px) {
-  .cta {
-    top: 380px;
-    left: 230px; }
-
-  .book {
-    top: 530px;
-    left: 330px; } }
 @media only screen and (min-width: 60em) and (min-width: 50em) {
   header {
     padding: 15px;
@@ -499,14 +493,11 @@ button:hover {
 
   .cta {
     font-size: 45px;
-    top: 500px;
-    left: 160px;
-    width: 700px; }
+    top: 600px; }
 
   .book {
     font-size: 20px;
-    top: 650px;
-    left: 460px; } }
+    top: 750px; } }
 @media only screen and (min-width: 80em) and (min-width: 70em) {
   header {
     padding: 15px;
@@ -540,11 +531,8 @@ button:hover {
 
   .cta {
     font-size: 45px;
-    width: 1000px;
-    top: 700px;
-    left: 230px; }
+    top: 700px; }
 
   .book {
     font-size: 25px;
-    top: 850px;
-    left: 650px; } }
+    top: 850px; } }

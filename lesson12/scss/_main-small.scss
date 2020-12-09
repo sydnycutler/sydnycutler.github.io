@@ -140,14 +140,16 @@ button:hover {
     padding: 5px;
     display: block;
     position: absolute;
-    top: 350px;
-    left: 100px;
+    top: 450px;
+    left: 9%;
+    margin: 0 auto;
+    width: 80%;
 }
 .book {
     display: block;
     position: absolute;
-    top: 480px;
-    left: 200px;
+    top: 540px;
+    left: 44%;
 }
 .headings {
     font-family: var(--heading-font);
@@ -165,13 +167,4 @@ button:hover {
 .summary {
     text-align: center;
 }
-@media only screen and (min-width: 590px) {
-    .cta {
-        top: 380px;
-        left: 230px;
-    }
-    .book {
-        top: 530px;
-        left: 330px;
-    }
-}
+

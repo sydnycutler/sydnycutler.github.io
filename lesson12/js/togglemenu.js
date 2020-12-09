@@ -7,3 +7,11 @@ try {
   } catch (e) {
     alert('Error with code or your browser does not support Locale');
   }
+  function showhide() {
+    var d = document.getElementById('banner');
+    if (d.style.display == 'none') {
+      document.getElementById("banner").style.display = "block";
+    } else {
+      d.style.display = 'none';
+    }
+  }
