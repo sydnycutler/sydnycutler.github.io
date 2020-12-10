@@ -520,12 +520,17 @@ main .rentals {
   height: auto; }
 
 .more {
-  text-align: center; }
+  text-align: center;
+  margin: 0;
+  margin-bottom: 15px;
+  padding: 0; }
 
 .remember {
   display: inline-block;
   text-align: left;
-  max-width: 500px; }
+  max-width: 600px;
+  margin: 0;
+  padding: 0; }
 
 .remember h3 {
   text-align: center; }
