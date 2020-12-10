@@ -535,6 +535,33 @@ main .rentals {
 .remember h3 {
   text-align: center; }
 
+/*reservation*/
+form label.info, form div {
+  display: block;
+  padding-top: 1rem;
+  color: var(--secondary-color);
+  font-size: .8rem;
+  font-weight: 700;
+  text-align: left; }
+
+form label.info, label.info, form label.info select {
+  -webkit-appearance: none;
+  display: block;
+  font-size: .90rem;
+  width: 100%;
+  border-radius: .75rem;
+  padding: 1px; }
+
+#reserlist {
+  width: 100%;
+  padding: .75rem;
+  color: darkgray; }
+
+input.info {
+  border-radius: 5px;
+  width: 100%;
+  padding: .75rem; }
+
 @media only screen and (min-width: 60em) and (min-width: 50em) {
   header {
     padding: 15px;
