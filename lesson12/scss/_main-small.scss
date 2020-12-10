@@ -109,7 +109,7 @@ p {
     color: var(--primary-color);
     font-size: 16px;
 }
-button {
+button, .reserve-button {
     display: flex;
     justify-content: center;
     margin: 0 auto;
@@ -119,8 +119,14 @@ button {
     padding: 10px;
     border: none;
 }
-button:hover {
+button:hover, .reserve-button:hover {
     background-color: #c2645c;
+    color: var(--accent3-color);
+}
+.link {
+    color: var(--accent2-color);
+}
+.link:hover {
     color: var(--accent3-color);
 }
 .fa {
