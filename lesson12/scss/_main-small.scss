@@ -252,6 +252,9 @@ main .rentals {
     text-align: center;
 }
 /*reservation*/
+form {
+    width: 90%;
+}
 form label.info, form div{
     display:block;
     padding-top:  1rem;
@@ -264,8 +267,7 @@ form label.info,label.info, form label.info select{
     -webkit-appearance:none;
     display: block;
     font-size: .90rem;
-    border-radius: .75rem;
-    padding: 1px;
+    padding-bottom: 10px;
 }
 .questions{
     margin-top: 60px;
@@ -279,5 +281,4 @@ input.info{
     border-radius: 5px;
     width: 100%;
     padding: .75rem;
-
 }

@@ -536,6 +536,9 @@ main .rentals {
   text-align: center; }
 
 /*reservation*/
+form {
+  width: 90%; }
+
 form label.info, form div {
   display: block;
   padding-top: 1rem;
@@ -548,8 +551,7 @@ form label.info, label.info, form label.info select {
   -webkit-appearance: none;
   display: block;
   font-size: .90rem;
-  border-radius: .75rem;
-  padding: 1px; }
+  padding-bottom: 10px; }
 
 .questions {
   margin-top: 60px; }
@@ -614,7 +616,11 @@ input.info {
   /*rentals*/
   div.cards {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); } }
+    grid-template-columns: repeat(2, 1fr); }
+
+  /*reservations*/
+  form {
+    width: 80%; } }
 @media only screen and (min-width: 80em) and (min-width: 70em) {
   header {
     padding: 15px;
@@ -665,4 +671,8 @@ input.info {
   /*rentals*/
   div.cards {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); } }
+    grid-template-columns: repeat(3, 1fr); }
+
+  /*reservations*/
+  form {
+    width: 70%; } }
