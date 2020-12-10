@@ -254,6 +254,17 @@ main .rentals {
 /*reservation*/
 form {
     width: 90%;
+    text-align: center;
+    margin: 0 auto 0 auto;
+}
+form h2, form h3, form h4 {
+    text-align: center;
+}
+fieldset {
+    border: none;
+    border: 5px dotted var(--accent2-color);
+    margin: 10px;
+    display: inline-block;
 }
 form label.info, form div{
     display:block;
