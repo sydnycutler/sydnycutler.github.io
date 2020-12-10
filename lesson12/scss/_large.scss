@@ -58,4 +58,14 @@ div.cards {
   form {
     width: 80%;
 }
+/*tours*/
+.tours {
+    display:grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+}
+/*contact*/
+.locations {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 }
