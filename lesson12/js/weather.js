@@ -31,7 +31,7 @@ fetch(URL)
     for (var i = 0; i < jsObject.daily.length; i++ ) {
         var date = new Date(jsObject.daily[i].dt * 1000);
         var today = weekDay[date.getDay()];
-        if (date == 'temp.day') {
+
             document.getElementById('dotw' + x).textContent = today;
             document.getElementById('temp' + x).textContent = jsObject.daily[i].temp.day;
 
@@ -42,5 +42,4 @@ fetch(URL)
 
             x++;
         }
-    }
 });
