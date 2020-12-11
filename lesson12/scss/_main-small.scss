@@ -185,8 +185,10 @@ button:hover, .reserve-button:hover {
 }
 table {
     margin: 0 auto 0 auto;
-    width: 60%;
+    width: 80%;
     padding: 10px;
+    border: 5px dotted var(--accent2-color);
+    border-radius: 15px;
 }
 .services {
     text-align: center;
