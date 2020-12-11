@@ -8,7 +8,16 @@ fetch(apiURL)
     document.getElementById('curtemp').textContent = jsObject.current.temp;
     document.getElementById('descript').textContent = jsObject.current.weather[0].description;
     document.getElementById('humidity').textContent = jsObject.current.humidity;
-    document.getElementById('alert').textContext = jsObject.alerts.description;
+    document.getElementById('alert').textContext = jsObject.current.alerts.description;
+
+  });
+
+    const URL = "https://api.openweathermap.org/data/2.5/onecall?lat=20.508329&lon=-86.945831&units=imperial&appid=a3edd51b32d231b1e1e57e71e090182d";
+
+fetch(URL)
+  .then((response) => response.json())
+  .then((jsObject) => {
+    console.log(jsObject);
 
     var x = 1;
     var weekDay = new Array(7);
@@ -20,11 +29,10 @@ fetch(apiURL)
     weekDay[5] = "Fri";
     weekDay[6] = "Sat";
     for (var i = 0; i < jsObject.daily.length; i++ ) {
-        var time = jsObject.daily[i].dt_txt.substring(11);
         var date = new Date(jsObject.daily[i].dt * 1000);
-        var day = weekDay[date.getDay()];
-        if (time == '18:00:00' && x <= 3) {
-            document.getElementById('dotw' + x).textContent = day;
+        var today = weekDay[date.getDay()];
+        if (date == 'feels_like.day') {
+            document.getElementById('dotw' + x).textContent = today;
             document.getElementById('temp' + x).textContent = jsObject.daily[i].temp.day;
 
             const imagesrc = 'http://openweathermap.org/img/wn' + jsObject.daily[i].weather[0].icon + '.png';
