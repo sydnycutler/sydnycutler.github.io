@@ -8,7 +8,7 @@ fetch(apiURL)
     document.getElementById('curtemp').textContent = jsObject.current.temp;
     document.getElementById('descript').textContent = jsObject.current.weather[0].description;
     document.getElementById('humidity').textContent = jsObject.current.humidity;
-    document.getElementById('alert').textContext = jsObject.current.alerts.description;
+    /*document.getElementById('alert').textContext = jsObject.alerts.description; not available*/
 
   });
 
