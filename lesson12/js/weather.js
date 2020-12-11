@@ -1,4 +1,4 @@
-const apiURL = "https://api.openweathermap.org/data/2.5/onecall?lat=20.508329&lon=-86.945831&units=imperial&appid=a3edd51b32d231b1e1e57e71e090182d";
+const apiURL = "https://api.openweathermap.org/data/2.5/onecall?lat=20.508329&lon=-86.945831&include=alerts&units=imperial&appid=a3edd51b32d231b1e1e57e71e090182d";
 
 fetch(apiURL)
   .then((response) => response.json())
@@ -12,7 +12,7 @@ fetch(apiURL)
 
   });
 
-    const URL = "https://api.openweathermap.org/data/2.5/onecall?lat=20.508329&lon=-86.945831&units=imperial&appid=a3edd51b32d231b1e1e57e71e090182d";
+    const URL = "https://api.openweathermap.org/data/2.5/onecall?lat=20.508329&lon=-86.945831&include=alerts&units=imperial&appid=a3edd51b32d231b1e1e57e71e090182d";
 
 fetch(URL)
   .then((response) => response.json())
@@ -31,7 +31,7 @@ fetch(URL)
     for (var i = 0; i < jsObject.daily.length; i++ ) {
         var date = new Date(jsObject.daily[i].dt * 1000);
         var today = weekDay[date.getDay()];
-        if (date == 'feels_like.day') {
+        if (date == 'temp.day') {
             document.getElementById('dotw' + x).textContent = today;
             document.getElementById('temp' + x).textContent = jsObject.daily[i].temp.day;
 
